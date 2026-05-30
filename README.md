@@ -1,26 +1,34 @@
 # Hermes Agent Ecosystem Watch
 
-A daily tracking repository focused on **Hermes Agent**, adjacent tooling, and the broader **AI agent / coding assistant ecosystem**.
+A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and the wider **AI agent / coding assistant / MCP / automation** ecosystem.
 
-## Focus
-This repository tracks:
-- Hermes Agent updates, releases, docs, and changelog-worthy changes
-- Nous Research announcements that may affect Hermes workflows
-- MCP, automation, gateway, provider, tooling, and agent infrastructure updates
-- Important ecosystem changes from tools such as Codex, Claude Code, and GitHub Copilot
+## What this repo tracks
+- **Hermes-first signals**: releases, docs, changelog-worthy fixes, gateway/tool/provider/MCP changes
+- **Hermes-adjacent developments**: Nous Research news or ecosystem moves that can affect real Hermes usage
+- **Broader agent ecosystem**: Codex, Claude Code, Copilot, MCP infrastructure, coding agents, agent tooling
+- **Practical watch items**: not hype alone, but changes that may affect real workflows
 
-## Structure
-- `daily/` — dated daily update notes
-- `indexes/` — rolling index pages and summaries
+## Repository map
+- `daily/` — daily dated notes
+- `indexes/daily-index.md` — chronological archive index
+- `indexes/tool-watchlist.md` — tracked tools, programs, and platforms worth watching
+- `highlights/starred-highlights.md` — highest-signal developments only
 
-## Latest update
-- [2026-05-30](daily/2026-05-30.md)
+## Current snapshot
+- **Latest daily note:** [2026-05-30](daily/2026-05-30.md)
+- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
+- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
 
-## Why this exists
-The goal is to maintain a clean GitHub record of Hermes-adjacent news and practical agent ecosystem updates, instead of letting useful signals disappear in chats and feeds.
+## How updates are written
+1. Hermes Agent and Hermes-adjacent changes are checked first.
+2. Then broader AI agent ecosystem developments are reviewed.
+3. Only meaningful updates are promoted into highlights or the tool watchlist.
+4. A daily file is still committed even on quiet days, so the history stays continuous.
 
-## Update policy
-- Updated daily
-- Hermes-adjacent items take priority
-- Ecosystem items are added when they materially affect agent workflows
-- Concise summaries with source links
+## Signal rules
+- **High signal** = directly changes workflows, capabilities, packaging, reliability, limits, or integration options.
+- **Medium signal** = interesting platform/tool movement worth tracking.
+- **Low signal** = ignored unless it clearly matters for practical use.
+
+## Why this repo exists
+This repo is a clean public record of useful Hermes and AI agent ecosystem changes. Instead of losing important updates in chats, release feeds, and scattered bookmarks, the signal is collected here in a searchable structure.
