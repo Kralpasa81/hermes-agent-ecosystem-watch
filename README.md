@@ -1,6 +1,6 @@
 # Hermes Agent Ecosystem Watch
 
-A daily watch repository focused on **Hermes Agent**, adjacent tooling, and the broader **AI agent / coding assistant ecosystem**.
+A daily tracking repository focused on **Hermes Agent**, adjacent tooling, and the broader **AI agent / coding assistant ecosystem**.
 
 ## Focus
 This repository tracks:
@@ -17,7 +17,7 @@ This repository tracks:
 - [2026-05-30](daily/2026-05-30.md)
 
 ## Why this exists
-The goal is to keep a clean GitHub trail of Hermes-adjacent news and practical agent ecosystem updates, instead of letting useful signals disappear in chats and feeds.
+The goal is to maintain a clean GitHub record of Hermes-adjacent news and practical agent ecosystem updates, instead of letting useful signals disappear in chats and feeds.
 
 ## Update policy
 - Updated daily
