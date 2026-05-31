@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-05-31
+- **Hermes Agent main-branch gateway and MCP reliability work** is worth watching because watcher recovery, plugin/bundle error logging, config re-reading, and MCP auth reconnect behavior affect real agent stability ahead of the next tagged release.
+- **OpenAI Codex Windows computer use and mobile remote access** expands Codex toward cross-device desktop automation rather than only code-generation or sandboxed coding tasks.
+- **Codex shared MCP configuration across CLI and IDE** is an interoperability signal because one MCP setup can carry across local Codex surfaces.
+
 ### 2026-05-30
 - **Hermes Agent packaging follow-up release (v2026.5.29.2)** improved packaged plugin availability by bundling `plugin.yaml` manifests in wheel and sdist releases.
 - **Claude Code usage-limit increase** is a practical workflow signal because it directly affects how much real coding-agent work users can run in a session window.

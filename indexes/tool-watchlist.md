@@ -16,12 +16,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
-- Why it matters: major ecosystem direction-setter for agent workflows, tooling, and API/platform patterns
-- Source: https://openai.com/
+- Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
+- Source: https://developers.openai.com/codex
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
-- Why it matters: relevant for practical agent workflows, MCP, code review, and developer automation
+- Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
 - Source: https://github.com/features/copilot
 
 ### MCP ecosystem
