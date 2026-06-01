@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-01
+- **Hermes Agent gateway/media cleanup on main** matters because preserving code blocks, blockquotes, and JSON-embedded `MEDIA:` text directly affects tool-output fidelity in messaging workflows.
+- **GitHub Copilot code review billing changed on June 1** because private-repo agentic reviews now carry both Copilot AI Credit and GitHub Actions minute implications.
+
 ### 2026-05-31
 - **Hermes Agent main-branch gateway and MCP reliability work** is worth watching because watcher recovery, plugin/bundle error logging, config re-reading, and MCP auth reconnect behavior affect real agent stability ahead of the next tagged release.
 - **OpenAI Codex Windows computer use and mobile remote access** expands Codex toward cross-device desktop automation rather than only code-generation or sandboxed coding tasks.
