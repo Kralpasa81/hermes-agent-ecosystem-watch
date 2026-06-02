@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-02
+- **Hermes Agent dashboard Channels + admin panel work** is high-signal because gateway setup, MCP catalog management, hook creation, and system stats moved further into browser-operable surfaces.
+- **Hermes Agent structured gateway stream/event and formatting work** matters because reliable cross-channel delivery is core infrastructure for messaging-driven agent workflows.
+- **GitHub Copilot AI-adoption cohorts in the usage metrics API** matter because enterprises can distinguish completion/chat usage from real agentic surfaces like cloud agent, code review, CLI, and the Copilot app.
+
 ### 2026-06-01
 - **Hermes Agent gateway/media cleanup on main** matters because preserving code blocks, blockquotes, and JSON-embedded `MEDIA:` text directly affects tool-output fidelity in messaging workflows.
 - **GitHub Copilot code review billing changed on June 1** because private-repo agentic reviews now carry both Copilot AI Credit and GitHub Actions minute implications.

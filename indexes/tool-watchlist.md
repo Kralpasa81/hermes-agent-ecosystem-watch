@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 1 main-branch activity focused on gateway media-output fidelity plus Docker/dashboard reliability after the May 29 v0.15.2 packaging release.
+- Current watch note: June 2 main-branch activity focused on browser-based gateway channel setup, dashboard admin/MCP controls, structured gateway stream events, cron/skill handling, Docker runtime reliability, and Kanban workspace correctness. Latest tag remains v2026.5.29.2.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
@@ -23,7 +23,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 1 is the effective date for Copilot AI Credits and for private-repo Copilot code reviews consuming GitHub Actions minutes, making cost/rate behavior a high-priority watch item.
+- Current watch note: GitHub's Copilot usage metrics API now exposes AI-adoption phases, separating basic IDE assistant usage from GitHub-based agent surfaces such as cloud agent, code review, CLI, and the Copilot app.
 - Source: https://github.com/features/copilot
 
 ### MCP ecosystem
