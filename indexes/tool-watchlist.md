@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 2 main-branch activity focused on browser-based gateway channel setup, dashboard admin/MCP controls, structured gateway stream events, cron/skill handling, Docker runtime reliability, and Kanban workspace correctness. Latest tag remains v2026.5.29.2.
+- Current watch note: June 3 main-branch activity focused on desktop session isolation and controls, dashboard/WebSocket auth and origin handling, gateway reconnect cleanup, Docker gateway bootstrap/TUI launch paths, setup defaults, configurable default interface, and cron skill-bundle expansion. Latest tag remains v2026.5.29.2.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
@@ -23,8 +23,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: GitHub's Copilot usage metrics API now exposes AI-adoption phases, separating basic IDE assistant usage from GitHub-based agent surfaces such as cloud agent, code review, CLI, and the Copilot app.
+- Current watch note: June 2 Copilot announcements were high-signal: Copilot SDK GA, cloud/local sandboxes in public preview, cloud-agent automations, agent apps, and a Copilot CLI update with rubber-duck critique, prompt scheduling, voice input, and reliability fixes.
 - Source: https://github.com/features/copilot
+
+### GitHub Copilot SDK
+- Area: embeddable agent runtime / developer SDK
+- Why it matters: stable programmatic access to Copilot planning, tool invocation, file edits, streaming, multi-turn sessions, custom tools, MCP servers, hooks, tracing, BYOK, and cloud/remote sessions
+- Current watch note: General availability was announced on June 2, with SDK support across six language stacks and new Rust/Java availability called out at GA.
+- Source: https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available
 
 ### MCP ecosystem
 - Area: protocol / tool interoperability layer

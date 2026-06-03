@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-03
+- **Hermes Agent desktop/dashboard/runtime reliability wave** matters because session isolation, queued-turn interrupts, WebSocket auth/origin handling, gateway reconnect cleanup, Docker bootstrap behavior, setup defaults, and cron skill-bundle expansion all affect practical Hermes operability.
+- **GitHub Copilot SDK GA** is a major interoperability signal because Copilot's agent runtime can now be embedded through a stable API with custom tools, MCP, hooks, tracing, BYOK, and cloud/remote sessions.
+- **GitHub Copilot sandboxes and cloud-agent automations** matter because safer execution boundaries plus scheduled/event-driven agent runs are core infrastructure for production coding-agent workflows.
+
 ### 2026-06-02
 - **Hermes Agent dashboard Channels + admin panel work** is high-signal because gateway setup, MCP catalog management, hook creation, and system stats moved further into browser-operable surfaces.
 - **Hermes Agent structured gateway stream/event and formatting work** matters because reliable cross-channel delivery is core infrastructure for messaging-driven agent workflows.
