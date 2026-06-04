@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-04
+- **Hermes Agent dashboard auth and remote-gateway access work** is high-signal because a bundled username/password auth plugin, self-hosted OAuth registration, OAuth-aware gateway connection handling, and safer WebSocket ticket behavior directly affect secure self-hosted operation.
+- **Hermes Agent desktop provider/reliability wave** matters because provider-account settings, background needs-input visibility, attachment/IME fixes, streaming scroll improvements, atomic config writes, and fetch error handling all reduce practical desktop friction.
+- **OpenAI Codex CLI 0.137.0** is a workflow signal because cloud-managed config, remote-control grant APIs, machine-readable plugin listing, hosted web/image tools, and multi-agent v2 refinements expand Codex as an automatable agent surface.
+- **VS Code Agents window in Stable preview** matters because persistent, remote-capable, multi-session, BYOK-friendly agent workflows are moving into mainstream developer tooling.
+
 ### 2026-06-03
 - **Hermes Agent desktop/dashboard/runtime reliability wave** matters because session isolation, queued-turn interrupts, WebSocket auth/origin handling, gateway reconnect cleanup, Docker bootstrap behavior, setup defaults, and cron skill-bundle expansion all affect practical Hermes operability.
 - **GitHub Copilot SDK GA** is a major interoperability signal because Copilot's agent runtime can now be embedded through a stable API with custom tools, MCP, hooks, tracing, BYOK, and cloud/remote sessions.

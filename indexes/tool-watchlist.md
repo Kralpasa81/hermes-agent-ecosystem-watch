@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 3 main-branch activity focused on desktop session isolation and controls, dashboard/WebSocket auth and origin handling, gateway reconnect cleanup, Docker gateway bootstrap/TUI launch paths, setup defaults, configurable default interface, and cron skill-bundle expansion. Latest tag remains v2026.5.29.2.
+- Current watch note: June 4 main-branch activity focused on dashboard auth, self-hosted OAuth registration, OAuth-aware remote gateway handling, desktop provider/account UX, attachment/IME/streaming reliability, Docker/Matrix deployment fixes, memory setup fallback behavior, and Windows path handling. Latest tag remains v2026.5.29.2.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
@@ -18,12 +18,13 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
+- Current watch note: June 4 Codex CLI 0.137.0 added cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools in more code-mode flows, and multi-agent v2 refinements. June 2 product updates also introduced role-specific plugins, annotations, and Codex Sites preview.
 - Source: https://developers.openai.com/codex
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 2 Copilot announcements were high-signal: Copilot SDK GA, cloud/local sandboxes in public preview, cloud-agent automations, agent apps, and a Copilot CLI update with rubber-duck critique, prompt scheduling, voice input, and reliability fixes.
+- Current watch note: June 3 VS Code Copilot updates moved the Agents window into Stable preview and emphasized remote agents over SSH/Dev Tunnels, session sync, `/chronicle`, BYOK including air-gapped environments, and terminal safety. June 2 Copilot announcements also included Copilot SDK GA, sandboxes, cloud-agent automations, agent apps, and CLI updates.
 - Source: https://github.com/features/copilot
 
 ### GitHub Copilot SDK
@@ -31,6 +32,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Why it matters: stable programmatic access to Copilot planning, tool invocation, file edits, streaming, multi-turn sessions, custom tools, MCP servers, hooks, tracing, BYOK, and cloud/remote sessions
 - Current watch note: General availability was announced on June 2, with SDK support across six language stacks and new Rust/Java availability called out at GA.
 - Source: https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available
+
+### OpenAI Codex Sites
+- Area: Codex-hosted app/site canvas
+- Why it matters: extends Codex from coding tasks into hosted interactive sites, dashboards, internal tools, lightweight apps, and games that can be shared within a workspace
+- Current watch note: Announced as a June 2 preview inside the Codex app alongside role-specific plugins and annotations.
+- Source: https://openai.com/index/codex-for-every-role-tool-workflow/
 
 ### MCP ecosystem
 - Area: protocol / tool interoperability layer
