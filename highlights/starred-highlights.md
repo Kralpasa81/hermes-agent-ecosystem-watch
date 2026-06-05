@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-05
+- **Hermes Agent operational safety fixes** are high-signal because cron listing, updater cleanup, Docker update checks, gateway status parsing, terminal CWD handling, WAL growth, MCP shutdown, and approval checks directly affect unattended-agent reliability.
+- **Hermes Desktop multi-profile and remote-gateway maturity** matters because concurrent profile sockets, live WebSocket validation, OAuth-ticket checks, and flexible provider onboarding make multi-profile desktop operation more practical.
+- **GitHub Copilot Agent tasks REST API** is a workflow signal because Copilot cloud-agent tasks can now be launched and tracked from scripts, internal portals, and recurring automation systems.
+- **Copilot code review MCP + skills support** is an interoperability signal because mainstream AI review can now pull approved organization context from internal tools, docs, issue systems, and service catalogs.
+
 ### 2026-06-04
 - **Hermes Agent dashboard auth and remote-gateway access work** is high-signal because a bundled username/password auth plugin, self-hosted OAuth registration, OAuth-aware gateway connection handling, and safer WebSocket ticket behavior directly affect secure self-hosted operation.
 - **Hermes Agent desktop provider/reliability wave** matters because provider-account settings, background needs-input visibility, attachment/IME fixes, streaming scroll improvements, atomic config writes, and fetch error handling all reduce practical desktop friction.

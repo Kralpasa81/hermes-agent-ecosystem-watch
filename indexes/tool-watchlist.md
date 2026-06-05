@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 4 main-branch activity focused on dashboard auth, self-hosted OAuth registration, OAuth-aware remote gateway handling, desktop provider/account UX, attachment/IME/streaming reliability, Docker/Matrix deployment fixes, memory setup fallback behavior, and Windows path handling. Latest tag remains v2026.5.29.2.
+- Current watch note: June 5 main-branch activity focused on cron/update safety, Docker update-check correctness, gateway status robustness, terminal deleted-CWD handling, Desktop multi-profile gateway sockets, remote WebSocket/OAuth validation, SSRF/approval/runtime safeguards, WAL growth control, and explicit custom-provider vision flags. Latest tag remains v2026.5.29.2.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
@@ -24,7 +24,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 3 VS Code Copilot updates moved the Agents window into Stable preview and emphasized remote agents over SSH/Dev Tunnels, session sync, `/chronicle`, BYOK including air-gapped environments, and terminal safety. June 2 Copilot announcements also included Copilot SDK GA, sandboxes, cloud-agent automations, agent apps, and CLI updates.
+- Current watch note: June 5 review captured June 4/June 2 Copilot agent moves: Agent tasks REST API public preview for Pro/Pro+/Max, one-million-token context windows, configurable reasoning levels, code review MCP + custom agent skills support, and deeper Medium review tier.
 - Source: https://github.com/features/copilot
 
 ### GitHub Copilot SDK
@@ -42,6 +42,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### MCP ecosystem
 - Area: protocol / tool interoperability layer
 - Why it matters: increasingly central to connecting agents with external tools and services
+- Current watch note: June 5 review noted an active individual IETF Internet-Draft on MCP security considerations, including SSRF, excessive permissions, prompt injection, lifecycle bypass, information leakage, authentication gaps, and protocol pivoting. It has no formal IETF standing but is a useful risk signal.
 - Source: https://modelcontextprotocol.io/
 
 ## Watchlist policy
