@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-06
+- **Hermes Agent v0.16.0 “The Surface Release”** is the week’s strongest Hermes signal because a native desktop app and expanded web dashboard move Hermes from primarily CLI/TUI operation toward polished graphical, admin-friendly workflows.
+- **Hermes remote gateway + multi-profile desktop support** matters because users can run a thin local GUI against a remote Hermes runtime while keeping profile-specific sessions and authentication practical.
+- **Hermes onboarding, skill-surface, and security hardening** are high-signal because Nous Portal setup, fuzzy model selection, a leaner default skill set, NVIDIA/skills as a trusted tap, CVE pinning, SSRF hardening, and credential stripping all affect real adoption and unattended reliability.
+- **MCP 2026-07-28 release candidate** is an interoperability signal because stateless HTTP scaling, MCP Apps, Tasks, OAuth/OIDC alignment, JSON Schema 2020-12 support, and breaking-change/deprecation policy can shape how future agent tools expose UI, long-running work, and remote authorization.
+
 ### 2026-06-05
 - **Hermes Agent operational safety fixes** are high-signal because cron listing, updater cleanup, Docker update checks, gateway status parsing, terminal CWD handling, WAL growth, MCP shutdown, and approval checks directly affect unattended-agent reliability.
 - **Hermes Desktop multi-profile and remote-gateway maturity** matters because concurrent profile sockets, live WebSocket validation, OAuth-ticket checks, and flexible provider onboarding make multi-profile desktop operation more practical.

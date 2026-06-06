@@ -7,18 +7,19 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 5 main-branch activity focused on cron/update safety, Docker update-check correctness, gateway status robustness, terminal deleted-CWD handling, Desktop multi-profile gateway sockets, remote WebSocket/OAuth validation, SSRF/approval/runtime safeguards, WAL growth control, and explicit custom-provider vision flags. Latest tag remains v2026.5.29.2.
+- Current watch note: June 6 brought Hermes Agent v0.16.0 / `v2026.6.5` (“The Surface Release”): native desktop app, remote gateway auth, concurrent multi-profile desktop sessions, browser admin panel, Quick Setup via Nous Portal, fuzzy model picker, `/undo`, a leaner default skill set, NVIDIA/skills trusted tap, and security/reliability hardening. Post-release main branch added usage-aware credits, custom profile aliases, desktop auxiliary-provider warnings, delegate content-block fixes, and ntfy target handling.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
+- Current watch note: June 6 review of the latest changelog highlighted `fallbackModel` support, cross-session messaging hardening, managed version-range settings, MCP/session environment handling, and terminal / remote-session reliability fixes.
 - Source: https://www.anthropic.com/claude-code
 
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 4 Codex CLI 0.137.0 added cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools in more code-mode flows, and multi-agent v2 refinements. June 2 product updates also introduced role-specific plugins, annotations, and Codex Sites preview.
+- Current watch note: June 4 Codex CLI 0.137.0 added cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools in more code-mode flows, and multi-agent v2 refinements. June 2 product updates also introduced role-specific plugins, annotations, Codex Sites preview, and OpenAI framed Codex as expanding beyond developers into knowledge-worker productivity with more than 5M weekly active users.
 - Source: https://developers.openai.com/codex
 
 ### GitHub Copilot
@@ -42,7 +43,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### MCP ecosystem
 - Area: protocol / tool interoperability layer
 - Why it matters: increasingly central to connecting agents with external tools and services
-- Current watch note: June 5 review noted an active individual IETF Internet-Draft on MCP security considerations, including SSRF, excessive permissions, prompt injection, lifecycle bypass, information leakage, authentication gaps, and protocol pivoting. It has no formal IETF standing but is a useful risk signal.
+- Current watch note: June 6 review promoted the MCP 2026-07-28 release candidate as a high-signal interoperability update with breaking changes: stateless HTTP-friendly core, MCP Apps for server-rendered UI, Tasks for long-running work, OAuth/OIDC-aligned authorization, JSON Schema 2020-12 support, and a formal deprecation policy. June 5 also noted an active individual IETF Internet-Draft on MCP security considerations; it has no formal IETF standing but remains a useful risk signal.
 - Source: https://modelcontextprotocol.io/
 
 ## Watchlist policy
