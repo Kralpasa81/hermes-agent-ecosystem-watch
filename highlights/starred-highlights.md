@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-07
+- **Hermes cron jobs becoming first-class Desktop/dashboard entities** is high-signal because scheduled-agent work is easier to inspect, trigger, and manage when it has dedicated sidebar/session treatment.
+- **Hermes GUI tool-backend configuration and Skills Hub browser improvements** matter because setup, tool operations, skill discovery, previews, and security scanning are moving into polished admin surfaces rather than staying CLI-only.
+- **Hermes post-release security/reliability hardening** is worth keeping because Windows gateway behavior, installer/bootstrap edges, path traversal, zip-slip prevention, memory-tool shadowing, and migration correctness directly affect unattended operation.
+- **OpenAI Codex macOS certificate cutoff** is a practical access/reliability item because Codex App / CLI users on macOS have a June 12 update deadline before older signed versions may stop launching or updating.
+
 ### 2026-06-06
 - **Hermes Agent v0.16.0 “The Surface Release”** is the week’s strongest Hermes signal because a native desktop app and expanded web dashboard move Hermes from primarily CLI/TUI operation toward polished graphical, admin-friendly workflows.
 - **Hermes remote gateway + multi-profile desktop support** matters because users can run a thin local GUI against a remote Hermes runtime while keeping profile-specific sessions and authentication practical.

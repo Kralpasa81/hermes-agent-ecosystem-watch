@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 6 brought Hermes Agent v0.16.0 / `v2026.6.5` (“The Surface Release”): native desktop app, remote gateway auth, concurrent multi-profile desktop sessions, browser admin panel, Quick Setup via Nous Portal, fuzzy model picker, `/undo`, a leaner default skill set, NVIDIA/skills trusted tap, and security/reliability hardening. Post-release main branch added usage-aware credits, custom profile aliases, desktop auxiliary-provider warnings, delegate content-block fixes, and ntfy target handling.
+- Current watch note: June 7 follow-up after v0.16.0 kept Desktop/dashboard maturity moving: cron jobs and cron sessions became more first-class GUI/sidebar entities, dashboard-side cron firing landed, tool-backend configuration and Skills Hub browsing moved further into the GUI, provider/model menus now source more from `hermes model`, and hardening continued around Windows gateway behavior, bootstrap/install edges, path traversal, zip-slip prevention, memory-tool shadowing, remote CWD handling, and config migration correctness.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
@@ -19,7 +19,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 4 Codex CLI 0.137.0 added cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools in more code-mode flows, and multi-agent v2 refinements. June 2 product updates also introduced role-specific plugins, annotations, Codex Sites preview, and OpenAI framed Codex as expanding beyond developers into knowledge-worker productivity with more than 5M weekly active users.
+- Current watch note: June 7 check found no newer high-signal Codex launch, but OpenAI’s macOS certificate-rotation deadline remains operationally important: Codex App / CLI users on macOS should update before the June 12 cutoff. Earlier June signals remain Codex CLI 0.137.0, cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools, multi-agent v2 refinements, role-specific plugins, annotations, and Codex Sites preview.
 - Source: https://developers.openai.com/codex
 
 ### GitHub Copilot
