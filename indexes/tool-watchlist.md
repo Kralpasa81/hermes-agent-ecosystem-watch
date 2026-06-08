@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 7 follow-up after v0.16.0 kept Desktop/dashboard maturity moving: cron jobs and cron sessions became more first-class GUI/sidebar entities, dashboard-side cron firing landed, tool-backend configuration and Skills Hub browsing moved further into the GUI, provider/model menus now source more from `hermes model`, and hardening continued around Windows gateway behavior, bootstrap/install edges, path traversal, zip-slip prevention, memory-tool shadowing, remote CWD handling, and config migration correctness.
+- Current watch note: June 8 follow-up after v0.16.0 emphasized operational hardening: file-tools now reject the `TERMINAL_CWD` sentinel and anchor worktree edits before a live cwd exists, terminal cwd override handling was tightened, gateway replacement behavior was made safer for systemd/supervised deployments, Nix cold npm build / lockfile verification work landed, and curator protection was added for load-bearing built-in skills.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code

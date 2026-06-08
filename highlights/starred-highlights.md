@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-08
+- **Hermes tool/cwd hardening** is high-signal because cwd resolution, sentinel rejection, and worktree anchoring directly affect safe file edits and terminal-backed automation.
+- **Hermes gateway replacement hardening** matters because systemd/supervisor restart behavior is critical for reliable always-on gateway deployments.
+- **Hermes curator built-in skill protection** is worth tracking because unattended self-improvement should not archive or consolidate load-bearing built-in skills.
+
 ### 2026-06-07
 - **Hermes cron jobs becoming first-class Desktop/dashboard entities** is high-signal because scheduled-agent work is easier to inspect, trigger, and manage when it has dedicated sidebar/session treatment.
 - **Hermes GUI tool-backend configuration and Skills Hub browser improvements** matter because setup, tool operations, skill discovery, previews, and security scanning are moving into polished admin surfaces rather than staying CLI-only.
