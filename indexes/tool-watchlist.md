@@ -7,20 +7,20 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 8 follow-up after v0.16.0 emphasized operational hardening: file-tools now reject the `TERMINAL_CWD` sentinel and anchor worktree edits before a live cwd exists, terminal cwd override handling was tightened, gateway replacement behavior was made safer for systemd/supervised deployments, Nix cold npm build / lockfile verification work landed, and curator protection was added for load-bearing built-in skills.
+- Current watch note: June 9 main-branch work added remote-gateway file attachments via `file.attach`, persisted Nous recommended models to disk with Portal-failure fallback, expanded curated OpenRouter model choices, tightened terminal backend/progress behavior, and improved Photon voice-message / Spectrum-backend handling. A new Desktop/Dashboard MCP discovery issue is also on watch.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: June 6 review of the latest changelog highlighted `fallbackModel` support, cross-session messaging hardening, managed version-range settings, MCP/session environment handling, and terminal / remote-session reliability fixes.
-- Source: https://www.anthropic.com/claude-code
+- Current watch note: June 9 review of `2.1.169` highlighted `--safe-mode` / `CLAUDE_CODE_SAFE_MODE`, `/cd`, `disableBundledSkills`, stronger enterprise MCP allow/deny enforcement, better background-session state, and restored idle timeout behavior for stalled Vertex/Foundry streams.
+- Source: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 7 check found no newer high-signal Codex launch, but OpenAI’s macOS certificate-rotation deadline remains operationally important: Codex App / CLI users on macOS should update before the June 12 cutoff. Earlier June signals remain Codex CLI 0.137.0, cloud-managed config, monthly credit-limit visibility, remote-control grant APIs, JSON plugin listing, hosted web/image tools, multi-agent v2 refinements, role-specific plugins, annotations, and Codex Sites preview.
-- Source: https://developers.openai.com/codex
+- Current watch note: June 9 review captured Codex CLI `0.138.0`: `/app` handoff from CLI threads into Codex Desktop on macOS/native Windows, Windows workspace launches into Desktop, improved local/generated image file references, token-usage access for app-server integrations, v2 personal access tokens, richer plugin JSON output, and startup/MCP credential resilience fixes.
+- Source: https://developers.openai.com/codex/changelog
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows

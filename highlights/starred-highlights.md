@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-09
+- **Hermes remote-gateway file attachments** are high-signal because remote Desktop/gateway workflows need reliable file attachment semantics across local and remote boundaries.
+- **Hermes recommended-model cache fallback** matters because model selection should remain usable when Portal lookups fail or network conditions are degraded.
+- **OpenAI Codex CLI `0.138.0` Desktop handoff + plugin JSON improvements** are a workflow signal because Codex is becoming easier to automate across CLI, Desktop, app-server, and plugin surfaces.
+- **Claude Code `2.1.169` safe mode and MCP policy fixes** matter because troubleshooting and enterprise policy enforcement are prerequisites for dependable coding-agent use in complex environments.
+
 ### 2026-06-08
 - **Hermes tool/cwd hardening** is high-signal because cwd resolution, sentinel rejection, and worktree anchoring directly affect safe file edits and terminal-backed automation.
 - **Hermes gateway replacement hardening** matters because systemd/supervisor restart behavior is critical for reliable always-on gateway deployments.
