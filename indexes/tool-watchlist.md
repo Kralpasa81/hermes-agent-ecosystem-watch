@@ -7,25 +7,31 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 9 main-branch work added remote-gateway file attachments via `file.attach`, persisted Nous recommended models to disk with Portal-failure fallback, expanded curated OpenRouter model choices, tightened terminal backend/progress behavior, and improved Photon voice-message / Spectrum-backend handling. A new Desktop/Dashboard MCP discovery issue is also on watch.
+- Current watch note: June 10 main-branch work improved Skills Hub browsing with live per-source progress and bounded ClawHub catalog walks, added/clarified memory + skill write approvals, continued Desktop/remote-session polish, hardened gateway/container restart and dashboard-auth behavior, and updated provider/model metadata for Claude Fable 5 and MiniMax M3.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: June 9 review of `2.1.169` highlighted `--safe-mode` / `CLAUDE_CODE_SAFE_MODE`, `/cd`, `disableBundledSkills`, stronger enterprise MCP allow/deny enforcement, better background-session state, and restored idle timeout behavior for stalled Vertex/Foundry streams.
+- Current watch note: June 10 review captured Claude Code `2.1.170`, which adds access to Claude Fable 5 and fixes transcript saving for sessions launched from VS Code integrated terminals or inherited Claude Code shells. The June 9 `2.1.169` safe-mode, `/cd`, bundled-skill hiding, and enterprise MCP policy fixes remain important.
 - Source: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+
+### Anthropic Claude Fable 5 / Mythos 5
+- Area: frontier model tier for coding agents and long-horizon knowledge work
+- Why it matters: affects Claude Code, GitHub Copilot model choice, provider routing, governance, cost, data-retention review, and high-complexity autonomous coding workflows
+- Current watch note: Announced June 9. Fable 5 is the generally available Mythos-class model; Mythos 5 is the trusted-access version for selected high-risk domains. Fable 5 is available in Claude Code `2.1.170` and GitHub Copilot, where Business/Enterprise admins must explicitly enable it and accept the model-specific retention requirement.
+- Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
 
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 9 review captured Codex CLI `0.138.0`: `/app` handoff from CLI threads into Codex Desktop on macOS/native Windows, Windows workspace launches into Desktop, improved local/generated image file references, token-usage access for app-server integrations, v2 personal access tokens, richer plugin JSON output, and startup/MCP credential resilience fixes.
+- Current watch note: June 10 review captured ChatGPT for iOS `1.2026.153` Codex Mobile updates: branch selection, worktree creation, environment setup scripts for new threads, Codex usage/token activity, `/goal`, inline review comments, side chat from transcript selections, latest-prompt editing, better Windows-host attachments, and inline skills/plugins in the composer. June 9 CLI `0.138.0` Desktop handoff and plugin JSON improvements remain relevant.
 - Source: https://developers.openai.com/codex/changelog
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 5 review captured June 4/June 2 Copilot agent moves: Agent tasks REST API public preview for Pro/Pro+/Max, one-million-token context windows, configurable reasoning levels, code review MCP + custom agent skills support, and deeper Medium review tier.
+- Current watch note: June 10 review captured two June 9 high-signal changes: Claude Fable 5 became available across Copilot surfaces with admin enablement and retention caveats, and security validation for third-party coding agents became generally available, extending CodeQL, dependency, and secret-scanning checks to agents such as Claude and OpenAI Codex.
 - Source: https://github.com/features/copilot
 
 ### GitHub Copilot SDK

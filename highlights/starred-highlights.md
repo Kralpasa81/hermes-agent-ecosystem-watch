@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-10
+- **Hermes memory/skills write approval gate** is high-signal because persistent memory and skill mutations need explicit approval semantics in unattended-agent workflows.
+- **Hermes Desktop/remote-session hardening** matters because remote file staging, reconnect recovery, per-chat windows, terminal-pane polish, and project-directory correctness all improve the post-Surface-release workflow.
+- **Claude Fable 5 / Mythos 5 plus Claude Code `2.1.170` support** is a capability and governance signal because a new high-capability coding model tier changes model choice, cost, access policy, and data-retention review.
+- **GitHub security validation for third-party coding agents** is an interoperability and safety signal because Claude, Codex, and other repository agents can receive consistent CodeQL, dependency, and secret-scanning checks before PR finalization.
+
 ### 2026-06-09
 - **Hermes remote-gateway file attachments** are high-signal because remote Desktop/gateway workflows need reliable file attachment semantics across local and remote boundaries.
 - **Hermes recommended-model cache fallback** matters because model selection should remain usable when Portal lookups fail or network conditions are degraded.
