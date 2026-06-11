@@ -7,13 +7,13 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 10 main-branch work improved Skills Hub browsing with live per-source progress and bounded ClawHub catalog walks, added/clarified memory + skill write approvals, continued Desktop/remote-session polish, hardened gateway/container restart and dashboard-auth behavior, and updated provider/model metadata for Claude Fable 5 and MiniMax M3.
+- Current watch note: June 11 main-branch work added Parallel-backed web search/extract with keyless Search MCP vs keyed REST routing, advanced dashboard/profile administration for models/skills/MCPs, profile-scoped skills and toolsets, dashboard webhooks and file uploads, Desktop `/resume` + `/handoff` polish, cron provider resolution fixes, gateway/Telegram reliability, provider replay recovery, backup/update hardening, and Windows install repairs.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: June 10 review captured Claude Code `2.1.170`, which adds access to Claude Fable 5 and fixes transcript saving for sessions launched from VS Code integrated terminals or inherited Claude Code shells. The June 9 `2.1.169` safe-mode, `/cd`, bundled-skill hiding, and enterprise MCP policy fixes remain important.
+- Current watch note: June 11 review captured Claude Code `2.1.173` / `2.1.172`: Fable 5 `[1m]` suffix normalization, Windows sandbox-warning cleanup, nested sub-agents up to five levels deep, Bedrock region detection from AWS config, plugin-marketplace search, 1M-context recovery without usage credits, and tighter background-agent settings/auth/model-policy behavior.
 - Source: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 
 ### Anthropic Claude Fable 5 / Mythos 5
@@ -25,13 +25,13 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 10 review captured ChatGPT for iOS `1.2026.153` Codex Mobile updates: branch selection, worktree creation, environment setup scripts for new threads, Codex usage/token activity, `/goal`, inline review comments, side chat from transcript selections, latest-prompt editing, better Windows-host attachments, and inline skills/plugins in the composer. June 9 CLI `0.138.0` Desktop handoff and plugin JSON improvements remain relevant.
+- Current watch note: June 11 review captured OpenAI Codex CLI `0.139.0`: direct standalone web search in Code mode, richer `oneOf` / `allOf` tool-schema preservation for MCP/tool compatibility, better `codex doctor`, more useful plugin marketplace JSON/caching, scoped MCP startup warnings, sandbox approval/proxy fixes, image-edit path fixes, and config reload hardening.
 - Source: https://developers.openai.com/codex/changelog
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 10 review captured two June 9 high-signal changes: Claude Fable 5 became available across Copilot surfaces with admin enablement and retention caveats, and security validation for third-party coding agents became generally available, extending CodeQL, dependency, and secret-scanning checks to agents such as Claude and OpenAI Codex.
+- Current watch note: June 11 review captured Copilot Chat visibility into cloud-agent sessions, including in-progress status, log queries, and past-session search, plus the experimental Copilot CLI `/security-review` command for local pre-commit security review. June 9 third-party-agent security validation and Fable 5 availability remain important.
 - Source: https://github.com/features/copilot
 
 ### GitHub Copilot SDK

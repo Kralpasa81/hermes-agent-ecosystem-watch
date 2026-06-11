@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-11
+- **Hermes Parallel-backed web search/extract** is high-signal because web tooling is a core agent capability and the keyless Search MCP / keyed REST split affects access and reliability.
+- **Hermes dashboard/profile builder plus profile-scoped skills/toolsets** matters because profile, model, skills, and MCP management are moving into an operator-friendly admin surface.
+- **Hermes cron/provider, backup, update, and Windows install hardening** is worth tracking because scheduled and unattended agents depend on reliable provider resolution, backups, updates, and platform installers.
+- **Claude Code nested sub-agents and 1M/Fable fixes** are workflow and capability signals because deeper agent trees, large-context recovery, model normalization, and policy enforcement affect advanced coding-agent use.
+- **Copilot Chat agent-session visibility plus Copilot CLI `/security-review`** is a workflow/safety signal because agent work is easier to inspect after the fact and easier to security-check before commit.
+
 ### 2026-06-10
 - **Hermes memory/skills write approval gate** is high-signal because persistent memory and skill mutations need explicit approval semantics in unattended-agent workflows.
 - **Hermes Desktop/remote-session hardening** matters because remote file staging, reconnect recovery, per-chat windows, terminal-pane polish, and project-directory correctness all improve the post-Surface-release workflow.
