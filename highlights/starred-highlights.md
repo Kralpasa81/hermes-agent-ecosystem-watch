@@ -12,6 +12,14 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-12
+- **Hermes Slack action-handler plugin API** is high-signal because interactive Slack Block Kit workflows can now be handled through plugins rather than only posted to by Hermes.
+- **Hermes MCP/tool-schema compatibility fixes** matter because prompt-only/resource-only MCP servers and cleaner `$ref` schemas improve interoperability across mixed MCP/tool ecosystems.
+- **Hermes gateway/messaging attachment + reaction reliability** is worth tracking because Signal, SimpleX, email, Photon, and send-message reaction behavior are core to dependable cross-channel agent operation.
+- **Claude Code managed model governance and background-session isolation** are enterprise workflow signals because model allowlists, Default fallback behavior, and provider-environment isolation affect policy enforcement and safe concurrent agent sessions.
+- **GitHub Agentic Workflows public preview plus `GITHUB_TOKEN` support** is a major agent-infrastructure signal because agentic engineering automation is moving into governed GitHub Actions workflows without long-lived PATs.
+- **OpenAI Codex Developer mode for browser use** is a capability signal because CDP-backed browser inspection gives coding agents better visibility into runtime, network, console, and page-state debugging.
+
 ### 2026-06-11
 - **Hermes Parallel-backed web search/extract** is high-signal because web tooling is a core agent capability and the keyless Search MCP / keyed REST split affects access and reliability.
 - **Hermes dashboard/profile builder plus profile-scoped skills/toolsets** matters because profile, model, skills, and MCP management are moving into an operator-friendly admin surface.
