@@ -7,20 +7,20 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 12 main-branch work added Slack Block Kit action-handler support for plugins, plugin registry attribution fixes, Signal/SimpleX/email document attachment classification, Photon emoji reaction and sidecar hardening, MCP `tools/list` capability-gating for prompt-only/resource-only servers, `$ref` schema cleanup, approval-prompt scrollback/readability improvements, Desktop endpoint/file-preview/font/RTL/Nix polish, multimodal memory sync fixes, and worktree/coding-safety guardrails.
+- Current watch note: June 13 main-branch work focused on Desktop/TUI reliability after the Surface release: honoring `provider_routing` config in the Desktop/TUI backend, recovering queued prompts across transient `session busy` and backend-bounce states, improving streaming/rendering performance, preserving recent turns during context compression, hardening profile update/gateway restart behavior, and expanding messaging/tool support for Telegram rich messages, Teams attachments, Yuanbao forwarded WeChat messages, binary-file errors, and `/credits`.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: June 12 review captured Claude Code `2.1.175` / `2.1.174`: `enforceAvailableModels` managed setting for stricter model allowlists and Default model fallback, corrected `/model` picker behavior, Fable usage-credit banner fixes, Bedrock GovCloud inference-profile fixes, background-session `ANTHROPIC_*` provider-environment isolation, skill hot-reload delta behavior, and VS Code usage attribution across cache misses, long context, subagents, skills, agents, plugins, and MCP.
+- Current watch note: June 13 review captured Claude Code `2.1.176`: alias model picks can no longer redirect to disallowed models via `ANTHROPIC_DEFAULT_*_MODEL`, `/fast` refuses switches outside allowlists, auto mode falls back when Fable 5 is unavailable for an organization, Remote Control no longer silently switches a session model, background-agent/session recovery improved, hook path matching was fixed, Bedrock credential caching now respects expiration, and several Windows/Linux/tmux reliability issues were addressed.
 - Source: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
 - Why it matters: affects Claude Code, GitHub Copilot model choice, provider routing, governance, cost, data-retention review, and high-complexity autonomous coding workflows
-- Current watch note: Announced June 9. Fable 5 is the generally available Mythos-class model; Mythos 5 is the trusted-access version for selected high-risk domains. Fable 5 is available in Claude Code `2.1.170` and GitHub Copilot, where Business/Enterprise admins must explicitly enable it and accept the model-specific retention requirement.
-- Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- Current watch note: Announced June 9, then materially changed on June 12. Anthropic says a US government export-control directive requires suspending access to Fable 5 and Mythos 5 for all customers, while access to other Anthropic models is not affected. This changes the availability picture for Claude Code, Copilot model choice, provider routing, and teams evaluating Mythos-class coding workflows.
+- Sources: https://www.anthropic.com/news/claude-fable-5-mythos-5, https://www.anthropic.com/news/fable-mythos-access
 
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
@@ -31,8 +31,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 12 review captured GitHub Agentic Workflows entering public preview, `GITHUB_TOKEN` support that removes long-lived PAT requirements, organization billing through `copilot-requests: write`, and Copilot CLI `/settings` as a schema-driven configuration surface. June 10 Copilot Chat agent-session visibility and `/security-review` remain important workflow/safety signals.
-- Source: https://github.com/features/copilot
+- Current watch note: June 13 review captured Copilot code review governance upgrades: organization-level runner configuration for Copilot code review / Copilot cloud agent, support for Copilot content exclusions at repository/org/enterprise scope, and removal of the 4,000-character limit for Copilot code review custom instruction files. June 11 Agentic Workflows public preview and `GITHUB_TOKEN` support remain the strongest infrastructure signal.
+- Sources: https://github.com/features/copilot, https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls
 
 ### GitHub Copilot SDK
 - Area: embeddable agent runtime / developer SDK

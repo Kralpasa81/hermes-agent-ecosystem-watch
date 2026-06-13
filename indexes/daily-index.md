@@ -3,6 +3,7 @@
 Chronological archive of the repository's daily watch notes.
 
 ## Entries
+- [2026-06-13](../daily/2026-06-13.md)
 - [2026-06-12](../daily/2026-06-12.md)
 - [2026-06-11](../daily/2026-06-11.md)
 - [2026-06-10](../daily/2026-06-10.md)

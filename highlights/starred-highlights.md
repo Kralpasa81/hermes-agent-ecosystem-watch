@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-13
+- **Hermes Desktop/TUI provider-routing and queued-prompt recovery** are high-signal because model-routing correctness and reliable queued submissions directly affect the new Desktop/TUI workflow after the Surface release.
+- **Hermes context-compression and repair hardening** matters because preserving recent turns and preventing malformed compaction behavior protects long-running agent sessions.
+- **Anthropic Fable 5 / Mythos 5 access suspension** is a major limits/access signal because a newly launched high-capability coding/research model tier became unavailable for all customers under an export-control directive.
+- **Claude Code `2.1.176` model-policy and background-agent fixes** matter because managed allowlists, Remote Control correctness, and background-session recovery are enterprise coding-agent safety and reliability concerns.
+- **GitHub Copilot code review governance controls** are worth tracking because org-level runner policy, content exclusions, and longer instructions materially improve agentic review customization.
+
 ### 2026-06-12
 - **Hermes Slack action-handler plugin API** is high-signal because interactive Slack Block Kit workflows can now be handled through plugins rather than only posted to by Hermes.
 - **Hermes MCP/tool-schema compatibility fixes** matter because prompt-only/resource-only MCP servers and cleaner `$ref` schemas improve interoperability across mixed MCP/tool ecosystems.
