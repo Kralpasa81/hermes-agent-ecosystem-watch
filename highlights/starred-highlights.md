@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-14
+- **Hermes sensitive-file approval hardening** is high-signal because unattended agents must not mutate shell startup files, SSH material, credentials, or other sensitive local files without explicit safety gates.
+- **Hermes SSL CA bundle fail-fast guard** matters because provider and gateway calls should fail clearly when trust-store configuration is broken, rather than surfacing confusing downstream model/network errors.
+- **Hermes refusal/content-filter handling** is worth tracking because model refusals and provider content filters need to be surfaced accurately instead of being retried or misclassified as generic transport failures.
+- **Hermes notebook/office document extraction** is a practical capability signal because broader local document ingestion directly improves real-world agent usefulness across notebooks, documents, and office files.
+- **OpenAI Codex remote exec / plugin-MCP alpha work** is an infrastructure signal because remote execution correctness and MCP/plugin de-duplication affect multi-surface coding-agent workflows.
+
 ### 2026-06-13
 - **Hermes Desktop/TUI provider-routing and queued-prompt recovery** are high-signal because model-routing correctness and reliable queued submissions directly affect the new Desktop/TUI workflow after the Surface release.
 - **Hermes context-compression and repair hardening** matters because preserving recent turns and preventing malformed compaction behavior protects long-running agent sessions.

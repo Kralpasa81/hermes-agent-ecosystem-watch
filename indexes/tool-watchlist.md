@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 13 main-branch work focused on Desktop/TUI reliability after the Surface release: honoring `provider_routing` config in the Desktop/TUI backend, recovering queued prompts across transient `session busy` and backend-bounce states, improving streaming/rendering performance, preserving recent turns during context compression, hardening profile update/gateway restart behavior, and expanding messaging/tool support for Telegram rich messages, Teams attachments, Yuanbao forwarded WeChat messages, binary-file errors, and `/credits`.
+- Current watch note: June 14 main-branch work focused on safety and reliability after the Surface release: gating in-place edits and copy/move/install operations into sensitive user files, adding fail-fast SSL CA bundle validation across agent/gateway/doctor paths, surfacing model refusals/content-filter payloads more accurately, extracting notebook and office documents through `read`, preserving partial search results on timeout, improving `execute-code` completion behavior, making bundled skill-update backup handling crash-safe, and adding Desktop notification/auto-compaction polish.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: June 13 review captured Claude Code `2.1.176`: alias model picks can no longer redirect to disallowed models via `ANTHROPIC_DEFAULT_*_MODEL`, `/fast` refuses switches outside allowlists, auto mode falls back when Fable 5 is unavailable for an organization, Remote Control no longer silently switches a session model, background-agent/session recovery improved, hook path matching was fixed, Bedrock credential caching now respects expiration, and several Windows/Linux/tmux reliability issues were addressed.
-- Source: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+- Current watch note: June 14 review found `v2.1.177` published, but the GitHub release body exposed no release notes during the check. The previous documented high-signal release remains `2.1.176`: model allowlist enforcement, `/fast` policy handling, Remote Control model-switch correctness, background-agent/session recovery, hook path matching, Bedrock credential caching, and Windows/Linux/tmux reliability fixes.
+- Sources: https://github.com/anthropics/claude-code/releases/tag/v2.1.177, https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
@@ -25,8 +25,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: June 12 review captured Codex app `26.609`: Developer mode for Browser use with controlled Chrome DevTools Protocol access, up to 2x faster browser use via CDP and DOM snapshot optimizations, `/init` in the app composer, expanded Computer Use availability/access controls, better plugin management, improved usage-limit errors, and scheduled automations honoring selected approval mode.
-- Source: https://developers.openai.com/codex/changelog
+- Current watch note: June 14 review captured active `0.140.0-alpha` repo/release work. `rust-v0.140.0-alpha.19` was published with nearby commits around remote exec-server cwd/shell correctness, native cross-platform path rendering, plugin MCP de-duplication by app declaration name, compact-request turn-state propagation, and bundled SQLite WAL-reset handling. Keep treating this as alpha/infrastructure signal unless reflected in the official Codex product changelog.
+- Sources: https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.19, https://developers.openai.com/codex/changelog
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
