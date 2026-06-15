@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-15
+- **Hermes profile gateway supervision hardening** is high-signal because multi-profile and always-on gateway deployments depend on predictable default/profile gateway boundaries, persisted desired state, writable logs, and clean startup behavior.
+- **Hermes dashboard restart/reroute reliability** matters because browser-admin control surfaces must restart and route to the intended machine context rather than drifting across profile or home-directory state.
+- **Hermes Windows virtualenv recreation fix** is worth tracking because locked native extension files can otherwise break update/install flows on Windows, which is increasingly important after the Desktop release.
+
 ### 2026-06-14
 - **Hermes sensitive-file approval hardening** is high-signal because unattended agents must not mutate shell startup files, SSH material, credentials, or other sensitive local files without explicit safety gates.
 - **Hermes SSL CA bundle fail-fast guard** matters because provider and gateway calls should fail clearly when trust-store configuration is broken, rather than surfacing confusing downstream model/network errors.

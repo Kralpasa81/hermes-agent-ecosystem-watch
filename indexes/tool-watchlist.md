@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 14 main-branch work focused on safety and reliability after the Surface release: gating in-place edits and copy/move/install operations into sensitive user files, adding fail-fast SSL CA bundle validation across agent/gateway/doctor paths, surfacing model refusals/content-filter payloads more accurately, extracting notebook and office documents through `read`, preserving partial search results on timeout, improving `execute-code` completion behavior, making bundled skill-update backup handling crash-safe, and adding Desktop notification/auto-compaction polish.
+- Current watch note: June 15 main-branch work focused on operational reliability after the Surface release: profile gateway supervision no longer lets the reserved default gateway follow sticky `active_profile`, profile gateways can be registered without auto-starting, desired state is persisted, stale log locks are cleared before startup, profile-gateway log parents are made writable, dashboard reroutes are pinned to the machine root, dashboard restarts no longer depend on an `is_container` check, and Windows updates kill Hermes before venv recreation to release locked `_bcrypt.pyd` files.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
