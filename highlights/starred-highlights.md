@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-16
+- **Hermes remote-gateway Desktop hardening** is high-signal because authenticated artifact downloads and correct remote-profile REST routing are foundational for thin-client Desktop control of remote Hermes runtimes.
+- **Hermes asynchronous delegation fix** matters because `delegate_task(background=true)` must reliably launch background work for multi-agent and unattended workflows.
+- **OpenAI Codex CLI `0.140.0` stable release** is worth tracking because it improves usage visibility, cross-tool migration from Claude Code, Bedrock/auth handling, MCP credential storage, state recovery, and MCP startup reliability.
+- **Claude Code `v2.1.178` governance and subagent hardening** matters because parameter-aware permission rules, pre-launch subagent classification, fallback-model compaction, background-session fixes, and MCP `disallowedTools` handling affect safe long-running coding-agent use.
+
 ### 2026-06-15
 - **Hermes profile gateway supervision hardening** is high-signal because multi-profile and always-on gateway deployments depend on predictable default/profile gateway boundaries, persisted desired state, writable logs, and clean startup behavior.
 - **Hermes dashboard restart/reroute reliability** matters because browser-admin control surfaces must restart and route to the intended machine context rather than drifting across profile or home-directory state.
