@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-17
+- **Hermes Anthropic OAuth + MCP tool-name normalization** is high-signal because provider billing/access behavior and MCP server-tool interoperability directly affect whether Claude-backed Hermes sessions can use MCP tools under expected plan limits.
+- **Hermes CLI/container deployment reliability fixes** matter because responsive prompts and correct Kubernetes/containerd detection affect real terminal use, containers, gateways, profile resolution, and unattended deployments.
+- **Claude Code `v2.1.179` remote-session and stream recovery fixes** are worth tracking because long-running coding-agent sessions need partial-response preservation, non-stuck background tasks, and faster remote plugin loading.
+- **Codex regional availability expansion** is an access/workflow signal because Computer Use, browser extension, Memories, and Chronicle availability changed for EEA/UK/Switzerland users.
+
 ### 2026-06-16
 - **Hermes remote-gateway Desktop hardening** is high-signal because authenticated artifact downloads and correct remote-profile REST routing are foundational for thin-client Desktop control of remote Hermes runtimes.
 - **Hermes asynchronous delegation fix** matters because `delegate_task(background=true)` must reliably launch background work for multi-agent and unattended workflows.

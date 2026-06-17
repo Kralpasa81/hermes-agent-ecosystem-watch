@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 16 main-branch work focused on Surface-release follow-through: remote-gateway artifacts now open through authenticated download, global remote-profile REST calls are routed correctly, hosted/container dashboard update controls are more environment-aware, new Desktop sessions can open in compact windows and sync across windows, and `delegate_task(background=true)` now actually forwards the background flag for async delegated work.
+- Current watch note: June 17 main-branch work focused on provider/MCP and deployment reliability: Anthropic OAuth calls now normalize real MCP-server tool names from `mcp_` to `mcp__` on the wire to avoid extra-usage billing misclassification, interactive CLI completion no longer blocks typing on every keystroke or treats URLs as file paths, Kubernetes/containerd/CRI container detection is broader, and gateway message timestamps are opt-in by default.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: `v2.1.178` adds `Tool(param:value)` permission rules, nested `.claude/skills` loading, closest-directory precedence for nested agents/workflows/output styles, auto-mode classifier review before subagent launch, clearer Remote Control errors, subagent/background-session fixes, fallback-model compaction handling, and corrected MCP server-level `disallowedTools` behavior for subagents.
-- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.178
+- Current watch note: `v2.1.179` is a reliability-focused release: partial responses are preserved on mid-stream connection drops, the `running tool` spinner no longer gets stuck, remote background tasks no longer appear stuck between turns, remote plugin loading is faster, WSL2 mouse-wheel scrolling is fixed, and large sandbox `denyRead`/`allowRead` globs no longer make Linux sessions unusable.
+- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.179
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
@@ -25,8 +25,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: Codex CLI `0.140.0` is now stable. The release adds `/usage` views, stronger `/goal` preservation for large text and image attachments, permanent session deletion, `/import` from Claude Code, unified `@` mentions for files/plugins/skills, managed Amazon Bedrock API-key auth, encrypted CLI/MCP OAuth credential storage, automatic SQLite state rebuilds, and MCP startup/OAuth reliability fixes.
-- Sources: https://developers.openai.com/codex/changelog, https://github.com/openai/codex/releases/tag/rust-v0.140.0
+- Current watch note: Codex CLI `0.140.0` remains the latest stable CLI release with substantive notes, while the Codex changelog now lists expanded EEA/UK/Switzerland availability for Computer Use on macOS/Windows, the Codex Chrome extension, Memories, and Chronicle. `0.141.0-alpha.4` is visible as a prerelease but has no detailed release notes yet.
+- Sources: https://developers.openai.com/codex/changelog, https://github.com/openai/codex/releases/tag/rust-v0.140.0, https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
