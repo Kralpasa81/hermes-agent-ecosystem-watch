@@ -12,6 +12,14 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-18
+- **Hermes relay authentication + managed-boot self-provisioning** is high-signal because managed/hosted gateways need secure relay enrollment, signed inbound delivery, and zero-touch credential provisioning without writing durable secrets to disk.
+- **Hermes hosted dashboard backup/import hardening** matters because streaming multipart uploads and runtime-state-preserving imports make dashboard-only restore flows usable without disconnecting a live instance from its own gateway state.
+- **Hermes operator-surface reliability wave** is worth tracking because Chat-tab recovery, Docker gateway `--replace`, code-tree-scoped install-method stamps, skills `list-modified`/`diff`, OpenViking setup hardening, command allowlist globs, xAI native search handling, phantom tool-call dampening, and bounded Langfuse trace state all reduce real unattended-operation failure modes.
+- **OpenAI Codex CLI `0.141.0`** is a major agent-infrastructure signal because secure remote-executor relay, cross-platform remote execution fidelity, per-thread plugin MCP activation, and app-server API expansion affect how Codex can run distributed agent workflows.
+- **GitHub Copilot app GA + Agent Finder / ARD** is a mainstream workflow/interoperability signal because GitHub now has a GA desktop agent surface and registry-based discovery for tools, MCP servers, skills, canvases, and agents.
+- **Claude Code `v2.1.181`** matters because prompt-level configuration, macOS automation opt-ins, better retry/startup/file-write behavior, clearer MCP diagnostics, and subagent fixes improve long-running coding-agent reliability.
+
 ### 2026-06-17
 - **Hermes Anthropic OAuth + MCP tool-name normalization** is high-signal because provider billing/access behavior and MCP server-tool interoperability directly affect whether Claude-backed Hermes sessions can use MCP tools under expected plan limits.
 - **Hermes CLI/container deployment reliability fixes** matter because responsive prompts and correct Kubernetes/containerd detection affect real terminal use, containers, gateways, profile resolution, and unattended deployments.

@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 17 main-branch work focused on provider/MCP and deployment reliability: Anthropic OAuth calls now normalize real MCP-server tool names from `mcp_` to `mcp__` on the wire to avoid extra-usage billing misclassification, interactive CLI completion no longer blocks typing on every keystroke or treats URLs as file paths, Kubernetes/containerd/CRI container detection is broader, and gateway message timestamps are opt-in by default.
+- Current watch note: June 18 main-branch work was a broad operational-hardening wave: relay connector↔gateway auth and signed inbound delivery, managed-boot relay self-provisioning, streaming dashboard uploads, safer backup import that preserves volatile gateway/runtime state, dashboard Chat recovery, Docker gateway `--replace`, code-tree-scoped install-method stamps, skills `list-modified`/`diff`, OpenViking memory setup UX, command allowlist globs, xAI native `web_search`, phantom tool-call loop dampening, and bounded Langfuse trace state.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: `v2.1.179` is a reliability-focused release: partial responses are preserved on mid-stream connection drops, the `running tool` spinner no longer gets stuck, remote background tasks no longer appear stuck between turns, remote plugin loading is faster, WSL2 mouse-wheel scrolling is fixed, and large sandbox `denyRead`/`allowRead` globs no longer make Linux sessions unusable.
-- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.179
+- Current watch note: `v2.1.181` adds `/config key=value`, `sandbox.allowAppleEvents`, `CLAUDE_CLIENT_PRESENCE_FILE`, Bun 1.4, better long-paragraph streaming, auto-retry for mid-thinking connection drops, fixes for 0-byte/truncated writes on network/cloud-synced folders, startup/freeze regressions, clearer MCP `tools/list` failure reporting, and subagent/depth handling.
+- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.181
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
@@ -25,14 +25,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: Codex CLI `0.140.0` remains the latest stable CLI release with substantive notes, while the Codex changelog now lists expanded EEA/UK/Switzerland availability for Computer Use on macOS/Windows, the Codex Chrome extension, Memories, and Chronicle. `0.141.0-alpha.4` is visible as a prerelease but has no detailed release notes yet.
-- Sources: https://developers.openai.com/codex/changelog, https://github.com/openai/codex/releases/tag/rust-v0.140.0, https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.4
+- Current watch note: Codex CLI `0.141.0` is the latest stable release and is high-signal for agent infrastructure: authenticated end-to-end encrypted Noise relay channels for remote executors, cross-platform remote execution path/shell preservation, per-thread stdio MCP activation from selected executor plugins, plugin catalog/discovery improvements, app-server thread/import/rate-limit-credit APIs, realtime controls, and reliability fixes for hooks, Windows sandboxing, idle relays, SQLite WAL reset, enterprise proxy TLS, latency, and memory use.
+- Sources: https://developers.openai.com/codex/changelog, https://github.com/openai/codex/releases/tag/rust-v0.141.0
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 15 Copilot usage metrics now supplement client-side telemetry with server-side telemetry, improving enterprise active-user/DAU coverage and alignment with billing/activity data, while detailed feature/model/IDE breakdowns may remain unattributed for server-side-only detections. June 12 code-review governance controls and June 11 Agentic Workflows remain stronger workflow signals.
-- Sources: https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users, https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls
+- Current watch note: June 17 was a major Copilot agent wave: the GitHub Copilot app is now generally available for macOS, Windows, and Linux; Agent Finder is available across Copilot plans for registry-based discovery of MCP servers, skills, canvases, agents, and tools using Agentic Resource Discovery; and Copilot Chat auto mode is available for all users with dynamic policy-aware model routing.
+- Sources: https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/, https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users/
 
 ### GitHub Copilot SDK
 - Area: embeddable agent runtime / developer SDK
@@ -45,6 +45,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Why it matters: brings reasoning-based agents into governed CI/CD infrastructure for triage, CI failure analysis, documentation updates, security remediation, dependency maintenance, routine change review, reporting, and compliance
 - Current watch note: Public preview was announced June 11. Workflows are written in natural-language Markdown, compiled into standard GitHub Actions YAML, run with read-only defaults and sandboxing, and can use `GITHUB_TOKEN` instead of long-lived PATs with organization billing via `copilot-requests: write`. Also watch the June 16 GitHub Actions Node 24 default-runtime migration because agentic workflows and their third-party JavaScript actions inherit the underlying Actions runtime behavior.
 - Sources: https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview, https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners
+
+### GitHub Agent Finder / Agentic Resource Discovery (ARD)
+- Area: agent resource discovery / registry-based tool and skill selection
+- Why it matters: reduces context-window bloat and manual pre-wiring by letting agents discover approved MCP servers, skills, canvases, agents, and tools on demand from a public or private registry
+- Current watch note: GitHub Agent Finder became available across Copilot plans on June 17. It uses the open Agentic Resource Discovery specification and can point at GitHub's curated catalog or an internal registry while respecting enterprise governance and avoiding silent auto-installation.
+- Sources: https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.com/agentfinder
 
 ### OpenAI Codex Sites
 - Area: Codex-hosted app/site canvas
