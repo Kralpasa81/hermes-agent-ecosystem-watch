@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 18 main-branch work was a broad operational-hardening wave: relay connector↔gateway auth and signed inbound delivery, managed-boot relay self-provisioning, streaming dashboard uploads, safer backup import that preserves volatile gateway/runtime state, dashboard Chat recovery, Docker gateway `--replace`, code-tree-scoped install-method stamps, skills `list-modified`/`diff`, OpenViking memory setup UX, command allowlist globs, xAI native `web_search`, phantom tool-call loop dampening, and bounded Langfuse trace state.
+- Current watch note: June 19 main-branch work was high-signal for hosted operation and multimodal/tool capability: hosted relay self-provisioning now keys off relay config rather than package-manager `is_managed()` state and was verified with an end-to-end Discord round-trip; a bundled dependency-free `html-artifact` skill replaced overlapping diagram/sketch skills; `image_generate` gained image-to-image/editing inputs across providers; Desktop model picker gained `Refresh Models`; dashboard chat, upload cleanup, Slack setup validation, read-only WebUI Docker installs, worktree locking, session-store warnings, gateway lifecycle safety, and FTS fallback behavior were hardened.
 - Source: https://github.com/NousResearch/hermes-agent
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: `v2.1.181` adds `/config key=value`, `sandbox.allowAppleEvents`, `CLAUDE_CLIENT_PRESENCE_FILE`, Bun 1.4, better long-paragraph streaming, auto-retry for mid-thinking connection drops, fixes for 0-byte/truncated writes on network/cloud-synced folders, startup/freeze regressions, clearer MCP `tools/list` failure reporting, and subagent/depth handling.
-- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.181
+- Current watch note: `v2.1.183` strengthens auto-mode safety by blocking destructive git and infrastructure-destroy commands unless explicitly requested, warning on deprecated/auto-updated models, adding `attribution.sessionUrl` and `/config --help`, and fixing subagent/WebSearch behavior, thinking-only turns, MCP auth-stub exposure in headless/SDK mode, tmux teammate panes, background tasks, and scheduled/webhook trigger classification.
+- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.183
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
@@ -25,14 +25,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### OpenAI Codex / OpenAI developer stack
 - Area: coding agents / developer tooling
 - Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: Codex CLI `0.141.0` is the latest stable release and is high-signal for agent infrastructure: authenticated end-to-end encrypted Noise relay channels for remote executors, cross-platform remote execution path/shell preservation, per-thread stdio MCP activation from selected executor plugins, plugin catalog/discovery improvements, app-server thread/import/rate-limit-credit APIs, realtime controls, and reliability fixes for hooks, Windows sandboxing, idle relays, SQLite WAL reset, enterprise proxy TLS, latency, and memory use.
+- Current watch note: Codex CLI `0.141.0` remains the latest stable CLI release and is high-signal for secure remote execution, plugin/MCP activation, app-server APIs, and reliability. Codex app `26.616` added macOS Record & Replay, turning a demonstrated workflow into a reusable skill, plus bulk automation-history actions and Browser Use routing/annotation improvements.
 - Sources: https://developers.openai.com/codex/changelog, https://github.com/openai/codex/releases/tag/rust-v0.141.0
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 17 was a major Copilot agent wave: the GitHub Copilot app is now generally available for macOS, Windows, and Linux; Agent Finder is available across Copilot plans for registry-based discovery of MCP servers, skills, canvases, agents, and tools using Agentic Resource Discovery; and Copilot Chat auto mode is available for all users with dynamic policy-aware model routing.
-- Sources: https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/, https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users/
+- Current watch note: June 17-18 was a major Copilot agent wave: the Copilot app is GA; Agent Finder / Agentic Resource Discovery is available across Copilot plans; Copilot Chat auto mode is available for all users; Copilot code review now uses root-level `AGENTS.md`; MAI-Code-1-Flash is rolling out to more Copilot surfaces; and Opus 4.6 (fast) is scheduled for Copilot deprecation on June 29, 2026.
+- Sources: https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/, https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users/, https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements, https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces, https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast
 
 ### GitHub Copilot SDK
 - Area: embeddable agent runtime / developer SDK

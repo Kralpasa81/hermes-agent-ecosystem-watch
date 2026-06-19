@@ -12,6 +12,14 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-19
+- **Hermes hosted relay end-to-end fix** is high-signal because hosted gateways need relay self-provisioning keyed to actual relay configuration and verified inbound/outbound message round-trips, not just merged connector scaffolding.
+- **Hermes `html-artifact` bundled skill** matters because shareable HTML/SVG artifacts, explainers, diagrams, reports, and small interactive editors are becoming a first-class agent output mode, and Hermes consolidated overlapping skills without adding runtime dependencies.
+- **Hermes `image_generate` image-to-image/editing support** is a capability signal because one provider-routed tool surface can now handle source/reference-image workflows instead of text-only generation.
+- **Claude Code `v2.1.183` auto-mode safety hardening** is worth tracking because destructive git/infrastructure command blocking, MCP auth-stub cleanup, trigger classification, and background-task fixes reduce risk in unattended coding-agent sessions.
+- **OpenAI Codex Record & Replay** matters because demonstrated workflow capture into reusable skills is a strong automation-learning signal for agent tooling.
+- **Copilot code review `AGENTS.md` support** is an interoperability/workflow signal because repo-native agent instructions are now used by a mainstream review agent.
+
 ### 2026-06-18
 - **Hermes relay authentication + managed-boot self-provisioning** is high-signal because managed/hosted gateways need secure relay enrollment, signed inbound delivery, and zero-touch credential provisioning without writing durable secrets to disk.
 - **Hermes hosted dashboard backup/import hardening** matters because streaming multipart uploads and runtime-state-preserving imports make dashboard-only restore flows usable without disconnecting a live instance from its own gateway state.
