@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-20
+- **Hermes Agent `v0.17.0` / “The Reach Release”** is the strongest current signal because it is a major tagged release that expands channels, desktop workflows, background subagents, scheduling, multimodal editing, memory, skills, provider routing, and operator surfaces in one release.
+- **Hermes iMessage via Photon plus the Raft gateway adapter** matter because Hermes can now live in more communication and agent-network surfaces, including iMessage without a self-hosted Mac relay.
+- **Hermes background/async subagents and Automation Blueprints** are workflow-shaping because delegated long-running work can run without blocking, and scheduled automations can be configured consistently across dashboard, slash-command, conversation, and docs surfaces.
+- **Hermes memory atomic batch operations and curator cost optimization** are reliability/cost signals because persistent learning can update more safely while routine curation avoids unnecessary aux-model spend.
+- **Copilot per-user `ai_credits_used` metrics** are worth tracking because enterprise agent adoption and usage-based billing need better user-level consumption visibility.
+
 ### 2026-06-19
 - **Hermes hosted relay end-to-end fix** is high-signal because hosted gateways need relay self-provisioning keyed to actual relay configuration and verified inbound/outbound message round-trips, not just merged connector scaffolding.
 - **Hermes `html-artifact` bundled skill** matters because shareable HTML/SVG artifacts, explainers, diagrams, reports, and small interactive editors are becoming a first-class agent output mode, and Hermes consolidated overlapping skills without adding runtime dependencies.

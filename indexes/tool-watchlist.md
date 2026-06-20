@@ -7,8 +7,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: June 19 main-branch work was high-signal for hosted operation and multimodal/tool capability: hosted relay self-provisioning now keys off relay config rather than package-manager `is_managed()` state and was verified with an end-to-end Discord round-trip; a bundled dependency-free `html-artifact` skill replaced overlapping diagram/sketch skills; `image_generate` gained image-to-image/editing inputs across providers; Desktop model picker gained `Refresh Models`; dashboard chat, upload cleanup, Slack setup validation, read-only WebUI Docker installs, worktree locking, session-store warnings, gateway lifecycle safety, and FTS fallback behavior were hardened.
-- Source: https://github.com/NousResearch/hermes-agent
+- Current watch note: `v0.17.0` / `v2026.6.19` (“The Reach Release”) is the current primary Hermes signal. It adds iMessage via Photon Spectrum, a Raft agent-network gateway adapter, background/async subagents, `image_generate` image-to-image editing, Automation Blueprints, xAI OAuth access to `grok-composer-2.5-fast`, atomic batch operations for the `memory` tool, curator cost optimization, a more capable Desktop app, dashboard profile builder, Skills Hub rehaul, secure dashboard login, official WhatsApp Business Cloud API support, and Telegram Bot API 10.1 rich messages.
+- Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
@@ -31,8 +31,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: June 17-18 was a major Copilot agent wave: the Copilot app is GA; Agent Finder / Agentic Resource Discovery is available across Copilot plans; Copilot Chat auto mode is available for all users; Copilot code review now uses root-level `AGENTS.md`; MAI-Code-1-Flash is rolling out to more Copilot surfaces; and Opus 4.6 (fast) is scheduled for Copilot deprecation on June 29, 2026.
-- Sources: https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/, https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users/, https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements, https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces, https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast
+- Current watch note: June 17-19 was a major Copilot agent/governance wave: the Copilot app is GA; Agent Finder / Agentic Resource Discovery is available across Copilot plans; Copilot Chat auto mode is available for all users; Copilot code review now uses root-level `AGENTS.md`; MAI-Code-1-Flash is rolling out to more Copilot surfaces; Opus 4.6 (fast) is scheduled for Copilot deprecation on June 29, 2026; and the Copilot usage metrics API now exposes per-user daily `ai_credits_used` for enterprise/organization admins.
+- Sources: https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/, https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users/, https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements, https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces, https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast, https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/
 
 ### GitHub Copilot SDK
 - Area: embeddable agent runtime / developer SDK
