@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-21
+- **Hermes cron ticker heartbeat + stalled-status reporting** is high-signal because scheduled automations are a core Hermes workflow, and operators need to know when the gateway process is alive but jobs are not actually firing.
+- **Hermes live-adapter cron delivery confirmation hardening** matters because scheduled job results should not duplicate on slow confirmation or silently disappear when adapter success is ambiguous.
+- **Hermes cron model-resolution fail-fast behavior** is worth tracking because unattended jobs should surface actionable configuration errors instead of opaque provider-side empty-model failures.
+- **Hermes long-session compression decay and memory replace/remove recovery** are reliability signals because persistent sessions and persistent memory updates need to stay recoverable over long autonomous runs.
+
 ### 2026-06-20
 - **Hermes Agent `v0.17.0` / “The Reach Release”** is the strongest current signal because it is a major tagged release that expands channels, desktop workflows, background subagents, scheduling, multimodal editing, memory, skills, provider routing, and operator surfaces in one release.
 - **Hermes iMessage via Photon plus the Raft gateway adapter** matter because Hermes can now live in more communication and agent-network surfaces, including iMessage without a self-hosted Mac relay.

@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: `v0.17.0` / `v2026.6.19` (“The Reach Release”) is the current primary Hermes signal. It adds iMessage via Photon Spectrum, a Raft agent-network gateway adapter, background/async subagents, `image_generate` image-to-image editing, Automation Blueprints, xAI OAuth access to `grok-composer-2.5-fast`, atomic batch operations for the `memory` tool, curator cost optimization, a more capable Desktop app, dashboard profile builder, Skills Hub rehaul, secure dashboard login, official WhatsApp Business Cloud API support, and Telegram Bot API 10.1 rich messages.
-- Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19
+- Current watch note: `v0.17.0` / `v2026.6.19` (“The Reach Release”) is the current primary Hermes signal. It adds iMessage via Photon Spectrum, a Raft agent-network gateway adapter, background/async subagents, `image_generate` image-to-image editing, Automation Blueprints, xAI OAuth access to `grok-composer-2.5-fast`, atomic batch operations for the `memory` tool, curator cost optimization, a more capable Desktop app, dashboard profile builder, Skills Hub rehaul, secure dashboard login, official WhatsApp Business Cloud API support, and Telegram Bot API 10.1 rich messages. June 21 main-branch follow-up work is also worth watching for unattended operation: cron ticker heartbeat/stalled-status reporting, live-adapter delivery confirmation fixes, fail-fast cron model resolution, compression decay for long sessions, and memory replace/remove recovery.
+- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19, https://github.com/NousResearch/hermes-agent/commit/07424da76f60ce1efee5239e9d324a3069873494, https://github.com/NousResearch/hermes-agent/commit/d54890870ffd50a596b1ba0272bc05889e3e35c7, https://github.com/NousResearch/hermes-agent/commit/73b92264ee08cc25dfee3b8854ce0c94f6534a5b
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: `v2.1.183` strengthens auto-mode safety by blocking destructive git and infrastructure-destroy commands unless explicitly requested, warning on deprecated/auto-updated models, adding `attribution.sessionUrl` and `/config --help`, and fixing subagent/WebSearch behavior, thinking-only turns, MCP auth-stub exposure in headless/SDK mode, tmux teammate panes, background tasks, and scheduled/webhook trigger classification.
-- Source: https://github.com/anthropics/claude-code/releases/tag/v2.1.183
+- Current watch note: `v2.1.185` is the latest stable release found today, but it is a small reliability/UX update: the stream-stall hint now says “Waiting for API response · will retry in …” and waits 20s of silence instead of 10s. The last larger workflow/safety signal remains `v2.1.183`, which hardened auto mode, model warnings, MCP auth-stub exposure, subagents/WebSearch, background tasks, and scheduled/webhook trigger classification.
+- Sources: https://github.com/anthropics/claude-code/releases/tag/v2.1.185, https://github.com/anthropics/claude-code/releases/tag/v2.1.183
 
 ### Anthropic Claude Fable 5 / Mythos 5
 - Area: frontier model tier for coding agents and long-horizon knowledge work
