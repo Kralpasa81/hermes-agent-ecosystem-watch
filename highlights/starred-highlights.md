@@ -12,6 +12,17 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-23
+- **Hermes `project.facts` and `llm.oneshot` gateway RPCs** are high-signal because structured project context and bounded one-shot model calls make Hermes easier to embed in external clients, dashboards, and operator surfaces.
+- **Hermes per-profile cron storage restoration** matters because scheduled jobs in multi-profile deployments need predictable isolation, ownership, and recovery semantics.
+- **Hermes Honcho OAuth memory connect flow** is worth tracking because authenticated memory/user-modeling setup and token refresh are core to persistent-agent workflows.
+
+### 2026-06-22
+- **Hermes cross-platform computer-use work** is high-signal because desktop automation, whole-screen capture, vision-capture reliability, and privacy-preserving telemetry defaults directly affect practical agent operation across operating systems.
+- **Hermes credential and dashboard plugin-backend hardening** matters because unattended agents need approval prompts, media delivery, and plugin loading to fail closed around sensitive material.
+- **Claude Code `v2.1.186` MCP auth and subagent safety fixes** are workflow-shaping because MCP login/logout, SSH-friendly auth, named-subagent policy enforcement, and permission prompts affect safe multi-agent coding sessions.
+- **OpenAI Codex CLI `0.142.0` rollout budgets and app-server delegation controls** matter because long-running and multi-agent work needs explicit budget governance, delegation policy, reliable remote environments, and recoverable MCP/plugin sessions.
+
 ### 2026-06-21
 - **Hermes cron ticker heartbeat + stalled-status reporting** is high-signal because scheduled automations are a core Hermes workflow, and operators need to know when the gateway process is alive but jobs are not actually firing.
 - **Hermes live-adapter cron delivery confirmation hardening** matters because scheduled job results should not duplicate on slow confirmation or silently disappear when adapter success is ambiguous.
