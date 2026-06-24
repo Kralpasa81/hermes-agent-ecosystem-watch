@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-24
+- **Hermes browser-tool runnable validation plus Anthropic OAuth token-host repair** are high-signal because browser automation and Claude OAuth login are core integration paths that should fail clearly and keep working after upstream packaging / endpoint changes.
+- **Hermes gateway and messaging hardening** matters because launchd restart behavior, Telegram command visibility, interrupt-safe tool-call sequencing, and Bedrock delegation routing directly affect unattended remote operation.
+- **Claude Code `v2.1.187` sandbox, model-governance, MCP-timeout, structured-output, and worktree cleanup fixes** are workflow-shaping because they reduce common long-running coding-agent failure modes.
+- **Copilot CLI GA + Copilot app BYOK** matter because mainstream developer tooling is moving toward terminal-native MCP / skills / plugin setup and user-controlled provider routing.
+- **MCP Enterprise-Managed Authorization stable** is a major interoperability/governance signal because enterprise MCP access can be centrally authorized through an IdP instead of repeated per-server OAuth prompts.
+
 ### 2026-06-23
 - **Hermes `project.facts` and `llm.oneshot` gateway RPCs** are high-signal because structured project context and bounded one-shot model calls make Hermes easier to embed in external clients, dashboards, and operator surfaces.
 - **Hermes per-profile cron storage restoration** matters because scheduled jobs in multi-profile deployments need predictable isolation, ownership, and recovery semantics.
