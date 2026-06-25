@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-25
+- **Hermes cron prompt-cache reuse plus continuable delivery mirroring** are high-signal because recurring automations need cheaper repeated context and clear conversation/thread delivery semantics.
+- **Hermes relay authorization and coding verification evidence/status** matter because relayed gateways and coding-agent sessions both need stronger trust boundaries and explicit proof that edits were verified.
+- **OpenAI Codex CLI `0.142.2` MCP/tooling fixes** are workflow-shaping because MCP discovery, remote MCP path handling, proxy-aware auth, Bedrock recovery guidance, and stricter PowerShell approval behavior affect real agent execution.
+- **Claude Code `v2.1.191` reliability fixes** matter because stopped background agents should stay stopped, MCP discovery/OAuth should survive transient failures, and headless environments need usable auth flows.
+
 ### 2026-06-24
 - **Hermes browser-tool runnable validation plus Anthropic OAuth token-host repair** are high-signal because browser automation and Claude OAuth login are core integration paths that should fail clearly and keep working after upstream packaging / endpoint changes.
 - **Hermes gateway and messaging hardening** matters because launchd restart behavior, Telegram command visibility, interrupt-safe tool-call sequencing, and Bedrock delegation routing directly affect unattended remote operation.
