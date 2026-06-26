@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-26
+- **Hermes relay identity and gateway security work** matter because multi-platform relay identity, stricter authorization, email spoofing protection, and browser secret-output redaction directly affect always-on gateway trust boundaries.
+- **Hermes cron and gateway-history reliability fixes** are high-signal because scheduled jobs, retained outputs, recoverable history, and stable watcher reconnects are core unattended-agent requirements.
+- **Claude Code `2.1.193` telemetry and auto-mode changes** matter because shell safety classification and assistant-response logging defaults can materially affect enterprise safety, privacy, and observability settings.
+- **Codex Remote GA** is workflow-shaping because mobile approval/control of connected desktop hosts plus QR pairing changes how coding-agent work can be supervised away from the main machine.
+- **Copilot code review efficiency and plugin governance** matter because file-exploration-backed reviews and marketplace restrictions affect cost control and enterprise-safe agent extension.
+
 ### 2026-06-25
 - **Hermes cron prompt-cache reuse plus continuable delivery mirroring** are high-signal because recurring automations need cheaper repeated context and clear conversation/thread delivery semantics.
 - **Hermes relay authorization and coding verification evidence/status** matter because relayed gateways and coding-agent sessions both need stronger trust boundaries and explicit proof that edits were verified.
