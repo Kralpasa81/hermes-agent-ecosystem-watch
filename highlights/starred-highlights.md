@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-27
+- **Hermes Photon/iMessage stabilization** matters because `v0.17.0` made Photon a major gateway surface, and sidecar upgrades plus tapback-context correlation directly affect practical messaging reliability.
+- **Hermes self-hosted OIDC redirect handling** is high-signal because dashboard auth behind real identity-provider and reverse-proxy deployments is a core operational trust boundary.
+- **Claude Code `2.1.195` plugin consent, exact hook matching, and background-agent recovery fixes** matter because extension loading, MCP/tool policy precision, and long-running agent reliability are common enterprise failure points.
+- **Copilot Business / Enterprise MAI-Code-1-Flash GA** matters because mainstream coding-agent model choice is expanding toward lower-latency, usage-billed, admin-governed model routing.
+
 ### 2026-06-26
 - **Hermes relay identity and gateway security work** matter because multi-platform relay identity, stricter authorization, email spoofing protection, and browser secret-output redaction directly affect always-on gateway trust boundaries.
 - **Hermes cron and gateway-history reliability fixes** are high-signal because scheduled jobs, retained outputs, recoverable history, and stable watcher reconnects are core unattended-agent requirements.
