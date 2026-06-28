@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-28
+- **Hermes fallback-chain and content-filter recovery fixes** matter because provider stalls, refusal/content-filter handling, and transport failures directly affect whether long-running autonomous sessions finish cleanly.
+- **Hermes gateway and messaging hardening across Telegram, WhatsApp, Matrix, systemd, and cache-media delivery** is high-signal because always-on messaging gateways are core Hermes deployment surfaces.
+- **Hermes redaction / credential / proxy correctness fixes** matter because output integrity and credential safety are practical trust boundaries for unattended agents.
+
 ### 2026-06-27
 - **Hermes Photon/iMessage stabilization** matters because `v0.17.0` made Photon a major gateway surface, and sidecar upgrades plus tapback-context correlation directly affect practical messaging reliability.
 - **Hermes self-hosted OIDC redirect handling** is high-signal because dashboard auth behind real identity-provider and reverse-proxy deployments is a core operational trust boundary.
