@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-29
+- **Hermes Desktop/Dashboard decoupling around `hermes serve`** matters because cleaner headless runtime boundaries can improve remote control, thin-client Desktop use, and future operator-surface reliability.
+- **Hermes external cron provider status correction** is high-signal because scheduled automations must report accurately when jobs are delegated to non-built-in schedulers such as Chronos.
+- **Hermes strict skill path containment** matters because skills are a core extension surface, and path-boundary correctness is a safety requirement for unattended agents.
+
 ### 2026-06-28
 - **Hermes fallback-chain and content-filter recovery fixes** matter because provider stalls, refusal/content-filter handling, and transport failures directly affect whether long-running autonomous sessions finish cleanly.
 - **Hermes gateway and messaging hardening across Telegram, WhatsApp, Matrix, systemd, and cache-media delivery** is high-signal because always-on messaging gateways are core Hermes deployment surfaces.
