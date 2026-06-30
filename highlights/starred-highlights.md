@@ -12,6 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-06-30
+- **Hermes compression/session reliability fixes** matter because long-running autonomous sessions depend on context compression that fails open, releases locks, and resumes without stale cooldown or lease state.
+- **Hermes cron pre-run timeout increase** matters because recurring automations often need real setup/bootstrap time before the actual task starts.
+- **Hermes gateway routing self-healing** matters because always-on messaging deployments need stale session-route metadata to recover at message time rather than silently misrouting or failing.
+- **Claude Code `2.1.196` background-agent, MCP auth, and stream-watchdog fixes** matter because they improve long-running coding-agent reliability, enterprise IdP compatibility, and stuck-stream recovery.
+- **Skills Over MCP working-session focus** is a forward-looking interoperability signal for making agent skills discoverable through MCP rather than locked to individual host formats.
+
 ### 2026-06-29
 - **Hermes Desktop/Dashboard decoupling around `hermes serve`** matters because cleaner headless runtime boundaries can improve remote control, thin-client Desktop use, and future operator-surface reliability.
 - **Hermes external cron provider status correction** is high-signal because scheduled automations must report accurately when jobs are delegated to non-built-in schedulers such as Chronos.
