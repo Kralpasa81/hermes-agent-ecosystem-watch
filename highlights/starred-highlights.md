@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-01
+- **Claude Sonnet 5 as the Claude Code default** matters because it changes default coding-agent capability, context-window size, and promotional cost assumptions for mainstream developer workflows.
+- **Hermes CDP-URL redaction consolidation** matters because browser automation and supervisor logs must not leak session/control tokens in unattended deployments.
+- **Hermes cron BSM secret re-resolution per run** matters because recurring scheduled jobs need fresh secret resolution and robust delivery/listing behavior.
+- **Hermes post-compression context sentinel clamping** matters because long-running sessions need accurate context reporting after compression events.
+
 ### 2026-06-30
 - **Hermes compression/session reliability fixes** matter because long-running autonomous sessions depend on context compression that fails open, releases locks, and resumes without stale cooldown or lease state.
 - **Hermes cron pre-run timeout increase** matters because recurring automations often need real setup/bootstrap time before the actual task starts.
