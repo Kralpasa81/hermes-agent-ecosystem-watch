@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-02
+- **Hermes Agent `v0.18.0` / “The Judgment Release”** matters because it resets the public Hermes baseline around first-class MoA, completion verification, `/goal`, `/learn`, `/journey`, gateway scalability, Desktop projects, memory graph work, and background subagents.
+- **Hermes P0/P1 clean sweep** matters because the release reports zero open P0/P1 items at cut time, making it a strong reliability and maintenance-health signal for production users.
+
 ### 2026-07-01
 - **Claude Sonnet 5 as the Claude Code default** matters because it changes default coding-agent capability, context-window size, and promotional cost assumptions for mainstream developer workflows.
 - **Hermes CDP-URL redaction consolidation** matters because browser automation and supervisor logs must not leak session/control tokens in unattended deployments.
