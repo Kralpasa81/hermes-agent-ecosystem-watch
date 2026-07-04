@@ -7,8 +7,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: `v0.18.0` / `v2026.7.1` (“The Judgment Release”) is now the public release baseline. The release is high-signal for first-class Mixture-of-Agents model selection, visible reference-model reasoning with streamed aggregation, evidence-based completion verification, `/goal` completion contracts, `/learn` + `/journey` improvements, gateway scale-to-zero and drain coordination, Desktop coding projects, memory-graph work, background subagent fan-out, and the reported zero-open-P0/P1 clean sweep. Also watch the July 2 post-release stale-runtime issue for non-default profile gateways/dashboards after updates.
-- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1, https://github.com/NousResearch/hermes-agent/issues/56717
+- Current watch note: `v0.18.0` / `v2026.7.1` (“The Judgment Release”) is now the public release baseline. The release is high-signal for first-class Mixture-of-Agents model selection, visible reference-model reasoning with streamed aggregation, evidence-based completion verification, `/goal` completion contracts, `/learn` + `/journey` improvements, gateway scale-to-zero and drain coordination, Desktop coding projects, memory-graph work, background subagent fan-out, and the reported zero-open-P0/P1 clean sweep. Also watch the July 2 post-release stale-runtime issue for non-default profile gateways/dashboards after updates and the July 4 OpenAI Codex provider crash report for users routing Hermes through Codex.
+- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1, https://github.com/NousResearch/hermes-agent/issues/56717, https://github.com/NousResearch/hermes-agent/issues/33932
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
