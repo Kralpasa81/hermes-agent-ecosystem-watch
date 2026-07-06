@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-06
+- **Hermes multiplex-profile cross-bot response leak fix** matters because secondary Hermes profiles were replying through the default profile's bot token across every messaging platform (Telegram, Discord, etc.) — a real correctness/security bug for multi-bot deployments — and the fix pairs with fail-closed adapter resolution instead of silent fallback.
+- **Claude Code default permission mode changed to "Manual"** matters because it changes the default safety posture of a mainstream coding agent simultaneously across CLI, VS Code, and JetBrains.
+
 ### 2026-07-02
 - **Hermes Agent `v0.18.0` / “The Judgment Release”** matters because it resets the public Hermes baseline around first-class MoA, completion verification, `/goal`, `/learn`, `/journey`, gateway scalability, Desktop projects, memory graph work, and background subagents.
 - **Hermes P0/P1 clean sweep** matters because the release reports zero open P0/P1 items at cut time, making it a strong reliability and maintenance-health signal for production users.
