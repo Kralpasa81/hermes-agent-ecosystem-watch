@@ -7,8 +7,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: `v0.18.0` / `v2026.7.1` (“The Judgment Release”) is now the public release baseline. The release is high-signal for first-class Mixture-of-Agents model selection, visible reference-model reasoning with streamed aggregation, evidence-based completion verification, `/goal` completion contracts, `/learn` + `/journey` improvements, gateway scale-to-zero and drain coordination, Desktop coding projects, memory-graph work, background subagent fan-out, and the reported zero-open-P0/P1 clean sweep. The July 2 post-release stale-runtime issue (`#56717`) for non-default profile gateways/dashboards remains open with multiple hardening PRs in flight, and is linked to two related open bugs about profile deletion and stale dashboard process accumulation. On July 6, main-branch commits fixed a real cross-profile leak where secondary-profile replies were routed through the default profile's bot token across all messaging platforms, plus fail-closed adapter resolution and per-profile config env isolation. The earlier-tracked OpenAI Codex `NoneType` crash report (`#33932`) was confirmed closed as a duplicate with the fix already on `main`; it is not an open regression.
-- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1, https://github.com/NousResearch/hermes-agent/issues/56717, https://github.com/NousResearch/hermes-agent/commit/8a9bc38c2e72a20ed1e8b081917b6a0dd8891573
+- Current watch note: `v0.18.0` / `v2026.7.1` ("The Judgment Release") remains the public release baseline. On July 7 the project published two patch tags: `v2026.7.7` (v0.18.1) — a roll-up of post-v0.18.0 fixes into a stable tag — and `v2026.7.7.2` (v0.18.2) — a same-day patch that unpinned the WhatsApp Baileys dependency to use the published 7.0.0-rc13 npm release, fixing installer and tagged-release Docker build failures for the WhatsApp bridge. Continue to watch `main` for follow-up stability hardening; previously noted post-release issues and fixes (for example the stale-runtime / post-release routing issue `#56717` and cross-profile routing leaks) remain relevant. Use `hermes update` or `pip install -U hermes-agent` to pick up tagged releases.
+- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7.2, https://github.com/NousResearch/hermes-agent/issues/56717, https://github.com/NousResearch/hermes-agent/commit/8a9bc38c2e72a20ed1e8b081917b6a0dd8891573
 
 ### Claude Code
 - Area: coding agent / agentic development workflow
@@ -73,7 +73,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Skills Over MCP
 - Area: MCP-based agent skill discovery / portability
 - Why it matters: connects portable agent skills with MCP registry, spec, SDK, and client behavior instead of leaving skills locked to individual hosts
-- Current watch note: A June 30 MCP Working Session focuses on how “agent skills” can be discovered and consumed through MCP, with SEP-2640 called out as the near-term focus through June 2026.
+- Current watch note: A June 30 MCP Working Session focuses on how "agent skills" can be discovered and consumed through MCP, with SEP-2640 called out as the near-term focus through June 2026.
 - Source: https://meet.modelcontextprotocol.io/2026/06/skills-over-mcp-working-session-bi-weekly--WrKrEDAM75hr
 
 ## Watchlist policy
