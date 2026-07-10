@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-10
+- **MCP 2026-07-28 Release Candidate** — largest MCP spec revision since launch. Stateless HTTP core (sessions and `initialize` handshake removed), MCP Apps (server-rendered UIs), Tasks extension, OAuth/OIDC-aligned authorization, JSON Schema 2020-12 for tools, and formal deprecation policy. Direct impact for Hermes: MCP-connected skills/tools will need to target the stateless model. Final spec ships July 28. (https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
+
 ### 2026-07-08
 - **Hermes Agent v0.18.2 (v2026.7.7.2)** — same-day patch fixing the WhatsApp Baileys dependency (installer / tagged-release Docker reliability). Important for deployments that use Hermes' WhatsApp bridge. (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7.2)
 - **OpenAI Assistants API sunset (Aug 26, 2026)** — Assistants beta is scheduled to be deprecated; migrate to the Responses API. High-signal for integrators still using Assistants-era workflows. Migration guide: https://platform.openai.com/docs/assistants/migration
