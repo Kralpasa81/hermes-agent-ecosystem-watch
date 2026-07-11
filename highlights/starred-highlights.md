@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-11
+- **GPT-5.6 Sol / Terra / Luna in GitHub Copilot** (July 9) — OpenAI's latest model family lands across all major Copilot surfaces with a three-tier structure: Sol (highest reasoning ceiling, complex long-horizon agentic work), Terra (balanced default for everyday coding), Luna (lightweight, cost-efficient). Available in VS Code, JetBrains, Xcode, Eclipse, Copilot CLI, Copilot app, GitHub.com, and mobile. Billed at provider list pricing; Enterprise/Business admins must enable the policy. (https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/)
+- **VS Code June 2026 Copilot bundle** (posted July 8, covers v1.123–v1.127) — agentic browser tools GA (agents can navigate/screenshot/validate within VS Code); parallel agent sessions with multi-chat; full session + subagent cost visibility; model provider discovery from Marketplace; Autopilot improvements (smarter task completion); session sync across machines; 1M context for Anthropic/OpenAI models; MCP OAuth credential storage; enterprise MDM-managed settings. Collectively a large step forward for in-IDE agentic workflows. (https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/)
+
 ### 2026-07-10
 - **MCP 2026-07-28 Release Candidate** — largest MCP spec revision since launch. Stateless HTTP core (sessions and `initialize` handshake removed), MCP Apps (server-rendered UIs), Tasks extension, OAuth/OIDC-aligned authorization, JSON Schema 2020-12 for tools, and formal deprecation policy. Direct impact for Hermes: MCP-connected skills/tools will need to target the stateless model. Final spec ships July 28. (https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
 
