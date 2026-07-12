@@ -13,8 +13,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Claude Code
 - Area: coding agent / agentic development workflow
 - Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: `2.1.197` made Claude Sonnet 5 the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per million tokens through August 31. `2.1.199`–`2.1.201` (July 2–3) shipped a reliability/safety wave: the default permission mode changed from "default" to **"Manual"** across CLI, VS Code, and JetBrains; `AskUserQuestion` dialogs no longer auto-continue by default; several background-agent daemon bugs were fixed (Linux daemon self-killing every ~50s after unclean shutdown, stale `daemon.lock` PID reuse blocking restarts); TLS/SSL certificate errors now fail immediately with actionable guidance; and subagents cut off by a rate limit now return partial work instead of failing silently.
-- Source: https://code.claude.com/docs/en/changelog
+- Current watch note: **`2.1.207`** (first seen July 11) is the latest release. Auto mode is now default on Bedrock, Vertex AI, and Foundry without opt-in; Bedrock/Vertex/AWS default to Claude Opus 4.8. Week 28 (July 6–10) added a built-in sandboxed browser to the Desktop app and upgraded `/doctor` into a full fix-it setup checkup (alias `/checkup`). `2.1.206` shipped `/login` gateway support for Anthropic-operated public endpoints, background-agent upgrade-on-update, and numerous MCP/OAuth/worktree fixes. Earlier baseline: `2.1.199`–`2.1.201` (July 2–3) changed the default permission mode to **Manual** across CLI, VS Code, and JetBrains; `2.1.197` made Claude Sonnet 5 the default model.
+- Sources: https://code.claude.com/docs/en/whats-new/2026-w28, https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md
 
 ### Claude Tag
 - Area: team agent surface / Slack-based delegated work

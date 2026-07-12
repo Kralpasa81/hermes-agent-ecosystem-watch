@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-11](daily/2026-07-11.md)
+- **Latest daily note:** [2026-07-12](daily/2026-07-12.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-11 — GPT-5.6 (Sol/Terra/Luna) in Copilot; VS Code June release bundle (agentic browser GA, parallel sessions, 1M context)
+- **Last update:** 2026-07-12 — Claude Code auto mode GA on Bedrock/Vertex/Foundry (v2.1.207); built-in Desktop browser (Week 28); MCP 2026-07-28 final in 16 days
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

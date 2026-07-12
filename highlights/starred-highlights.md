@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-12
+- **Claude Code auto mode GA on Bedrock / Vertex AI / Foundry** (v2.1.207) — removes the `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in flag for the three major cloud runtimes; Bedrock, Vertex, and Claude Platform on AWS now default to Claude Opus 4.8. Meaningful for enterprise teams running Claude Code at scale on managed endpoints. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
+- **Claude Code built-in Desktop browser** (Week 28, July 6–10) — sandboxed, configurable browser surface in the Desktop app with safety classifiers on external sites. Removes the need for an external browser bridge to let Claude validate web work against live sites. (https://code.claude.com/docs/en/whats-new/2026-w28)
+
 ### 2026-07-11
 - **GPT-5.6 Sol / Terra / Luna in GitHub Copilot** (July 9) — OpenAI's latest model family lands across all major Copilot surfaces with a three-tier structure: Sol (highest reasoning ceiling, complex long-horizon agentic work), Terra (balanced default for everyday coding), Luna (lightweight, cost-efficient). Available in VS Code, JetBrains, Xcode, Eclipse, Copilot CLI, Copilot app, GitHub.com, and mobile. Billed at provider list pricing; Enterprise/Business admins must enable the policy. (https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/)
 - **VS Code June 2026 Copilot bundle** (posted July 8, covers v1.123–v1.127) — agentic browser tools GA (agents can navigate/screenshot/validate within VS Code); parallel agent sessions with multi-chat; full session + subagent cost visibility; model provider discovery from Marketplace; Autopilot improvements (smarter task completion); session sync across machines; 1M context for Anthropic/OpenAI models; MCP OAuth credential storage; enterprise MDM-managed settings. Collectively a large step forward for in-IDE agentic workflows. (https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases/)
