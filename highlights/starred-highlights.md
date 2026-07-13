@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-13
+- **Claude Fable 5 access extended again, through July 19** — second extension in six days (July 7 → July 12 → July 19), announced after the prior deadline had already passed. Claude Code's 50% higher weekly rate limits extend alongside it. High-signal for access/limits planning: any workflow standardizing on Fable 5 or running Claude Code at scale needs to track this on a roughly weekly cadence rather than assume a fixed cutoff. (https://www.anthropic.com/news/redeploying-fable-5)
+
 ### 2026-07-12
 - **Claude Code auto mode GA on Bedrock / Vertex AI / Foundry** (v2.1.207) — removes the `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in flag for the three major cloud runtimes; Bedrock, Vertex, and Claude Platform on AWS now default to Claude Opus 4.8. Meaningful for enterprise teams running Claude Code at scale on managed endpoints. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
 - **Claude Code built-in Desktop browser** (Week 28, July 6–10) — sandboxed, configurable browser surface in the Desktop app with safety classifiers on external sites. Removes the need for an external browser bridge to let Claude validate web work against live sites. (https://code.claude.com/docs/en/whats-new/2026-w28)

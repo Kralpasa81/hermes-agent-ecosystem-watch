@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-12](daily/2026-07-12.md)
+- **Latest daily note:** [2026-07-13](daily/2026-07-13.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-12 — Claude Code auto mode GA on Bedrock/Vertex/Foundry (v2.1.207); built-in Desktop browser (Week 28); MCP 2026-07-28 final in 16 days
+- **Last update:** 2026-07-13 — Claude Fable 5 access extended again through July 19 (second extension in six days); Hermes dashboard `approvals.mode` and Desktop fallback-models fixes on `main`; OpenAI Codex CLI catch-up through 0.144.2
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
