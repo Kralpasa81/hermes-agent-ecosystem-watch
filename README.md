@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-13](daily/2026-07-13.md)
+- **Latest daily note:** [2026-07-14](daily/2026-07-14.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-13 — Claude Fable 5 access extended again through July 19 (second extension in six days); Hermes dashboard `approvals.mode` and Desktop fallback-models fixes on `main`; OpenAI Codex CLI catch-up through 0.144.2
+- **Last update:** 2026-07-14 — Nous Research reportedly raising at a $1.5B valuation (TechCrunch); Hermes dashboard memory-provider and Windows Git Bash PATH fixes on `main`; Claude Code `2.1.208` ships a major reliability/performance pass (up to 7x faster tool rounds)
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

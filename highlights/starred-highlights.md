@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-14
+- **Nous Research reportedly raising at a $1.5B valuation** — TechCrunch reports a new round of at least $75M led by Robot Ventures with significant participation from USV, up from Nous' prior $70M total raised. Unconfirmed by Nous Research directly, but the first major funding signal for Hermes' maker; relevant for anyone tracking Hermes' resourcing, roadmap pace, and product/business-model expansion. (https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
+- **Claude Code `2.1.208` reliability/performance overhaul** — up to 7x faster tool rounds in tool-heavy print/SDK sessions, multiple long-session memory-leak fixes (MCP stdio stderr, LSP document handles, headless/SDK tool-result growth), and up to 79x smaller transcripts in edit-heavy sessions. High-signal for any workflow running Claude Code at scale or over long-running sessions. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
+
 ### 2026-07-13
 - **Claude Fable 5 access extended again, through July 19** — second extension in six days (July 7 → July 12 → July 19), announced after the prior deadline had already passed. Claude Code's 50% higher weekly rate limits extend alongside it. High-signal for access/limits planning: any workflow standardizing on Fable 5 or running Claude Code at scale needs to track this on a roughly weekly cadence rather than assume a fixed cutoff. (https://www.anthropic.com/news/redeploying-fable-5)
 
@@ -50,29 +54,6 @@ Use this page for developments that meaningfully change:
 - **Hermes gateway routing self-healing** matters because always-on messaging deployments need stale session-route metadata to recover at message time rather than silently misrouting or failing.
 - **Claude Code `2.1.196` background-agent, MCP auth, and stream-watchdog fixes** matter because they improve long-running coding-agent reliability, enterprise IdP compatibility, and stuck-stream recovery.
 - **Skills Over MCP working-session focus** is a forward-looking interoperability signal for making agent skills discoverable through MCP rather than locked to individual host formats.
-
-### 2026-06-29
-- **Hermes Desktop/Dashboard decoupling around `hermes serve`** matters because cleaner headless runtime boundaries can improve remote control, thin-client Desktop use, and future operator-surface reliability.
-- **Hermes external cron provider status correction** is high-signal because scheduled automations must report accurately when jobs are delegated to non-built-in schedulers such as Chronos.
-- **Hermes strict skill path containment** matters because skills are a core extension surface, and path-boundary correctness is a safety requirement for unattended agents.
-
-### 2026-06-28
-- **Hermes fallback-chain and content-filter recovery fixes** matter because provider stalls, refusal/content-filter handling, and transport failures directly affect whether long-running autonomous sessions finish cleanly.
-- **Hermes gateway and messaging hardening across Telegram, WhatsApp, Matrix, systemd, and cache-media delivery** is high-signal because always-on messaging gateways are core Hermes deployment surfaces.
-- **Hermes redaction / credential / proxy correctness fixes** matter because output integrity and credential safety are practical trust boundaries for unattended agents.
-
-### 2026-06-27
-- **Hermes Photon/iMessage stabilization** matters because `v0.17.0` made Photon a major gateway surface, and sidecar upgrades plus tapback-context correlation directly affect practical messaging reliability.
-- **Hermes self-hosted OIDC redirect handling** is high-signal because dashboard auth behind real identity-provider and reverse-proxy deployments is a core operational trust boundary.
-- **Claude Code `2.1.195` plugin consent, exact hook matching, and background-agent recovery fixes** matter because extension loading, MCP/tool policy precision, and long-running agent reliability are common enterprise failure points.
-- **Copilot Business / Enterprise MAI-Code-1-Flash GA** matters because mainstream coding-agent model choice is expanding toward lower-latency, usage-billed, admin-governed model routing.
-
-### 2026-06-26
-- **Hermes relay identity and gateway security work** matter because multi-platform relay identity, stricter authorization, email spoofing protection, and browser secret-output redaction directly affect always-on gateway trust boundaries.
-- **Hermes cron and gateway-history reliability fixes** are high-signal because scheduled jobs, retained outputs, recoverable history, and stable watcher reconnects are core unattended-agent requirements.
-- **Claude Code `2.1.193` telemetry and auto-mode changes** matter because shell safety classification and assistant-response logging defaults can materially affect enterprise safety, privacy, and observability settings.
-- **Codex Remote GA** is workflow-shaping because mobile approval/control of connected desktop hosts plus QR pairing changes how coding-agent work can be supervised away from the main machine.
-- **Copilot code review efficiency and plugin governance** matter because file-exploration-backed reviews and marketplace restrictions affect cost control and enterprise-safe agent extension.
 
 ## Maintenance note
 This page should stay selective. If a daily update is interesting but not clearly high-signal, keep it in `daily/` only.
