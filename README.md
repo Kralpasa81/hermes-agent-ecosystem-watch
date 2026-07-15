@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-14](daily/2026-07-14.md)
+- **Latest daily note:** [2026-07-15](daily/2026-07-15.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-14 — Nous Research reportedly raising at a $1.5B valuation (TechCrunch); Hermes dashboard memory-provider and Windows Git Bash PATH fixes on `main`; Claude Code `2.1.208` ships a major reliability/performance pass (up to 7x faster tool rounds)
+- **Last update:** 2026-07-15 — Hermes `main` fixes a bounded-capture bug that could corrupt read-modify-write file operations over 50KB, plus delegation fail-closed and streaming-retry hardening; Claude Code `2.1.210` closes a worktree-isolation bypass for subagents and hardens the Agent tool against indirect prompt injection
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

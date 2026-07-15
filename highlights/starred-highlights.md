@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-15
+- **Hermes bounded-capture regression fix** — closed a bug where a shared `execute()`/`_wait_for_process` drain path had started applying a `tool_output.max_bytes` truncation limit to *every* consumer, not just the terminal tool. This silently truncated `cat`/paginated `read_file`/log reads over 50KB and could corrupt read-modify-write file operations feeding the patch engine on files over 50KB. Bounded capture is now explicit opt-in, scoped only to the foreground terminal tool. Direct reliability/correctness fix for Hermes' file and terminal tools. (https://github.com/NousResearch/hermes-agent/commit/cab457d722a28d60cd90d3cd6c7e5b55a12b659a)
+- **Claude Code `2.1.210` subagent security hardening** — closes a worktree-isolation bypass letting `isolation: 'worktree'` subagents run git-mutating commands against the main repo checkout, and hardens the Agent tool against indirect prompt injection via content a subagent read. High-signal for anyone running Claude Code subagents against untrusted repos or web/PR content. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
+
 ### 2026-07-14
 - **Nous Research reportedly raising at a $1.5B valuation** — TechCrunch reports a new round of at least $75M led by Robot Ventures with significant participation from USV, up from Nous' prior $70M total raised. Unconfirmed by Nous Research directly, but the first major funding signal for Hermes' maker; relevant for anyone tracking Hermes' resourcing, roadmap pace, and product/business-model expansion. (https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
 - **Claude Code `2.1.208` reliability/performance overhaul** — up to 7x faster tool rounds in tool-heavy print/SDK sessions, multiple long-session memory-leak fixes (MCP stdio stderr, LSP document handles, headless/SDK tool-result growth), and up to 79x smaller transcripts in edit-heavy sessions. High-signal for any workflow running Claude Code at scale or over long-running sessions. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
@@ -48,12 +52,5 @@ Use this page for developments that meaningfully change:
 - **Hermes cron BSM secret re-resolution per run** matters because recurring scheduled jobs need fresh secret resolution and robust delivery/listing behavior.
 - **Hermes post-compression context sentinel clamping** matters because long-running sessions need accurate context reporting after compression events.
 
-### 2026-06-30
-- **Hermes compression/session reliability fixes** matter because long-running autonomous sessions depend on context compression that fails open, releases locks, and resumes without stale cooldown or lease state.
-- **Hermes cron pre-run timeout increase** matters because recurring automations often need real setup/bootstrap time before the actual task starts.
-- **Hermes gateway routing self-healing** matters because always-on messaging deployments need stale session-route metadata to recover at message time rather than silently misrouting or failing.
-- **Claude Code `2.1.196` background-agent, MCP auth, and stream-watchdog fixes** matter because they improve long-running coding-agent reliability, enterprise IdP compatibility, and stuck-stream recovery.
-- **Skills Over MCP working-session focus** is a forward-looking interoperability signal for making agent skills discoverable through MCP rather than locked to individual host formats.
-
 ## Maintenance note
-This page should stay selective. If a daily update is interesting but not clearly high-signal, keep it in `daily/` only.
+This page should stay selective. If a daily update is interesting but not clearly high-signal, keep it in `daily/` only. Entries older than ~2 weeks are periodically trimmed to keep this page focused on recent, still-relevant signal.
