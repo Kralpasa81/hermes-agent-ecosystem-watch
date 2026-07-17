@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-17
+- **Claude Code `2.1.212` adds hard anti-runaway-loop limits and MCP call auto-backgrounding** — a session-wide WebSearch cap (200 calls) and subagent-spawn cap (200) stop uncontrolled search/delegation loops, and MCP tool calls running over 2 minutes now move to the background automatically instead of blocking the session. Direct reliability/cost-control signal for anyone running Claude Code at scale, via SDK, or in unattended/headless automation. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
+
 ### 2026-07-16
 - **Codex/ChatGPT Work 8M-user surge forces context-window rollback and repeated usage resets** — GPT-5.6's July 9 launch roughly doubled OpenAI's prior peak traffic within 48 hours; OpenAI had to cut GPT-5.6 Sol's context window back from 372k to 272k tokens, revert experimental reasoning-effort changes, and temporarily lift the 5-hour usage cap for Plus/Business/Pro. Usage-limit reset delivery is still inconsistent for some users as of today. High-signal for capacity/reliability planning: track Codex usage-limit stability, not just feature velocity, before standardizing workflows on it. (https://thenewstack.io/gpt-5-6-codex-user-surge/)
 

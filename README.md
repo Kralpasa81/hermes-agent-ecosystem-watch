@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-16](daily/2026-07-16.md)
+- **Latest daily note:** [2026-07-17](daily/2026-07-17.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-16 — Hermes `main` fixes multiplex-gateway relay-adapter double-ownership and named-slot autostart conflicts, plus a Desktop reasoning-stream flash fix; Codex/ChatGPT Work crossed 8M active users after the GPT-5.6 launch, forcing a context-window rollback and repeated usage-limit resets
+- **Last update:** 2026-07-17 — Hermes `main` closes session auto-title race conditions and a TUI mouse-tracking deadlock; Claude Code `2.1.212` adds anti-runaway-loop limits (WebSearch/subagent caps) and MCP call auto-backgrounding; OpenAI's unified Codex desktop app draws widespread freeze reports on Windows after today's update
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
