@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-18
+- **Hermes `delegate_task` async-delivery fix for `hermes -z` and cron** — closes a real correctness gap where unattended one-shot and cron runs using `delegate_task` could silently lose subagent results, or (in the cron case) misroute a subagent's output into an unrelated session via an ambient session-key fallback. Direct reliability fix for anyone running Hermes unattended via `hermes -z` or cron. (https://github.com/NousResearch/hermes-agent/commit/3d9be2789552a495c7adf30148e867e7614a4bdc)
+- **Claude Code `2.1.214` closes multiple real permission-check bypasses** — a nested-directory allow-rule bypass (`Edit(src/**)` wrongly matching any `dir/` in the tree), a Windows PowerShell 5.1 bypass, and several Bash-permission-analyzer blind spots (10k+ character commands, FD redirect forms, zsh `[[ ]]` subscripts, unsafe `help`/`man` options) could each let commands run without the approval prompt the user's rules required. High-signal for anyone relying on Claude Code's permission system for safety in autonomous runs. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
+
 ### 2026-07-17
 - **Claude Code `2.1.212` adds hard anti-runaway-loop limits and MCP call auto-backgrounding** — a session-wide WebSearch cap (200 calls) and subagent-spawn cap (200) stop uncontrolled search/delegation loops, and MCP tool calls running over 2 minutes now move to the background automatically instead of blocking the session. Direct reliability/cost-control signal for anyone running Claude Code at scale, via SDK, or in unattended/headless automation. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
 
@@ -25,15 +29,6 @@ Use this page for developments that meaningfully change:
 ### 2026-07-14
 - **Nous Research reportedly raising at a $1.5B valuation** — TechCrunch reports a new round of at least $75M led by Robot Ventures with significant participation from USV, up from Nous' prior $70M total raised. Unconfirmed by Nous Research directly, but the first major funding signal for Hermes' maker; relevant for anyone tracking Hermes' resourcing, roadmap pace, and product/business-model expansion. (https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
 - **Claude Code `2.1.208` reliability/performance overhaul** — up to 7x faster tool rounds in tool-heavy print/SDK sessions, multiple long-session memory-leak fixes (MCP stdio stderr, LSP document handles, headless/SDK tool-result growth), and up to 79x smaller transcripts in edit-heavy sessions. High-signal for any workflow running Claude Code at scale or over long-running sessions. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
-
-### 2026-07-13
-- **Claude Fable 5 access extended again, through July 19** — second extension in six days (July 7 → July 12 → July 19), announced after the prior deadline had already passed. Claude Code's 50% higher weekly rate limits extend alongside it. High-signal for access/limits planning: any workflow standardizing on Fable 5 or running Claude Code at scale needs to track this on a roughly weekly cadence rather than assume a fixed cutoff. (https://www.anthropic.com/news/redeploying-fable-5)
-
-### 2026-07-12
-- **Claude Code auto mode GA on Bedrock / Vertex AI / Foundry** (v2.1.207) — removes the `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in flag for the three major cloud runtimes; Bedrock, Vertex, and Claude Platform on AWS now default to Claude Opus 4.8. Meaningful for enterprise teams running Claude Code at scale on managed endpoints. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
-
-### 2026-07-10
-- **MCP 2026-07-28 Release Candidate** — largest MCP spec revision since launch. Stateless HTTP core (sessions and `initialize` handshake removed), MCP Apps (server-rendered UIs), Tasks extension, OAuth/OIDC-aligned authorization, JSON Schema 2020-12 for tools, and formal deprecation policy. Direct impact for Hermes: MCP-connected skills/tools will need to target the stateless model. Final spec ships July 28. (https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
 
 ## Maintenance note
 This page should stay selective. If a daily update is interesting but not clearly high-signal, keep it in `daily/` only. Entries older than ~2 weeks are periodically trimmed to keep this page focused on recent, still-relevant signal.

@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-17](daily/2026-07-17.md)
+- **Latest daily note:** [2026-07-18](daily/2026-07-18.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-17 — Hermes `main` closes session auto-title race conditions and a TUI mouse-tracking deadlock; Claude Code `2.1.212` adds anti-runaway-loop limits (WebSearch/subagent caps) and MCP call auto-backgrounding; OpenAI's unified Codex desktop app draws widespread freeze reports on Windows after today's update
+- **Last update:** 2026-07-18 — Hermes `main` fixes `delegate_task` silently dropping (or misrouting) subagent results in `hermes -z` one-shot and cron runs; Claude Code `2.1.214` closes several real permission-check bypasses (nested-directory allow rules, Windows PowerShell 5.1, Bash analyzer blind spots)
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
