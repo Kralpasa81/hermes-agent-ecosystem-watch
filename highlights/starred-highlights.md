@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-19
+- **Hermes gateway durable delivery-obligation ledger** — closes a genuine reliability gap where a generated-but-undelivered final response could be silently lost on a gateway crash or planned restart, forcing a full-cost turn re-run on resume. Recovered replies are now explicitly labeled ("♻️ Recovered reply — may be a duplicate") rather than silently retried, and dedup uses stable IDs from session_key + inbound message id + content. Direct capability/reliability upgrade for anyone running Hermes gateways in production. (https://github.com/NousResearch/hermes-agent/commit/5854aad8b5)
+
 ### 2026-07-18
 - **Hermes `delegate_task` async-delivery fix for `hermes -z` and cron** — closes a real correctness gap where unattended one-shot and cron runs using `delegate_task` could silently lose subagent results, or (in the cron case) misroute a subagent's output into an unrelated session via an ambient session-key fallback. Direct reliability fix for anyone running Hermes unattended via `hermes -z` or cron. (https://github.com/NousResearch/hermes-agent/commit/3d9be2789552a495c7adf30148e867e7614a4bdc)
 - **Claude Code `2.1.214` closes multiple real permission-check bypasses** — a nested-directory allow-rule bypass (`Edit(src/**)` wrongly matching any `dir/` in the tree), a Windows PowerShell 5.1 bypass, and several Bash-permission-analyzer blind spots (10k+ character commands, FD redirect forms, zsh `[[ ]]` subscripts, unsafe `help`/`man` options) could each let commands run without the approval prompt the user's rules required. High-signal for anyone relying on Claude Code's permission system for safety in autonomous runs. (https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md)
