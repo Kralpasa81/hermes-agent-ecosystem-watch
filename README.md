@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-19](daily/2026-07-19.md)
+- **Latest daily note:** [2026-07-20](daily/2026-07-20.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-19 — Hermes gateway ships a durable delivery-obligation ledger closing a silent-loss gap for final responses on crash/restart; Claude Code `2.1.215` stops auto-running `/verify` and `/code-review`
+- **Last update:** 2026-07-20 — Hermes closes a follow-up bug in its own two-day-old gateway delivery ledger (a redelivery attempt could be spent without ever sending, if the target platform wasn't connected on boot) plus a streaming fix for clean-but-truncated SSE drops; quiet day for the broader ecosystem
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
