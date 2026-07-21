@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-20](daily/2026-07-20.md)
+- **Latest daily note:** [2026-07-21](daily/2026-07-21.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-20 — Hermes closes a follow-up bug in its own two-day-old gateway delivery ledger (a redelivery attempt could be spent without ever sending, if the target platform wasn't connected on boot) plus a streaming fix for clean-but-truncated SSE drops; quiet day for the broader ecosystem
+- **Last update:** 2026-07-21 — Hermes Agent v0.19.0 "Quicksilver" released (Jul 20): ~80% faster first-token, smart approvals by default, Bitwarden/1Password secret sources, live subagent transcripts, durable delivery; today's `fix(relay)` closes total-loss-of-service bug for managed Discord guild replies; Claude Code 2.1.216 fixes quadratic long-session stall; GitHub Code Quality reaches GA
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

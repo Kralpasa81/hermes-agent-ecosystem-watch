@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-07-21
+- **Hermes Agent v0.19.0 "Quicksilver" release (tagged Jul 20)** — the primary Hermes release for the window tracked by this repo. Cold-start time-to-first-token cut **~80%** (4.3s → 0.9s) across every surface, reasoning streams live by default, **smart approvals** on by default, **Bitwarden/1Password secret sources**, live subagent transcripts, durable background-delegation delivery, gateway delivery-obligation ledger (previously tracked), profile-based gateway routing, `/subscription` terminal billing, GPT-5.6/grok-4.5/kimi-k3/claude-fable-5/claude-sonnet-5 support, and a 20-PR desktop speed overhaul. Biggest Hermes release in this repo's tracked window. Simultaneously on Jul 21, `fix(relay)` #68320 closes a total-loss-of-service bug for managed Discord agents (guild replies were silently declined because `user_id` was never carried alongside `scope_id` on the outbound relay frame). (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20, https://github.com/NousResearch/hermes-agent/commit/f4df260f26c93f15694698869f3ea8e965eea301)
+
 ### 2026-07-19
 - **Hermes gateway durable delivery-obligation ledger** — closes a genuine reliability gap where a generated-but-undelivered final response could be silently lost on a gateway crash or planned restart, forcing a full-cost turn re-run on resume. Recovered replies are now explicitly labeled ("♻️ Recovered reply — may be a duplicate") rather than silently retried, and dedup uses stable IDs from session_key + inbound message id + content. Direct capability/reliability upgrade for anyone running Hermes gateways in production. (https://github.com/NousResearch/hermes-agent/commit/5854aad8b5)
 
