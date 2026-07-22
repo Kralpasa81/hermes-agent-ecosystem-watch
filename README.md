@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-21](daily/2026-07-21.md)
+- **Latest daily note:** [2026-07-22](daily/2026-07-22.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-21 — Hermes Agent v0.19.0 "Quicksilver" released (Jul 20): ~80% faster first-token, smart approvals by default, Bitwarden/1Password secret sources, live subagent transcripts, durable delivery; today's `fix(relay)` closes total-loss-of-service bug for managed Discord guild replies; Claude Code 2.1.216 fixes quadratic long-session stall; GitHub Code Quality reaches GA
+- **Last update:** 2026-07-22 — Hermes gateway's stranded-platform recovery fix (Jul 21 Discord-specific fix) generalized to every adapter (#69112); `hermes update` fleet restarts no longer abort on one slow gateway unit; cold-resume session duplication and compaction-pipeline fixes; Claude Code 2.1.217 adds subagent concurrency/budget guardrails; Codex CLI 0.145.0 ships stable with Cursor/Claude Code config import
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
