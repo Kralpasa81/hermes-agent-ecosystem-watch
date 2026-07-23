@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-22](daily/2026-07-22.md)
+- **Latest daily note:** [2026-07-23](daily/2026-07-23.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-22 — Hermes gateway's stranded-platform recovery fix (Jul 21 Discord-specific fix) generalized to every adapter (#69112); `hermes update` fleet restarts no longer abort on one slow gateway unit; cold-resume session duplication and compaction-pipeline fixes; Claude Code 2.1.217 adds subagent concurrency/budget guardrails; Codex CLI 0.145.0 ships stable with Cursor/Claude Code config import
+- **Last update:** 2026-07-23 — Hermes unifies the clarify-request lifecycle (timeout, ordering, late-reply handling) across CLI, TUI, desktop, and gateway in six coordinated PRs; desktop multi-profile session-identity fixes; Slack adapter unbounded-cache hardening; Claude Code 2.1.218 closes an agent-hook workspace-trust bypass; OpenAI launches Presence, its first managed enterprise agent-deployment product
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
