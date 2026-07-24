@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-23](daily/2026-07-23.md)
+- **Latest daily note:** [2026-07-24](daily/2026-07-24.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-23 — Hermes unifies the clarify-request lifecycle (timeout, ordering, late-reply handling) across CLI, TUI, desktop, and gateway in six coordinated PRs; desktop multi-profile session-identity fixes; Slack adapter unbounded-cache hardening; Claude Code 2.1.218 closes an agent-hook workspace-trust bypass; OpenAI launches Presence, its first managed enterprise agent-deployment product
+- **Last update:** 2026-07-24 — Hermes fixes a real 20-hour cron silent-outage class (direct-run/scheduler race left recurring jobs orphaned while status stayed green); skills system restructured into a hub + 18 reference files; org-skill namespace and new context-engine hooks land. GitHub MCP Server ships stateless-core support ahead of the July 28 MCP spec cutover; GitHub Issues gets agent-automation approval/confidence/rationale controls; Copilot cloud agent for Linear reaches GA
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
