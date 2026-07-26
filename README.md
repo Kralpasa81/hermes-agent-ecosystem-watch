@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-25](daily/2026-07-25.md)
+- **Latest daily note:** [2026-07-26](daily/2026-07-26.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-25 — Hermes closes two real cross-session leak bugs (desktop queue drain, terminal env snapshot), ships a crash-survivable in-flight turn journal for desktop, fixes a silent first-message-loss bug on slow gateway cold starts, stops `hermes update` stalling for minutes on large state.db files, and closes two state-recovery data-loss paths. Claude Opus 5 launches as a cross-ecosystem event — default Opus in Claude Code 2.1.219 and day-one availability across nine GitHub Copilot surfaces
+- **Last update:** 2026-07-26 — Hermes root-causes and closes a real SQLite corruption bug in `hermes sessions optimize` (raw byte-probes on live databases were cancelling a running VACUUM's exclusive lock), and fixes partial session recovery so it stops deleting the messages it just salvaged. No major new announcement elsewhere in the ecosystem today.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
