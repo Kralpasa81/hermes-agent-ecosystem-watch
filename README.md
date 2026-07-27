@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-26](daily/2026-07-26.md)
+- **Latest daily note:** [2026-07-27](daily/2026-07-27.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-26 — Hermes root-causes and closes a real SQLite corruption bug in `hermes sessions optimize` (raw byte-probes on live databases were cancelling a running VACUUM's exclusive lock), and fixes partial session recovery so it stops deleting the messages it just salvaged. No major new announcement elsewhere in the ecosystem today.
+- **Last update:** 2026-07-27 — Hermes desktop ships an "Artifacts" pane (versioned cards, sandboxed live preview, right-rail viewer) for substantial generated content, and closes a real security-relevant dependency bug where `hermes update` was silently downgrading already-CVE-patched environments back onto a vulnerable `cryptography` pin. No major new announcement elsewhere in the ecosystem today.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
