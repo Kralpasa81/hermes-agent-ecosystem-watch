@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-27](daily/2026-07-27.md)
+- **Latest daily note:** [2026-07-28](daily/2026-07-28.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-27 — Hermes desktop ships an "Artifacts" pane (versioned cards, sandboxed live preview, right-rail viewer) for substantial generated content, and closes a real security-relevant dependency bug where `hermes update` was silently downgrading already-CVE-patched environments back onto a vulnerable `cryptography` pin. No major new announcement elsewhere in the ecosystem today.
+- **Last update:** 2026-07-28 — Hermes closes a real MCP interoperability gap with Figma (Hermes was 403'ing on Figma's OAuth allowlist while Claude Code and Codex worked), ships floating panes / a floatable composer on desktop with a new SDK hook for plugins, and closes a gateway race that made queued messages sometimes misbehave as steers or interrupts. GitHub Copilot widened its enterprise governance surface; the MCP 2026-07-28 spec's announced ship date is today but had not yet gone live publicly as of this check.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
