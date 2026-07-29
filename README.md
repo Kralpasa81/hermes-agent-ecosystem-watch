@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-28](daily/2026-07-28.md)
+- **Latest daily note:** [2026-07-29](daily/2026-07-29.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-28 — Hermes closes a real MCP interoperability gap with Figma (Hermes was 403'ing on Figma's OAuth allowlist while Claude Code and Codex worked), ships floating panes / a floatable composer on desktop with a new SDK hook for plugins, and closes a gateway race that made queued messages sometimes misbehave as steers or interrupts. GitHub Copilot widened its enterprise governance surface; the MCP 2026-07-28 spec's announced ship date is today but had not yet gone live publicly as of this check.
+- **Last update:** 2026-07-29 — Hermes ships a real streaming-TTS latency win (~2–3.5s → ~500–800ms) with a cross-provider adapter contract (LiveKit/Discord-class platforms, ElevenLabs/OpenAI/Gemini/xAI), closes a real gap in voice-mode stop-phrase handling, makes STT fully configurable, extends the dual-stack webhook fix to five more messaging integrations, and documents a more complete Hermes×Buzz (Nostr) integration. Outside Hermes: the MCP 2026-07-28 specification has gone live (largest revision since launch, breaking change), and OpenAI Codex CLI ships stable `0.146.0` with an Agent Plugins marketplace expansion to Amazon Bedrock and Claude Code.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
