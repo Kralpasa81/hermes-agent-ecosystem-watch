@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-29](daily/2026-07-29.md)
+- **Latest daily note:** [2026-07-30](daily/2026-07-30.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-29 — Hermes ships a real streaming-TTS latency win (~2–3.5s → ~500–800ms) with a cross-provider adapter contract (LiveKit/Discord-class platforms, ElevenLabs/OpenAI/Gemini/xAI), closes a real gap in voice-mode stop-phrase handling, makes STT fully configurable, extends the dual-stack webhook fix to five more messaging integrations, and documents a more complete Hermes×Buzz (Nostr) integration. Outside Hermes: the MCP 2026-07-28 specification has gone live (largest revision since launch, breaking change), and OpenAI Codex CLI ships stable `0.146.0` with an Agent Plugins marketplace expansion to Amazon Bedrock and Claude Code.
+- **Last update:** 2026-07-30 — Hermes ships iMessage-style message reactions as a full storage/RPC/agent-tool/model-context stack with a matching desktop UI, closes a `voice_only` regression that let text input trigger voice replies, fixes several native-Windows correctness bugs, and adds an "Open Folder as Project" workflow to desktop. Outside Hermes: GitHub Copilot's code review support for agent skills and MCP servers reaches general availability, and GitHub introduces a default model-enablement policy for Copilot Business/Enterprise plans (effective Aug 26).
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
