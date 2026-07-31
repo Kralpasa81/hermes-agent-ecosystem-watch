@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-07-30](daily/2026-07-30.md)
+- **Latest daily note:** [2026-07-31](daily/2026-07-31.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-07-30 — Hermes ships iMessage-style message reactions as a full storage/RPC/agent-tool/model-context stack with a matching desktop UI, closes a `voice_only` regression that let text input trigger voice replies, fixes several native-Windows correctness bugs, and adds an "Open Folder as Project" workflow to desktop. Outside Hermes: GitHub Copilot's code review support for agent skills and MCP servers reaches general availability, and GitHub introduces a default model-enablement policy for Copilot Business/Enterprise plans (effective Aug 26).
+- **Last update:** 2026-07-31 — Hermes ships its first new tag since Jul 20, `v0.19.1` (a stabilization rollup, curated notes due with `v0.20.0`), closes an org-shared-skills sync bug that made org skills unusable past the first propose, and fixes a real idle-CPU regression that kept a minimized desktop app burning ~20% CPU. Outside Hermes: GitHub Copilot's VS Code Agents window (preview) now runs Copilot, Claude, and Codex sessions in isolated Git worktrees from one UI, and GitHub Models is fully retired.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
