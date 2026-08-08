@@ -15,7 +15,7 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note:** [2026-08-05](daily/2026-08-05.md)
+- **Latest daily note:** [2026-08-08](daily/2026-08-08.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
 - **Last update:** 2026-08-02 — Hermes closes a high-severity `hermes skills install` data-loss bug (unconfirmed `rmtree` could wipe an entire category directory), rides out and stabilizes a Node 26 runtime bump that briefly broke installs/updates, and closes the last cross-profile secret-scope leaks under gateway multiplexing (WhatsApp, Matrix, model tools, cold hydration, `/compress`). Outside Hermes: GitHub Copilot moves enterprise model policy targeting to public preview; Claude Code and Codex CLI stable channels are unchanged.
