@@ -15,10 +15,10 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-||- **Latest daily note:** [2026-08-11](daily/2026-08-11.md)||
+||- **Latest daily note:** [2026-08-12](daily/2026-08-12.md)||
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-08-02 — Hermes closes a high-severity `hermes skills install` data-loss bug (unconfirmed `rmtree` could wipe an entire category directory), rides out and stabilizes a Node 26 runtime bump that briefly broke installs/updates, and closes the last cross-profile secret-scope leaks under gateway multiplexing (WhatsApp, Matrix, model tools, cold hydration, `/compress`). Outside Hermes: GitHub Copilot moves enterprise model policy targeting to public preview; Claude Code and Codex CLI stable channels are unchanged.
+- **Last update:** 2026-08-12 — Hermes Agent v0.20.0 remains current stable with A2A v1.0 and autonomous agent improvements. Broader ecosystem sees industry-wide shift toward auto-approval models with tools like Claude Code moving to auto mode as default. GitHub Copilot continues aggressive feature development with MAI-Code-1.1-Flash deployment and JetBrains integration improvements.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
