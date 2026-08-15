@@ -1,3 +1,4 @@
+| [2026-08-14](daily/2026-08-14.md) | Hermes Agent v0.20.1 patch release lands Aug 13. Voice features, desktop extensibility, and A2A v1.0 from v0.20.0 remain focus. Broader ecosystem shows GitHub Copilot shipping monthly model drops (MAI-Code-1.1-Flash, Gemini 3.7) as expected schedule. |
 # Daily Index
 
 Chronological archive of the repository's daily watch notes.
@@ -72,7 +73,8 @@ Chronological archive of the repository's daily watch notes.
 - [2026-05-31](../daily/2026-05-31.md)
 - [2026-05-30](../daily/2026-05-30.md)
 
-#- [2026-08-12](../daily/2026-08-12.md)
+#- [2026-08-15](../daily/2026-08-15.md)
+- [2026-08-14](../daily/2026-08-14.md)
 - [2026-08-11](../daily/2026-08-11.md)
 - [2026-08-10](../daily/2026-08-10.md)
 - [2026-08-09](../daily/2026-08-09.md)

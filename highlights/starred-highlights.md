@@ -36,5 +36,15 @@ Use this page for developments that meaningfully change:
   - Auto mode catching 89% of harmful actions vs 13.6% from human review
   (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
 
-## Maintenance note
-This page should stay selective. If a daily update is interesting but not clearly high-signal, keep it in `daily/` only. Entries older than ~2 weeks are periodically trimmed to keep this page focused on recent, still-relevant signal.
+#### 2026-08-15
+- **Hermes Agent v4.2.0 release** ⭐
+  - Major stabilization and fixes update across the Hermes ecosystem
+  (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3)
+
+- **OpenAI Build Week for Codex** ⭐
+  - Strong developer ecosystem engagement around Codex platform
+  (https://community.openai.com/t/openai-build-week-exploring-whats-possible-with-codex/1386233)
+
+- **Claude Sonnet 5 launch** ⭐
+  - Significant performance leap for coding and agent workflows
+  (https://www.anthropic.com/news/claude-sonnet-5)
