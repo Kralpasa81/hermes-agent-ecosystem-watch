@@ -12,6 +12,12 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-08-16
+- **DeepSeek V4-Pro launches general availability ⭐**
+  - Adaptive reasoning profiles, tiered pricing, and API compatibility
+  - Significant development for agent-ready language models
+  (https://aiagentstore.ai/ai-agent-news/this-week)
+
 ### 2026-08-11
 - **Hermes Agent v0.20.0 (The Herald Release) shipped on August 3, 2026** ⭐
   - Autonomous functions, more flexible Python evaluation, and improved safety/conversion tools
