@@ -1,3 +1,4 @@
+- [2026-08-17](2026/08/17)
 # Daily Index
 
 Chronological archive of the repository's daily watch notes.
