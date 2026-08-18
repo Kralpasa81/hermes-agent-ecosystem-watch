@@ -1,9 +1,10 @@
-- [2026-08-17](2026/08/17)
 # Daily Index
 
 Chronological archive of the repository's daily watch notes.
 
 ## Entries
+- [2026-08-18](../daily/2026-08-18.md)
+- [2026-08-17](../daily/2026-08-17.md)
 - [2026-08-16](../daily/2026-08-16.md)
 - [2026-08-14](../daily/2026-08-14.md)
 - [2026-08-11](../daily/2026-08-11.md)

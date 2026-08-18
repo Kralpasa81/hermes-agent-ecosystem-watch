@@ -12,8 +12,13 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-08-18
+- **DeepSeek V4-Pro reaches general availability** ⭐
+  - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available
+  (https://aiagentstore.ai/ai-agent-news/this-week)
+
 ### 2026-08-16
-- **DeepSeek V4-Pro launches general availability ⭐**
+- **DeepSeek V4-Pro launches general availability** ⭐
   - Adaptive reasoning profiles, tiered pricing, and API compatibility
   - Significant development for agent-ready language models
   (https://aiagentstore.ai/ai-agent-news/this-week)
@@ -43,9 +48,10 @@ Use this page for developments that meaningfully change:
   (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
 
 #### 2026-08-15
-- **Hermes Agent v4.2.0 release** ⭐
+### Hermes Agent v4.2.0 release ⭐
   - Major stabilization and fixes update across the Hermes ecosystem
-  (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3)
+  - Now the current stable after v0.20.0 (Herald) and v0.20.4 maintenance releases
+  (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18)
 
 - **OpenAI Build Week for Codex** ⭐
   - Strong developer ecosystem engagement around Codex platform

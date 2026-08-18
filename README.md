@@ -15,12 +15,12 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note: [2026-08-17](2026/08/17)  
-[2026-08-16](daily/2026-08-16.md)
-- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
-- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update: 2024-08-15 — Hermes Agent v4.2.0 released with major ecosystem stabilization and fixes spanning desktop app, gateway platforms, installers, tool system, and provider catalogs. Broader ecosystem shows strong OpenAI developer engagement through Build Week, and Anthropic maintaining momentum with major releases like Sonnet 5 launch. — Hermes Agent v4.2.0 remains current stable with major ecosystem improvements. Broader ecosystem sees industry-wide shift toward auto-approval models with tools like Anthropic's auto mode becoming default on August 14th, 2026.
-"
+18- **Latest daily note: [2026-08-18](daily/2026-08-18.md)
+19- [2026-08-16](daily/2026-08-16.md)
+20- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
+21- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
+22- **Last update: 2026-08-18 — Quiet day overall but with a maintenance release for Hermes Agent v0.20.4 and DeepSeek V4-Pro reaching general availability. The daily note maintains continuity even on calm days.
+23-
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
 2. Then broader AI agent ecosystem developments are reviewed.

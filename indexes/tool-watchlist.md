@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.20.0 (The Herald Release) now the current stable baseline** (tagged Aug 3, 2026) after shipping major updates to the Hermes ecosystem. Focus on autonomous functions, flexible Python evaluation, safety/conversion tools. Major features: A2A v1.0, real-time conversational voice, signed outbound webhooks. Full release notes: [GitHub Release](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3). This follows the v0.19.1 infrastructure patch tag (July 30) which rolled up ~2,789 commits and ~442,000 insertions since v0.19.0 for downstream consumers with complete release notes expected with v0.20.0. Concrete post-tag fixes include org-shared-skills sync bug closure and idle-CPU regression fixes.
+- Current watch note: **v0.20.4 (2026.8.18) now the current stable baseline** following v0.20.0 (The Herald Release) from Aug 3. Key v0.20.0 improvements include autonomous functions, flexible Python evaluation, safety/conversion tools, A2A v1.0, real-time conversational voice, and signed outbound webhooks. ([v2026.8.18](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18))
 - Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.30, https://github.com/NousResearch/hermes-agent/pull/75237, https://github.com/NousResearch/hermes-agent/pull/75218, https://github.com/NousResearch/hermes-agent/pull/75210, https://github.com/NousResearch/hermes-agent/issues/75983, https://github.com/NousResearch/hermes-agent/commit/713a983e, https://github.com/NousResearch/hermes-agent/pull/76573
 
 ### GitHub Copilot
@@ -78,9 +78,9 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Source: https://openai.com/index/codex-for-every-role-tool-workflow/
 ## DeepSeek
 91|- Area: reasoning-focused language model for AI agents
-92| Why it matters: Optimized agent execution model with tiered pricing and strong open-ended reasoning capabilities
-93|- Current watch note: **V4 Pro launched general availability August 16, 2026** with adaptive reasoning profiles, tiered pricing, and API compatibility.
-94| Sources: https://aiagentstore.ai/ai-agent-news/this-week
+92|- Why it matters: Optimized agent execution model with tiered pricing and strong open-ended reasoning capabilities
+93|- Current watch note: **V4 Pro launched general availability August 16, 2026** with adaptive reasoning profiles, tiered pricing, and API compatibility ([source](https://aiagentstore.ai/ai-agent-news/this-week))
+94|- Source: https://aiagentstore.ai/ai-agent-news/this-week
 
 ## MCP ecosystem
 | 
