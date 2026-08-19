@@ -15,11 +15,12 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-18- **Latest daily note: [2026-08-18](daily/2026-08-18.md)
-19- [2026-08-16](daily/2026-08-16.md)
-20- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
-21- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-22- **Last update: 2026-08-18 — Quiet day overall but with a maintenance release for Hermes Agent v0.20.4 and DeepSeek V4-Pro reaching general availability. The daily note maintains continuity even on calm days.
+18- **Latest daily note: [2026-08-19](daily/2026-08-19.md)
+19- [2026-08-18](daily/2026-08-18.md)
+20- [2026-08-17](daily/2026-08-17.md)
+21- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
+22- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
+23- **Last update: 2026-08-19 — Not multiple urgent announcements, but meaningful maintenance updates for Hermes Agent v0.20.6 were recorded.
 23-
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
