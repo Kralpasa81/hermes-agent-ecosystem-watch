@@ -15,12 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-18- **Latest daily note: [2026-08-19](daily/2026-08-19.md)
-19- [2026-08-18](daily/2026-08-18.md)
-20- [2026-08-17](daily/2026-08-17.md)
-21- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
-22- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-23- **Last update: 2026-08-19 — Not multiple urgent announcements, but meaningful maintenance updates for Hermes Agent v0.20.6 were recorded.
+18- **Latest daily note: [2026-08-23](daily/2026-08-23.md)
+19- [2026-08-19](daily/2026-08-19.md)
+20- [2026-08-18](daily/2026-08-18.md)
+21- [2026-08-17](daily/2026-08-17.md)
+22- **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
+23- **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
+24- **Last update: 2026-08-23 — Quiet day. No significant new Hermes Agent updates or broader ecosystem announcements were identified during today's sweep. The daily structure is maintained with a clear note when days lack strong signals.
 23-
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
