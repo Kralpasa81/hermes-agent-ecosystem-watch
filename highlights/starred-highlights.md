@@ -12,6 +12,15 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-08-24
+- **Hermes Agent v0.15.2 release** ⭐
+  - Session persistence reliability improvements and TUI performance optimization
+  - Continued stabilization of H
+- **MCP Security Alert**: CSA Research published a bulletin about MCP auto-execution risks with coding assistants
+- **DeepSeek V4-Pro launches general availability** ⭐
+  - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available
+  (https://aiagentstore.ai/ai-agent-news/this-week)
+
 ### 2026-08-18
 - **DeepSeek V4-Pro reaches general availability** ⭐
   - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available

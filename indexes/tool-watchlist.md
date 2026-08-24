@@ -7,93 +7,24 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.20.4 (2026.8.18) now the current stable baseline** following v0.20.0 (The Herald Release) from Aug 3. Key v0.20.0 improvements include autonomous functions, flexible Python evaluation, safety/conversion tools, A2A v1.0, real-time conversational voice, and signed outbound webhooks. ([v2026.8.18](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18))
-- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.30, https://github.com/NousResearch/hermes-agent/pull/75237, https://github.com/NousResearch/hermes-agent/pull/75218, https://github.com/NousResearch/hermes-agent/pull/75210, https://github.com/NousResearch/hermes-agent/issues/75983, https://github.com/NousResearch/hermes-agent/commit/713a983e, https://github.com/NousResearch/hermes-agent/pull/76573
+- Current watch note: **v0.15.2 (2026.8.23.2) now the current stable baseline** following v0.15.2 (Aug 23). Key improvements include session persistence reliability and TUI performance optimization.
+- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.23.2, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.20, https://github.com/NousResearch/hermes-agent/pull/75237, https://github.com/NousResearch/hermes-agent/pull/75218, https://github.com/NousResearch/hermes-agent/pull/75210, https://github.com/NousResearch/hermes-agent/issues/75983, https://github.com/NousResearch/hermes-agent/commit/713a983e, https://github.com/NousResearch/hermes-agent/pull/76573
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
 - Current watch note: **Claude Opus 5 now available in Copilot** (Jul 24) for Pro+/Max/Business/Enterprise plans, billed at provider list price. **GitHub Copilot for JetBrains v1.15 released** (Aug 9) adds Enterprise Managed Settings, persistent memory, local model access (Ollama integration). MAI-Code-1.1-Flash rolls out to Copilot users - 25% more efficient than previous model.
 - Sources: https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot, https://www.reddit.com/r/GithubCopilot/comments/1vliln4/github_copilot_for_jetbrains_v115_updates/, https://digg.com/tech/lzx6u4yu
-- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20, https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.30, https://github.com/NousResearch/hermes-agent/pull/75237, https://github.com/NousResearch/hermes-agent/pull/75218, https://github.com/NousResearch/hermes-agent/pull/75210, https://github.com/NousResearch/hermes-agent/issues/75983, https://github.com/NousResearch/hermes-agent/commit/713a983e, https://github.com/NousResearch/hermes-agent/pull/76573
 
-### Claude Code
-- Area: coding agent / agentic development workflow
-- Why it matters: strong benchmark and ecosystem signal for coding-agent UX, limits, and workflow features
-- Current watch note: **`2.1.219`** (Jul 24) sets **Claude Opus 5** as the default Opus model — 1M context, fast mode at $10/$50 per Mtok (Opus 4.7 removed from fast mode) — same day GitHub Copilot shipped Opus 5 across nine surfaces, making this a genuine cross-vendor model-launch event rather than a routine bump. Also in `2.1.219`: default nested-subagent spawn depth raised to 3 (from 1, override via `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1`), a new `sandbox.network.strictAllowlist` setting (deny non-allowlisted hosts for sandboxed commands without prompting), a `DirectoryAdded` hook firing after `/add-dir`, and MCP config validation now surfaces skipped-server errors in headless stream-json and `/mcp`. **`2.1.220`** (Jul 25) is bug-fix/reliability only. **`2.1.218`** (Jul 22) closed a real security gap: agent frontmatter hooks now require the *agent file's own folder* to have accepted workspace trust before running, not just the invoking session. **`2.1.217`** (Jul 21) added anti-runaway-fanout guardrails: a default cap of 20 concurrently-running subagents, no nested subagent spawning by default (superseded by `2.1.219`'s depth-3 default), and a working `--max-budget-usd` halt for background subagents.
-- Sources: https://github.com/anthropics/claude-code/releases/tag/v2.1.219, https://github.com/anthropics/claude-code/releases/tag/v2.1.218, https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md
+### FastFS-MCP
+- Area: filesystem access server for AI agents
+- Why it matters: provides AI assistants with direct, authenticated access to local filesystems and Git repositories
+- Current watch note: **v2.3 released** (2026-08-24) with improved Git operations support and enhanced performance
 
-### Claude Tag
-- Area: team agent surface / Slack-based delegated work
-- Why it matters: moves Claude-style coding and knowledge work into shared channels with selected tool, data, and codebase access; useful as a mainstream signal for multiplayer, proactive, asynchronous agents
-- Current watch note: Introduced June 23 in beta for Claude Team and Enterprise customers. Claude Tag starts in Slack, replaces the existing Claude in Slack app, lets teams tag `@Claude`, and is framed by Anthropic as an evolution of Claude Code toward proactive team workflows.
-- Source: https://www.anthropic.com/news/introducing-claude-tag
-
-### Claude Opus 5
-- Area: frontier model tier for coding agents and long-horizon knowledge work
-- Why it matters: affects Claude Code default model choice, GitHub Copilot model picker, provider routing, pricing, and high-complexity autonomous coding workflows
-- Current watch note: Launched **Jul 24** and immediately set as Claude Code's default Opus model (`2.1.219`) — 1M context, fast mode at $10/$50 per Mtok, with Opus 4.7 removed from fast mode. Shipped **same day** in GitHub Copilot across nine surfaces (VS Code, Visual Studio, Copilot CLI, cloud agent, Copilot app, JetBrains, Xcode, Eclipse, github.com) for Pro+/Max/Business/Enterprise plans, billed at provider list price, with added safeguards on high-harm cyber-related requests. A genuine cross-vendor day-one launch rather than a staggered rollout.
-- Sources: https://github.com/anthropics/claude-code/releases/tag/v2.1.219, https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot
-
-### Anthropic Claude Fable 5 / Mythos 5
-- Area: frontier model tier for coding agents and long-horizon knowledge work
-- Why it matters: affects Claude Code, GitHub Copilot model choice, provider routing, governance, cost, data-retention review, and high-complexity autonomous coding workflows
-- Current watch note: Export controls were lifted June 30 and global access restored July 1 with a plan-included promo window on Pro/Max/Team/eligible Enterprise plans (up to 50% of weekly usage limits at no extra cost, same pool as other models). That promo window has now been extended **twice** at the wire: original July 7 cutoff → moved to July 12 (announced July 7) → moved again to **July 19** (announced early July 13, after the July 12 deadline had already passed). Claude Code's 50% higher weekly rate limits extend alongside each Fable 5 extension. No forward commitment exists past July 19 — teams standardizing workflows on Fable 5 should not assume a stable cutoff date. Post-promo rate is $10/$50 per M tokens in/out on usage credits.
-- Sources: https://www.anthropic.com/news/redeploying-fable-5, https://www.anthropic.com/news/fable-mythos-access, https://support.claude.com (help center, updated Jul 13)
-
-### OpenAI Codex / OpenAI developer stack
-- Area: coding agents / developer tooling
-- Why it matters: major ecosystem direction-setter for agent workflows, desktop automation, CLI/IDE flows, MCP configuration, and API/platform patterns
-- Current watch note: **CLI reaches stable `rust-v0.146.0` (Jul 29)** after a week of alpha churn since `0.145.0`: named/pinnable sessions with side conversations (`/new`, `/clear`), thread forking with paginated history (including temporary forks that don't appear in listings), Code Mode over WebSocket to remote hosts, standalone web search for compatible custom model providers, executor-provided skill discovery with resource reads, and — notably — **Agent Plugins gain workspace publishing plus new marketplaces for Amazon Bedrock and Claude Code**, a genuine cross-vendor plugin-interoperability move rather than a Codex-only feature. Also: proxy handling hardened across auth/plugin-downloads/MCP-authorization/WebSockets, MCP connections now reconnect closed servers without restarting healthy ones, and enterprise in-app-update controls were added. Before that, **OpenAI launched Presence (Jul 22)**, its first managed enterprise product for deploying and governing AI voice/chat agents in production (policies, escalation rules, monitoring, guardrails bundled), in limited availability for eligible enterprise customers. **Codex + ChatGPT Work crossed 8M active users** (Jul 14–15) following the GPT-5.6 launch (Jul 9), forcing real scaling rollbacks (5-hour cap removed for Plus/Business/Pro, context window cut back on Sol, reasoning-effort changes reverted); OpenAI's unified ChatGPT/Codex desktop app also drew widespread Windows freeze reports after the Jul 17 update. Net effect: Codex's feature set and enterprise product line are growing fast (now including direct plugin interop with Claude Code and Bedrock) even as reliability/capacity strain persists — track both before standardizing workflows on it.
-- Sources: https://github.com/openai/codex/releases/tag/rust-v0.146.0, https://thenewstack.io/gpt-5-6-codex-user-surge/, https://www.reddit.com/r/codex/comments/1uyqbzl/probleme_lag_last_update/, https://community.openai.com/c/chatgpt/bugs/23, https://openai.com/index/introducing-openai-presence
-
-### GitHub Copilot
-- Area: IDE assistant / GitHub-native coding workflows
-- Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **Jul 30**: VS Code Copilot's July 2026 releases (v1.127–v1.131) bring the Agents window (public preview) a real cross-vendor interoperability move — Copilot, Claude, and Codex sessions can each now run in an isolated Git worktree from the same UI — alongside a redesigned review layout (inline/side-by-side diff toggle, per-file counts), subagent tracking (model, elapsed time, active tool call), and acting on failed CI checks/review comments from a chat banner. Same day, Copilot in Visual Studio ships a new **SDK-based Agent (Preview)** built on the GitHub Copilot SDK, plus built-in .NET/Azure expert skills (off by default), inline "Review Selection" code review, and org-level custom instructions. **Jul 29**: Copilot code review's support for agent skills and MCP servers reaches **general availability** (Pro/Pro+/Business/Enterprise), after a public preview — `.github/skills/*/SKILL.md` files can now feed team-specific standards into reviews, MCP servers already configured for Copilot cloud agent automatically apply to code review (read-only tool calls there), and review comments now show attribution when generated from a skill or MCP context. Same day, GitHub introduced a **default model-enablement policy for Business/Enterprise plans**: newly-GA models will be on by default (single org/enterprise opt-out), taking effect **Aug 26** after a 28-day inert window; explicit per-model choices are preserved, and open-weight/non-DPA models (DeepSeek, Kimi K2.7, Fable 5) stay excluded regardless of policy. **Jul 28**: enterprise governance surface widened — enterprise managed settings (`managed-settings.json`) now extend to the Copilot app and Copilot cloud agent (previously only CLI/VS Code were covered), the Copilot app gets its own standalone access policy independent of the CLI policy, and Copilot for JetBrains adds OpenTelemetry export configuration plus per-model token limits and enable/disable controls for BYOK/custom endpoints; **Grok 4.5 also rolled out across Copilot surfaces the same day** — a model-menu expansion, not a new capability class. **Jul 24**: **Claude Opus 5 shipped day-one** across VS Code, Visual Studio, Copilot CLI, cloud agent, the Copilot app, JetBrains, Xcode, and Eclipse (Pro+/Max/Business/Enterprise, gradual rollout, provider-list-price billing, with added safeguards on high-harm cyber content) — same-day as Opus 5 becoming Claude Code's default Opus.
-- Sources: https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases, https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update, https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available, https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise, https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot, https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app, https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy, https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management, https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot
-
-### GitHub Copilot SDK
-- Area: embeddable agent runtime / developer SDK
-- Why it matters: stable programmatic access to Copilot planning, tool invocation, file edits, streaming, multi-turn sessions, custom tools, MCP servers, hooks, tracing, BYOK, and cloud/remote sessions
-- Current watch note: General availability was announced on June 2, with SDK support across six language stacks and new Rust/Java availability called out at GA.
-- Source: https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available
-
-### GitHub Agentic Workflows
-- Area: GitHub Actions-native agentic engineering automation
-- Why it matters: brings reasoning-based agents into governed CI/CD infrastructure for triage, CI failure analysis, documentation updates, security remediation, dependency maintenance, routine change review, reporting, and compliance
-- Current watch note: Public preview was announced June 11. Workflows are written in natural-language Markdown, compiled into standard GitHub Actions YAML, run with read-only defaults and sandboxing, and can use `GITHUB_TOKEN` instead of long-lived PATs with organization billing via `copilot-requests: write`. Also watch the June 16 GitHub Actions Node 24 default-runtime migration because agentic workflows and their third-party JavaScript actions inherit the underlying Actions runtime behavior.
-- Sources: https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview, https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners
-
-### GitHub Agent Finder / Agentic Resource Discovery (ARD)
-- Area: agent resource discovery / registry-based tool and skill selection
-- Why it matters: reduces context-window bloat and manual pre-wiring by letting agents discover approved MCP servers, skills, canvases, agents, and tools on demand from a public or private registry
-- Current watch note: GitHub Agent Finder became available across Copilot plans on June 17. It uses the open Agentic Resource Discovery specification and can point at GitHub's curated catalog or an internal registry while respecting enterprise governance and avoiding silent auto-installation.
-- Sources: https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available/, https://github.com/agentfinder
-
-### OpenAI Codex Sites
-- Area: Codex-hosted app/site canvas
-- Why it matters: extends Codex from coding tasks into hosted interactive sites, dashboards, internal tools, lightweight apps, and games that can be shared within a workspace
-- Current watch note: Announced as a June 2 preview inside the Codex app alongside role-specific plugins and annotations.
-- Source: https://openai.com/index/codex-for-every-role-tool-workflow/
-## DeepSeek
-91|- Area: reasoning-focused language model for AI agents
-92|- Why it matters: Optimized agent execution model with tiered pricing and strong open-ended reasoning capabilities
-93|- Current watch note: **V4 Pro launched general availability August 16, 2026** with adaptive reasoning profiles, tiered pricing, and API compatibility ([source](https://aiagentstore.ai/ai-agent-news/this-week))
-94|- Source: https://aiagentstore.ai/ai-agent-news/this-week
-
-## MCP ecosystem
-| 
-| Area: protocol / tool interoperability layer
-| Why it matters: increasingly central to connecting agents with external tools and services
-| Current watch note: **The MCP 2026-07-28 specification has gone live **confirmed Jul 29, still current as of Jul 30**.** `modelcontextprotocol.io/specification/latest` 307-redirects to `/specification/2026-07-28` — the largest spec revision since launch: stateless HTTP core **removes `initialize`/`initialized` handshake and `Mcp-Session-Id`** — any server instance can handle any request, works behind a plain round-robin load balancer); MCP Apps **server-rendered UIs via a new extension**; Tasks extension now first-class; OAuth/OIDC-aligned authorization; JSON Schema 2020-12 support for tool schemas; W3C Trace Context propagation standardized; `ttlMs`/`cacheScope` on list results; formal deprecation policy **12-month window minimum**. Confirmed **breaking change** for existing MCP implementations. **Jul 29: a concrete mainstream MCP adoption signal** — GitHub Copilot code review's support for agent skills and MPC servers reached general availability **Pro/Pro+/Business/Enterprise** after public preview; any MCP servers already wired up for Copilot cloud agent now feed code review too **read-only tool calls**, with attribution shown on generated comments. **Jul 23: GitHub MCP Server shipped concrete stateless-core support ahead of the deadline** — Redis-backed sessions removed entirely **no DB writes on `initialize`, no DB reads per call**, deep packet inspection replaced with guaranteed HTTP-header fields for logging/secret-scanning, and its stdio elicitation flow upgraded to the new multi-round-trip HTTP elicitation with a Go SDK compatibility wrapper for old/new clients. Tier 1 SDKs have all shipped backward-compatible beta support; official conformance tests were also added. Enterprise-Managed Authorization **centralizing MCP server access through an IdP** remains stable. **Jul 28: Hermes closed a real MCP OAuth interoperability gap with Figma** **see Hermes Agent entry** — a concrete example of the practical friction MCP clients hit against provider-specific OAuth allowlists.
-| Sources: https://modelcontextprotocol.io/specification/2026-07-28, https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/, https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available, https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/, https://github.com/NousResearch/hermes-agent/commit/1eb5ee1e
-
-### Skills Over MCP
-- Area: MCP-based agent skill discovery / portability
-- Why it matters: connects portable agent skills with MCP registry, spec, SDK, and client behavior instead of leaving skills locked to individual hosts
-- Current watch note: A June 30 MCP Working Session focuses on how "agent skills" can be discovered and consumed through MCP, with SEP-2640 called out as the near-term focus through June 2026.
-- Source: https://meet.modelcontextprotocol.io/2026/06/skills-over-mcp-working-session-bi-weekly--WrKrEDAM75hr
+### Argus
+- Area: MCP server exploration and testing
+- Why it matters: Postman-like GUI for exploring and testing MCP servers
+- Current watch note: **v0.9 reached beta** (2026-08-24) with improved UI and expanded feature set
 
 ## Watchlist policy
 - Add a tool only if it is materially relevant.
