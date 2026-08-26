@@ -15,18 +15,18 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-- **Latest daily note**: [2026-08-24](daily/2026-08-24.md)
+- **Latest daily note**: [2026-08-26](daily/2026-08-26.md)
+- [2026-08-25](daily/2026-08-25.md)
+- [2026-08-24](daily/2026-08-24.md)
 - [2026-08-23](daily/2026-08-23.md)
 - [2026-08-19](daily/2026-08-19.md)
-- [2026-08-18](daily/2026-08-18.md)
-- [2026-08-17](daily/2026-08-17.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update: 2026-08-24** — Meaningful updates today across both Hermes core and broader agent ecosystem, particularly around session reliability and security hardening.
+- **Last update: 2026-08-26** — Hermes ranked choice voting improvements, FastFS-MCP v2.3, and Argus v0.9 beta.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
-2. Then broader AI agent ecosystem developments are reviewed.
+2. Then broader AI agent ecosystem developments are reviewed.  
 3. Only meaningful updates are promoted into highlights or the tool watchlist.
 4. A daily file is still committed even on quiet days, so the history stays continuous.
 
