@@ -57,7 +57,13 @@ Use this page for developments that meaningfully change:
   (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
 
 #### 2026-08-15
-### Hermes Agent v4.2.0 release ⭐
+### 2026-08-29
+- ⭐ **Cloudflare Agents Week** - Major platform-wide focus on agent infrastructure, security, and deployment tools with multiple new product announcements
+- ⭐ **AI Coding Agent Benchmarks** - Comprehensive performance comparison showing meaningful improvements across all major platforms
+- **Hermes Agent v0.20.6** - Continued focus on documentation, update reliability, and platform stability
+- **NeuralCoreTech Analysis**: Comprehensive benchmark study of agent performance across platforms with actionable insights
+
+## Highlight rule
   - Major stabilization and fixes update across the Hermes ecosystem
   - Now the current stable after v0.20.0 (Herald) and v0.20.4 maintenance releases
   (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18)
