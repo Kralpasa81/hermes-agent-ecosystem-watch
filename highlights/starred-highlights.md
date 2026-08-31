@@ -12,10 +12,14 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-08-31
+- **Hermes Agent v0.20.6 release** ⭐ — Continued stabilization improvements
+- **MCP Provider Stability**: Focus on reliability after v0.15.2 fixes
+
 ### 2026-08-24
 - **Hermes Agent v0.15.2 release** ⭐
   - Session persistence reliability improvements and TUI performance optimization
-  - Continued stabilization of H
+  - Continued stabilization of Hermes ecosystem
 - **MCP Security Alert**: CSA Research published a bulletin about MCP auto-execution risks with coding assistants
 - **DeepSeek V4-Pro launches general availability** ⭐
   - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available
@@ -38,25 +42,12 @@ Use this page for developments that meaningfully change:
   - Major update to the Hermes ecosystem with practical workflow implications
   (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3)
 
-### 2026-08-02
-- **A high-severity, silent data-loss bug in `hermes skills install` is fixed...**
-
-### 2026-07-31
-- **A real org-shared-skills sync bug is closed in Hermes...**
-
-### 2026-07-30
-- **Hermes ships iMessage-style message reactions as a genuine full-stack capability...**
-
-### 2026-07-29
-- **The MCP 2026-07-28 specification has gone live...**
-
-## 2026-08-09
+### 2026-08-09
 - **Claude Code Auto Mode becomes default on August 14, 2026** ⭐  
   - Significant shift toward greater agent autonomy in coding workflows
   - Auto mode catching 89% of harmful actions vs 13.6% from human review
   (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
 
-#### 2026-08-15
 ### 2026-08-29
 - ⭐ **Cloudflare Agents Week** - Major platform-wide focus on agent infrastructure, security, and deployment tools with multiple new product announcements
 - ⭐ **AI Coding Agent Benchmarks** - Comprehensive performance comparison showing meaningful improvements across all major platforms
@@ -64,8 +55,8 @@ Use this page for developments that meaningfully change:
 - **NeuralCoreTech Analysis**: Comprehensive benchmark study of agent performance across platforms with actionable insights
 
 ## Highlight rule
-  - Major stabilization and fixes update across the Hermes ecosystem
-  - Now the current stable after v0.20.0 (Herald) and v0.20.4 maintenance releases
+- Major stabilization and fixes update across the Hermes ecosystem
+- Now the current stable after v0.20.0 (Herald) and v0.20.4 maintenance releases
   (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18)
 
 - **OpenAI Build Week for Codex** ⭐

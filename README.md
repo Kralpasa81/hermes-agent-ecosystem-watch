@@ -14,15 +14,16 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `indexes/tool-watchlist.md` — tracked tools, programs, and platforms worth watching
 - `highlights/starred-highlights.md` — highest-signal developments only
 
-## Current snapshot
-- **Latest daily note**: [2026-08-29](daily/2026-08-29.md)
+## Current snapshot  
+- **Latest daily note**: [2026-08-31](daily/2026-08-31.md)
+- [2026-08-29](daily/2026-08-29.md)
 - [2026-08-28](daily/2026-08-28.md)
-- [2026-08-26](daily/2026-08-26.md)
+- [2026-08-26](daily/2026-08-26.md)  
 - [2026-08-23](daily/2026-08-23.md)
 - [2026-08-19](daily/2026-08-19.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update: 2026-08-29** — Cloudflare Agents Week, Hermes Agent v0.20.6 release, and comprehensive AI coding agent benchmark analysis.
+- **Last update: 2026-08-31** — Quiet ecosystem day, focus on stabilization trends.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
