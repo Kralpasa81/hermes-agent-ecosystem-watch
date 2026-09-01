@@ -12,57 +12,28 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
-### 2026-08-31
-- **Hermes Agent v0.20.6 release** ⭐ — Continued stabilization improvements
-- **MCP Provider Stability**: Focus on reliability after v0.15.2 fixes
-
-### 2026-08-24
-- **Hermes Agent v0.15.2 release** ⭐
-  - Session persistence reliability improvements and TUI performance optimization
-  - Continued stabilization of Hermes ecosystem
-- **MCP Security Alert**: CSA Research published a bulletin about MCP auto-execution risks with coding assistants
-- **DeepSeek V4-Pro launches general availability** ⭐
-  - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available
-  (https://aiagentstore.ai/ai-agent-news/this-week)
-
-### 2026-08-18
-- **DeepSeek V4-Pro reaches general availability** ⭐
-  - Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available
-  (https://aiagentstore.ai/ai-agent-news/this-week)
-
-### 2026-08-16
-- **DeepSeek V4-Pro launches general availability** ⭐
-  - Adaptive reasoning profiles, tiered pricing, and API compatibility
-  - Significant development for agent-ready language models
-  (https://aiagentstore.ai/ai-agent-news/this-week)
+### 2026-09-01
+- ⭐ **Hermes Agent v0.21.0 "The Pantheon Release" (Aug 31, 2026)**  
+  The largest Hermes release since v0.20.0 (Herald). ~5,800 commits, ~2,475 merged PRs, 760+ contributors.  
+  What materially changes: **Bot Mode** (multi-agent group chats, named agents with avatars, @-mentions — built into desktop by default); **`hermes peer`** (bot-to-bot DMs across profiles/gateways, durable and inspectable); **cron memory + `continuity=true`** (scheduled jobs now carry output between runs, deduplicate against previous reports, skip LLM when nothing changed); **live subagent steering** (steer/stop `delegate_task` children mid-flight, JSON-schema output validation, 250-iteration / 10-child defaults); **MCP command center** (unified dashboard, `hermes://` deep links, health checks, fleet cost overlay); **browser agent** (Hermes drives the in-app browser — navigate, click, read); six new providers + `model_overrides`.  
+  Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31
 
 ### 2026-08-11
-- **Hermes Agent v0.20.0 (The Herald Release) shipped on August 3, 2026** ⭐
-  - Autonomous functions, more flexible Python evaluation, and improved safety/conversion tools
-  - Major update to the Hermes ecosystem with practical workflow implications
-  (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3)
+- ⭐ **Hermes Agent v0.20.0 "The Herald Release" (Aug 3, 2026)**  
+  Autonomous functions, flexible Python evaluation, improved safety/conversion tools. Foundation for v0.21.0.  
+  Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3
 
 ### 2026-08-09
-- **Claude Code Auto Mode becomes default on August 14, 2026** ⭐  
-  - Significant shift toward greater agent autonomy in coding workflows
-  - Auto mode catching 89% of harmful actions vs 13.6% from human review
-  (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
+- ⭐ **Claude Code Auto Mode becomes default (Aug 14, 2026)**  
+  Significant shift toward greater agent autonomy in coding workflows. Auto mode catching 89% of harmful actions vs 13.6% from human review.  
+  Source: https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
 
-### 2026-08-29
-- ⭐ **Cloudflare Agents Week** - Major platform-wide focus on agent infrastructure, security, and deployment tools with multiple new product announcements
-- ⭐ **AI Coding Agent Benchmarks** - Comprehensive performance comparison showing meaningful improvements across all major platforms
-- **Hermes Agent v0.20.6** - Continued focus on documentation, update reliability, and platform stability
-- **NeuralCoreTech Analysis**: Comprehensive benchmark study of agent performance across platforms with actionable insights
+### 2026-08-24
+- ⭐ **MCP Security Alert** — CSA Research published bulletin on MCP auto-execution risks with coding assistants.
+- ⭐ **DeepSeek V4-Pro general availability** — Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available.
 
-## Highlight rule
-- Major stabilization and fixes update across the Hermes ecosystem
-- Now the current stable after v0.20.0 (Herald) and v0.20.4 maintenance releases
-  (https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18)
-
-- **OpenAI Build Week for Codex** ⭐
-  - Strong developer ecosystem engagement around Codex platform
-  (https://community.openai.com/t/openai-build-week-exploring-whats-possible-with-codex/1386233)
-
-- **Claude Sonnet 5 launch** ⭐
-  - Significant performance leap for coding and agent workflows
-  (https://www.anthropic.com/news/claude-sonnet-5)
+### 2026-07 (ongoing)
+- ⭐ **MCP specification 2026-07-28** — Stateless protocol (no handshake/sessions), HTTP-native, routable/cacheable/traceable. Updated TypeScript, Python, Go, C# SDKs. Now fully adopted by Cloudflare, Google, and major MCP client implementors.  
+  Source: https://blog.modelcontextprotocol.io/posts/2026-07-28/
+- ⭐ **Claude Sonnet 5** — Significant performance leap for coding and agent workflows.
+- ⭐ **Hermes Desktop public preview (Jun 2, 2026)** — Hermes Agent as a native app for macOS/Windows/Linux.

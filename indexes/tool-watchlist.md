@@ -7,14 +7,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, changelog-worthy fixes, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.20.6 (v2026.8.27) released** - steady improvements to documentation, update handling, and Windows venv reliability. Recent focus on model catalog updates and skills system refinements.
-- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27
+- Current watch note: **v0.21.0 "The Pantheon Release" (v2026.8.31)** — Bot Mode (multi-agent group chats built into desktop), `hermes peer` bot-to-bot DMs, cron memory + `continuity=true`, live subagent steering in `delegate_task`, unified MCP command center with `hermes://` deep links, browser agent (Hermes now drives the in-app browser), six new providers (Meta Muse Spark, CommandCode, Tencent TokenPlan, Nebius, Ramp Router, Actual Computer), new model catalog entries, `model_overrides` for custom context/pricing patches. ~5,800 commits, ~2,475 PRs, 760+ contributors since v0.20.0.
+- Sources: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **Claude Opus 5 now available in Copilot** (Jul 24) for Pro+/Max/Business/Enterprise plans, billed at provider list price. **GitHub Copilot for JetBrains v1.15 released** (Aug 9) adds Enterprise Managed Settings, persistent memory, local model access (Ollama integration). MAI-Code-1.1-Flash rolls out to Copilot users - 25% more efficient than previous model.
-- Sources: https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot, https://www.reddit.com/r/GithubCopilot/comments/1vliln4/github_copilot_for_jetbrains_v115_updates/, https://digg.com/tech/lzx6u4yu, [Cloudflare Agents Week updates](https://blog.cloudflare.com/agents-week-review-august-2026/)
+- Current watch note: **August 2026 Visual Studio update (Aug 28)** — org-level custom agents publishable across all repos; adjustable model thinking effort (Low/Medium/High) for supported models; improved model picker with pin/collapse/management view; Git agent reviews uncommitted changes and commits inline before PRs.
+- Sources: https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/
 
 ### FastFS-MCP
 - Area: filesystem access server for AI agents
