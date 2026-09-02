@@ -13,8 +13,8 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **August 2026 Visual Studio update (Aug 28)** — org-level custom agents publishable across all repos; adjustable model thinking effort (Low/Medium/High) for supported models; improved model picker with pin/collapse/management view; Git agent reviews uncommitted changes and commits inline before PRs.
-- Sources: https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/
+- Current watch note: **Sep 1–2 2026** — Copilot code review can now **approve pull requests** (public preview; off by default, configurable at enterprise/org/repo level, down to file paths); **Claude Fable 5.1** (Anthropic Mythos-class, long-horizon agent coding) GA across all Copilot clients. VS Code Aug 2026 (v1.132–v1.135): Agent Host cross-session continuity, side-by-side chats, `/btw` side-chat, Agent Plugins 1.0 standard, experimental `/rubber-duck`, browser element annotation, multi-language dictation.
+- Sources: https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests | https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot | https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases/
 
 ### FastFS-MCP
 - Area: filesystem access server for AI agents

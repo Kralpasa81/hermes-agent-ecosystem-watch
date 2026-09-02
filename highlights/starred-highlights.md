@@ -12,6 +12,15 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-02
+- ⭐ **Claude Fable 5.1 GA in GitHub Copilot (Sep 1)**  
+  Anthropic's Mythos-class model designed for long-horizon autonomous coding available across the full Copilot client surface (VS Code, Visual Studio, JetBrains, Xcode, Eclipse, Copilot CLI, coding agent, GitHub.com, mobile). Data retention required by default for safety classifiers; ZDR access via time-bound EFS exemption for eligible enterprises.  
+  Source: https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot
+
+- ⭐ **Copilot code review can approve pull requests — public preview (Sep 1)**  
+  Copilot can now submit a counted PR approval against required-approvals rules. Off by default; configurable at enterprise / org / repo level, with per-path controls. Approval dismissed on new commits. First meaningful step toward AI-backed merge gates in GitHub-native workflows.  
+  Source: https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests
+
 ### 2026-09-01
 - ⭐ **Hermes Agent v0.21.0 "The Pantheon Release" (Aug 31, 2026)**  
   The largest Hermes release since v0.20.0 (Herald). ~5,800 commits, ~2,475 merged PRs, 760+ contributors.  
