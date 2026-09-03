@@ -13,8 +13,14 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **Sep 1–2 2026** — Copilot code review can now **approve pull requests** (public preview; off by default, configurable at enterprise/org/repo level, down to file paths); **Claude Fable 5.1** (Anthropic Mythos-class, long-horizon agent coding) GA across all Copilot clients. VS Code Aug 2026 (v1.132–v1.135): Agent Host cross-session continuity, side-by-side chats, `/btw` side-chat, Agent Plugins 1.0 standard, experimental `/rubber-duck`, browser element annotation, multi-language dictation.
-- Sources: https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests | https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot | https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases/
+- Current watch note: **Sep 3, 2026** — **MAI-Code-1.1-Flash** (Microsoft AI model with native vision and improved coding) rolling out across Copilot clients; replaces MAI-Code-1-Flash on Sep 10. Copilot CLI now supports **air-gapped GHES environments**. **Claude Fable 5.1** (Anthropic Mythos-class, long-horizon agent coding) GA across all Copilot clients (Sep 1); **Copilot code review can now approve pull requests** (public preview; off by default, configurable). VS Code Aug 2026 (v1.132–v1.135): Agent Host cross-session continuity, side-by-side chats, `/btw` side-chat, Agent Plugins 1.0 standard, experimental `/rubber-duck`, browser element annotation, multi-language dictation.
+- Sources: https://github.blog/changelog/ | https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/ | https://x.com/GHchangelog
+
+### OpenAI API / Codex
+- Area: core models, developer platform, agent tooling
+- Why it matters: critical for new capabilities, pricing, and infrastructure shifts that impact agent design and cost management
+- Current watch note: **Sep 3, 2026** — **DevDay 2026 confirmed for Sep 29** in San Francisco (global "DevDay Exchange" events planned). **GPT-5.6 Sol price reduction** (Aug 21) of 20%+ for input ($5 → $4 per million tokens) and 33% for output ($30 → $20 per million tokens) extended through Nov 21, 2026. This applies to API, Codex credits, and ChatGPT Work.  
+- Sources: https://devday.openai.com/ | https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726
 
 ### FastFS-MCP
 - Area: filesystem access server for AI agents

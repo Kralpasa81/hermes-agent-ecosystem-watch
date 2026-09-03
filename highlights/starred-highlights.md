@@ -12,11 +12,16 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
-### 2026-09-02
-- ⭐ **Claude Fable 5.1 GA in GitHub Copilot (Sep 1)**  
-  Anthropic's Mythos-class model designed for long-horizon autonomous coding available across the full Copilot client surface (VS Code, Visual Studio, JetBrains, Xcode, Eclipse, Copilot CLI, coding agent, GitHub.com, mobile). Data retention required by default for safety classifiers; ZDR access via time-bound EFS exemption for eligible enterprises.  
-  Source: https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot
+### 2026-09-03
+- ⭐ **MAI-Code-1.1-Flash rolling out in GitHub Copilot**  
+  Microsoft's updated coding model with native vision support (image understanding) and improved performance rolling out across Copilot clients. Replaces MAI-Code-1-Flash on Sep 10.  
+  Source: https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/
 
+- ⭐ **Claude Fable 5.1 and Mythos 5.1 launched (Sep 1, 2026)**  
+  Anthropic's most advanced models for coding and knowledge work now generally available in Claude API, Claude Code, and GitHub Copilot (Fable 5.1).  
+  Source: https://www.anthropic.com/claude-fable-and-mythos-5-1
+
+### 2026-09-02
 - ⭐ **Copilot code review can approve pull requests — public preview (Sep 1)**  
   Copilot can now submit a counted PR approval against required-approvals rules. Off by default; configurable at enterprise / org / repo level, with per-path controls. Approval dismissed on new commits. First meaningful step toward AI-backed merge gates in GitHub-native workflows.  
   Source: https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests
