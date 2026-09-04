@@ -13,7 +13,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **Sep 3, 2026** — **MAI-Code-1.1-Flash** (Microsoft AI model with native vision and improved coding) rolling out across Copilot clients; replaces MAI-Code-1-Flash on Sep 10. Copilot CLI now supports **air-gapped GHES environments**. **Claude Fable 5.1** (Anthropic Mythos-class, long-horizon agent coding) GA across all Copilot clients (Sep 1); **Copilot code review can now approve pull requests** (public preview; off by default, configurable). VS Code Aug 2026 (v1.132–v1.135): Agent Host cross-session continuity, side-by-side chats, `/btw` side-chat, Agent Plugins 1.0 standard, experimental `/rubber-duck`, browser element annotation, multi-language dictation.
+- Current watch note: **Sep 4, 2026** — **GitHub Copilot app for Beginners: Run several agents at once** guide released (Sep 2), highlighting multi-agent capabilities. **MAI-Code-1.1-Flash** (Microsoft AI model with native vision and improved coding) rolling out across Copilot clients; replaces MAI-Code-1-Flash on Sep 10. Copilot CLI now supports **air-gapped GHES environments**. **Claude Fable 5.1** (Anthropic Mythos-class, long-horizon agent coding) GA across all Copilot clients (Sep 1); **Copilot code review can now approve pull requests** (public preview; off by default, configurable). VS Code Aug 2026 (v1.132–v1.135): Agent Host cross-session continuity, side-by-side chats, `/btw` side-chat, Agent Plugins 1.0 standard, experimental `/rubber-duck`, browser element annotation, multi-language dictation.
 - Sources: https://github.blog/changelog/ | https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/ | https://x.com/GHchangelog
 
 ### OpenAI API / Codex
@@ -37,6 +37,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Why it matters: tracks relative performance and capabilities of leading AI coding agents
 - Current watch note: **August 2026 comprehensive benchmark** released, showing notable improvements in accuracy, speed, and multi-language support across major platforms
 - Sources: https://af.net/realtime/best-ai-coding-agents-august-2026-benchmarks-and-guide/
+
+### System Initiative
+- Area: Infrastructure automation with AI agents
+- Why it matters: Integrates autonomous AI agents with digital twins of IT infrastructure for proposing and executing changes, optimizing workflows, and discovering hidden relationships.
+- Current watch note: **September 2026** - Added autonomous AI agents to its platform.
+- Sources: https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform/
 
 ## Watchlist policy
 - Add a tool only if it is materially relevant.

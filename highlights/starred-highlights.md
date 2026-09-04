@@ -21,6 +21,9 @@ Use this page for developments that meaningfully change:
   Anthropic's most advanced models for coding and knowledge work now generally available in Claude API, Claude Code, and GitHub Copilot (Fable 5.1).  
   Source: https://www.anthropic.com/claude-fable-and-mythos-5-1
 
+### 2026-08-27
+- ⭐ **Anthropic's Model Hardware Standard (MHS) Research Preview:** A significant step towards standardized, safe operation of AI agents with physical devices, broadening the scope of agentic AI.
+
 ### 2026-09-02
 - ⭐ **Copilot code review can approve pull requests — public preview (Sep 1)**  
   Copilot can now submit a counted PR approval against required-approvals rules. Off by default; configurable at enterprise / org / repo level, with per-path controls. Approval dismissed on new commits. First meaningful step toward AI-backed merge gates in GitHub-native workflows.  
