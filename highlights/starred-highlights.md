@@ -12,6 +12,16 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-08
+- ⭐ **Anthropic Claude Opus 5 Released:** Major performance and cost efficiency improvements, more than doubling Opus 4.8 on Frontier-Bench v0.1. Crucial for advanced agent task execution.  
+  Source: https://thenewstack.io/best-ai-coding-agents-2026-ranked/
+- ⭐ **OpenAI GPT-5.6 Family (Sol, Terra, Luna) & Sol Ultra Integration:** New flagship models generally available, with Sol Ultra integrating into the Codex client for cooperative subagents.  
+  Source: https://thenewstack.io/best-ai-coding-agents-2026-ranked/
+- ⭐ **Claude & OpenAI Codex Agents on GitHub Copilot (Public Preview):** Deep integration into GitHub and VS Code for Pro+ and Enterprise users, enabling direct assignment of agent tasks to major models within development workflows.  
+  Source: https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/
+- ⭐ **Hermes Agent v0.21.1 (v2026.9.7) Released:** Focus on performance and stability improvements.  
+  Source: https://github.com/NousResearch/hermes-agent/releases
+
 ### 2026-09-03
 - ⭐ **MAI-Code-1.1-Flash rolling out in GitHub Copilot**  
   Microsoft's updated coding model with native vision support (image understanding) and improved performance rolling out across Copilot clients. Replaces MAI-Code-1-Flash on Sep 10.  
