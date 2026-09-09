@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-09
+- ⭐ **Hermes Agent OAuth Live:** Nous Research launched OAuth for Hermes Agent, enabling 1-click connection to Honcho from Hermes Desktop and the CLI. This significantly streamlines user authentication and integration workflows. (Source: Facebook Group post by Nous Research)
+
+
 ### 2026-09-08
 - ⭐ **Anthropic Claude Opus 5 Released:** Major performance and cost efficiency improvements, more than doubling Opus 4.8 on Frontier-Bench v0.1. Crucial for advanced agent task execution.  
   Source: https://thenewstack.io/best-ai-coding-agents-2026-ranked/

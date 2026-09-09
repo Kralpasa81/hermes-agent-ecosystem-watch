@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, changelog-worthy fixes, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.21.1 (v2026.9.7)** released, focusing on performance and stability improvements.
+- Current watch note: **v0.21.1 (v2026.9.7)** released. **OAuth is now live** (2026-09-09), enabling 1-click connection to Honcho from Desktop and CLI.
 - Sources: https://github.com/NousResearch/hermes-agent/releases
 
 ### GitHub Copilot
