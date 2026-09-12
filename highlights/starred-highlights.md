@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-12
+- ⭐ GitHub's Agent HQ offers a significant shift towards multi-agent, integrated coding environments, improving developer workflows by allowing different agents to work on various steps without context switching.
+- ⭐ The relaunch of OpenAI Codex as an autonomous, cloud-based agent and the introduction of Codex Security signal a growing trend towards specialized, high-autonomy AI in software development, particularly in security.
+
 ### 2026-09-10
 - ⭐ **Hermes Agent v0.21.1 Released (2026.09.07):** Nous Research released version `v0.21.1` of Hermes Agent. This marks a new official release, indicating ongoing development and improvements. [[Source](https://github.com/NousResearch/hermes-agent/releases)]
 
