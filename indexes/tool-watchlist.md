@@ -7,19 +7,19 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, changelog-worthy fixes, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.21.2 (v2026.9.11)** released.
+- Current watch note: **v0.21.2 (v2026.9.11)** released. **Sep 12, 2026** — Critical bug `[Bug]: hermes update` sweeps live `state.db`/`-wal` on flat installs, causing silent transcript loss. (Source: [GitHub Issue #110648](https://github.com/NousResearch/hermes-agent/issues/110648))
 - Sources: https://github.com/NousResearch/hermes-agent/releases
 
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
-- Current watch note: **Sep 12, 2026** — **GitHub Agent HQ** launched, allowing Copilot Pro+ and Enterprise users to run Claude by Anthropic and OpenAI Codex agents directly within GitHub and VS Code. This facilitates multi-agent workflows and direct task assignment. Further integrations with Google, Cognition, and xAI are planned. **GitHub Copilot desktop app** is in public preview. **MAI-Code-1.1-Flash** is rolling out across Copilot clients. Copilot CLI supports **air-gapped GHES environments**. **Claude Fable 5.1** is GA. Copilot code review can **approve pull requests** (public preview).
+- Current watch note: **Sep 14, 2026** — **GitHub Copilot CLI** now features **HydraFusion** (Research Preview), enabling frontier quality via multi-model orchestration. **Sep 12, 2026** — **GitHub Agent HQ** launched, allowing Copilot Pro+ and Enterprise users to run Claude by Anthropic and OpenAI Codex agents directly within GitHub and VS Code. This facilitates multi-agent workflows and direct task assignment. Further integrations with Google, Cognition, and xAI are planned. **GitHub Copilot desktop app** is in public preview. **MAI-Code-1.1-Flash** is rolling out across Copilot clients. Copilot CLI supports **air-gapped GHES environments**. **Claude Fable 5.1** is GA. Copilot code review can **approve pull requests** (public preview). (Source: [GitHub Community Discussions](https://github.com/orgs/community/discussions/206492))
 - Sources: https://github.blog/changelog/ | https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/ | https://x.com/GHchangelog
 
 ### OpenAI API / Codex
 - Area: core models, developer platform, agent tooling
 - Why it matters: critical for new capabilities, pricing, and infrastructure shifts that impact agent design and cost management
-- Current watch note: **Sep 12, 2026** — OpenAI relaunched Codex (May 2025) as a cloud-based, autonomous coding agent (now GPT-5.5 based), capable of end-to-end task execution. OpenAI introduced **Codex Security** (March 2026) for automated vulnerability detection and remediation. **Anthropic Claude Opus 5** and **OpenAI GPT-5.6 family (Sol, Terra, Luna)** with Sol Ultra in Codex client announced (Sep 8, 2026). **DevDay 2026 confirmed for Sep 29**. **GPT-5.6 Sol price reduction** (Aug 21) extended.
+- Current watch note: **Sep 14, 2026** — OpenAI launched a new **Managed Agents API** to simplify enterprise AI agent development. **Sep 12, 2026** — OpenAI relaunched Codex (May 2025) as a cloud-based, autonomous coding agent (now GPT-5.5 based), capable of end-to-end task execution. OpenAI introduced **Codex Security** (March 2026) for automated vulnerability detection and remediation. **Anthropic Claude Opus 5** and **OpenAI GPT-5.6 family (Sol, Terra, Luna)** with Sol Ultra in Codex client announced (Sep 8, 2026). **DevDay 2026 confirmed for Sep 29**. **GPT-5.6 Sol price reduction** (Aug 21) extended. (Source: [InfoWorld](https://www.infoworld.com/article/4221163/openai-launches-managed-agents-api-to-simplify-enterprise-ai-agent-development.html))
 - Sources: https://devday.openai.com/ | https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726 | https://thenewstack.io/best-ai-coding-agents-2026-ranked/
 
 ### FastFS-MCP
