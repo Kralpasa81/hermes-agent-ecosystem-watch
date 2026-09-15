@@ -12,15 +12,16 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-15
+- ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Critical bug fixes for remote session stability and `state.db` handle leaks improve reliability for all Hermes Agent users, especially those using cloud or remote desktop setups.
+- ⭐ **AI Agent Security Exploits and Detections:** The CrowdStrike demo and Claude cookie exploit reports highlight a rapidly evolving threat landscape for AI agents, pushing the need for advanced security measures and monitoring.
+- ⭐ **GitHub Copilot Expands Model Support with GPT-6 Astra and Gemini 3.8 Flash:** The integration of these cutting-edge models significantly enhances Copilot's capabilities, offering developers more powerful and diverse AI assistance directly within their workflow.
+
 ### 2026-09-14
 - ⭐ **OpenAI Launches Managed Agents API**: Significant for enterprise AI agent development, simplifying deployment and management in corporate environments. (Source: [InfoWorld](https://www.infoworld.com/article/4221163/openai-launches-managed-agents-api-to-simplify-enterprise-ai-agent-development.html))
 - ⭐ **GitHub Copilot CLI: HydraFusion Live**: Introduces multi-model orchestration for advanced coding assistance, enhancing code generation. (Source: [GitHub Community Discussions](https://github.com/orgs/community/discussions/206492))
 - ⭐ **Anthropic Fable 5.1 and Mythos 5.1 Released**: Anthropic's most advanced models for coding and knowledge work, enhancing efficiency and capability. (Source: [Anthropic News](https://www.anthropic.com/))
 
-### 2026-09-12
-- ⭐ **Hermes Agent Bug Alert**: Critical bug `[Bug]: hermes update` sweeps live `state.db`/`-wal` on flat installs, causing silent transcript loss. (Source: [GitHub Issue #110648](https://github.com/NousResearch/hermes-agent/issues/110648))
-- ⭐ GitHub's Agent HQ offers a significant shift towards multi-agent, integrated coding environments, improving developer workflows by allowing different agents to work on various steps without context switching.
-- ⭐ The relaunch of OpenAI Codex as an autonomous, cloud-based agent and the introduction of Codex Security signal a growing trend towards specialized, high-autonomy AI in software development, particularly in security.
 
 ### 2026-09-10
 - ⭐ **Hermes Agent v0.21.1 Released (2026.09.07):** Nous Research released version `v0.21.1` of Hermes Agent. This marks a new official release, indicating ongoing development and improvements. [[Source](https://github.com/NousResearch/hermes-agent/releases)]
