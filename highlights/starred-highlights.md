@@ -12,6 +12,11 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-17
+- ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Latest update for Hermes Agent, further enhancing capabilities.
+- ⭐ **OpenAI GPT-6 Astra Launch:** OpenAI's new model brings stronger biological reasoning to its API.
+- ⭐ **Anthropic Claude 4 New API Capabilities & Claude Code Beta:** Introduces code execution, MCP connector, Files API, prompt caching, and IDE integrations for Claude Code.
+
 ### 2026-09-15
 - ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Critical bug fixes for remote session stability and `state.db` handle leaks improve reliability for all Hermes Agent users, especially those using cloud or remote desktop setups.
 - ⭐ **AI Agent Security Exploits and Detections:** The CrowdStrike demo and Claude cookie exploit reports highlight a rapidly evolving threat landscape for AI agents, pushing the need for advanced security measures and monitoring.

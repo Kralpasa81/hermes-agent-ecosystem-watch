@@ -15,7 +15,7 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot  
-- **Latest daily note**: [2026-09-15](daily/2026-09-15.md)
+- **Latest daily note**: [2026-09-17](daily/2026-09-17.md)
 - [2026-09-09](daily/2026-09-09.md)
 - [2026-09-02](daily/2026-09-02.md)
 - [2026-09-01](daily/2026-09-01.md)
@@ -24,7 +24,7 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - [2026-08-28](daily/2026-08-28.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- - **Last update: 2026-09-15** — Today's update includes Hermes Agent stability fixes, new model integrations for GitHub Copilot, and significant AI agent security developments.
+- - **Last update: 2026-09-17** — Today's update includes Hermes Agent v0.21.3 release, OpenAI GPT-6 Astra launch, and Anthropic Claude 4 enhancements.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
