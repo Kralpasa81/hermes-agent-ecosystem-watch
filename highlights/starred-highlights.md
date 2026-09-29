@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-09-29
+- ⭐ **Anthropic Claude Sonnet 5.5 Release:** (Sep 28, 2026) Anthropic announced Claude Sonnet 5.5, offering 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. This upgrade significantly enhances capabilities for AI-assisted development. [[Source](https://www.anthropic.com/news/claude-sonnet-5-5)]
+
 ### 2026-09-17
 - ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Latest update for Hermes Agent, further enhancing capabilities.
 - ⭐ **OpenAI GPT-6 Astra Launch:** OpenAI's new model brings stronger biological reasoning to its API.

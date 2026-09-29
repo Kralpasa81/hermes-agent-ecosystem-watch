@@ -25,7 +25,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Anthropic Claude Code
 - Area: AI coding assistant, IDE extensions
 - Why it matters: directly integrates Claude's coding capabilities into developer workflows, supporting agentic development and code generation/review. Significant for MCP ecosystem with new API capabilities.
-- Current watch note: **Sep 17, 2026** — New beta extensions for VS Code and JetBrains integrate Claude Code directly into IDEs. Claude Code on GitHub also launched in beta. Claude 4 also introduces new API capabilities: code execution tool, MCP connector, Files API, and prompt caching.
+- Current watch note: **Sep 29, 2026** — Anthropic introduced **Claude Sonnet 5.5** (Sep 28, 2026), a significant upgrade to Sonnet 5 with 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. The Bedrock default Sonnet model has also been updated to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`. Previous updates: **Sep 17, 2026** — New beta extensions for VS Code and JetBrains integrate Claude Code directly into IDEs. Claude Code on GitHub also launched in beta. Claude 4 also introduces new API capabilities: code execution tool, MCP connector, Files API, and prompt caching. (Source: [https://www.anthropic.com/news/claude-sonnet-5-5](https://www.anthropic.com/news/claude-sonnet-5-5) and [https://code.claude.com/docs/en/changelog](https://code.claude.com/docs/en/changelog))
 - Sources: https://www.anthropic.com/news/claude-4
 
 ### FastFS-MCP
