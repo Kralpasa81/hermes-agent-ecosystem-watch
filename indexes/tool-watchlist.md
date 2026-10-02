@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, changelog-worthy fixes, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.21.3 (v2026.9.14)** released on September 14, 2026. This patch addresses critical remote dashboard session expiry issues and prevents long-lived processes from leaking duplicate `state.db` writer handles. (Source: [https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.14](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.14))
+- Current watch note: **v0.21.5 (v2026.9.24)** is the latest stable release. Notable features from **v0.21.0 (v2026.08.31)** include the introduction of **Bot Mode** for multi-agent societies, **`hermes peer`** for direct bot-to-bot DMs, **Persistent Cron Jobs** that remember past interactions, **Live Subagent Orchestration** for real-time control, an **Enhanced MCP Command Center** for unified management, and **Agent-Driven Desktop Browser** capabilities. Significant updates also include a **CLI Power Wave**, an **Expanded Provider & Model Catalog**, and **Comprehensive Security Hardening**. (Source: [https://github.com/NousResearch/hermes-agent/releases](https://github.com/NousResearch/hermes-agent/releases))
 - Sources: https://github.com/NousResearch/hermes-agent/releases
 
 ### GitHub Copilot
@@ -25,7 +25,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Anthropic Claude Code
 - Area: AI coding assistant, IDE extensions
 - Why it matters: directly integrates Claude's coding capabilities into developer workflows, supporting agentic development and code generation/review. Significant for MCP ecosystem with new API capabilities.
-- Current watch note: **Sep 29, 2026** — Anthropic introduced **Claude Sonnet 5.5** (Sep 28, 2026), a significant upgrade to Sonnet 5 with 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. The Bedrock default Sonnet model has also been updated to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`. Previous updates: **Sep 17, 2026** — New beta extensions for VS Code and JetBrains integrate Claude Code directly into IDEs. Claude Code on GitHub also launched in beta. Claude 4 also introduces new API capabilities: code execution tool, MCP connector, Files API, and prompt caching. (Source: [https://www.anthropic.com/news/claude-sonnet-5-5](https://www.anthropic.com/news/claude-sonnet-5-5) and [https://code.claude.com/docs/en/changelog](https://code.claude.com/docs/en/changelog))
+- Current watch note: **Sep 29, 2026** — Anthropic introduced **Claude Sonnet 5.5** (Sep 28, 2026), a significant upgrade to Sonnet 5 with 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. The Bedrock default Sonnet model has also been updated to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`. Previous updates: **Sep 17, 2026** — New beta extensions for VS Code and JetBrains integrate Claude Code directly into IDEs. Claude Code on GitHub also launched in beta. Claude 4 also introduces new API capabilities: code execution tool, MCP connector, Files API, and prompt caching. **Feb 05, 2026** — **Claude Opus 4.6** introduced with significant enhancements in coding skills, agentic task capabilities, a 1M token context window (beta), and new features like agent teams in Claude Code, context compaction, adaptive thinking, and effort controls. It also includes improved Claude in Excel and a research preview for PowerPoint. (Source: [https://www.anthropic.com/news/claude-opus-4-6](https://www.anthropic.com/news/claude-opus-4-6))
 - Sources: https://www.anthropic.com/news/claude-4
 
 ### FastFS-MCP
@@ -49,6 +49,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Why it matters: Integrates autonomous AI agents with digital twins of IT infrastructure for proposing and executing changes, optimizing workflows, and discovering hidden relationships.
 - Current watch note: **September 2026** - Added autonomous AI agents to its platform.
 - Sources: https://devops.com/system-initiative-adds-ai-agents-to-infrastructure-automation-platform/
+
+### Dynatrace AI Coding Agent Monitoring
+- Area: AI agent observability, performance, cost, and governance
+- Why it matters: provides unified monitoring for various AI coding agents (Claude Code, Google Gemini CLI, OpenAI Codex CLI, OpenCode, GitHub Copilot SDK) across development and production workflows. Crucial for understanding agent behavior and operational impact.
+- Current watch note: **April 2026** - Expanded monitoring capabilities launched, offering insights into agent activity, token consumption, costs, and tool interactions through a unified Dynatrace platform. (Source: [https://www.dynatrace.com/news/blog/dynatrace-expands-ai-coding-agent-monitoring/](https://www.dynatrace.com/news/blog/dynatrace-expands-ai-coding-agent-monitoring/))
+
 
 ## Watchlist policy
 - Add a tool only if it is materially relevant.

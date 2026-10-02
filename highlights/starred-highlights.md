@@ -12,16 +12,19 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-02
+- ⭐ **Hermes Agent v0.21.0 - The Pantheon Release & v0.21.5 Stable:** The "Pantheon Release" (v0.21.0, Aug 31, 2026) introduced transformative features including **Bot Mode** for multi-agent societies, **`hermes peer`** for direct bot-to-bot DMs, **Persistent Cron Jobs** with memory and `continuity=true`, **Live Subagent Orchestration** for real-time control, an **Enhanced MCP Command Center**, and **Agent-Driven Desktop Browser** capabilities. This release, followed by the latest stable v0.21.5 (Sep 24, 2026), significantly elevates Hermes's multi-agent workflow, task reliability, and ecosystem integration. ([Source](https://github.com/NousResearch/hermes-agent/releases))
+- ⭐ **Anthropic Claude Opus 4.6 - 1M Token Context, Agent Teams, Adaptive Thinking, Enhanced Coding:** (Feb 05, 2026) Marks a substantial leap in Claude's intelligence and agentic potential, offering a 1M token context window (beta), agent teams in Claude Code, adaptive thinking, and advanced coding capabilities. This expands its utility for complex, long-running agentic tasks. ([Source](https://www.anthropic.com/news/claude-opus-4-6))
+- ⭐ **GitHub Integrates Claude Code & OpenAI Codex in Public Preview:** (Feb 02, 2026) A pivotal move embedding leading AI coding agents directly into mainstream developer workflows on GitHub and VS Code for Copilot Pro+ and Enterprise users. This enables direct assignment of agent tasks to major models within the GitHub ecosystem. ([Source](https://github.com/orgs/community/discussions/186179))
+
 ### 2026-09-29
 - ⭐ **Anthropic Claude Sonnet 5.5 Release:** (Sep 28, 2026) Anthropic announced Claude Sonnet 5.5, offering 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. This upgrade significantly enhances capabilities for AI-assisted development. [[Source](https://www.anthropic.com/news/claude-sonnet-5-5)]
 
 ### 2026-09-17
-- ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Latest update for Hermes Agent, further enhancing capabilities.
 - ⭐ **OpenAI GPT-6 Astra Launch:** OpenAI's new model brings stronger biological reasoning to its API.
 - ⭐ **Anthropic Claude 4 New API Capabilities & Claude Code Beta:** Introduces code execution, MCP connector, Files API, prompt caching, and IDE integrations for Claude Code.
 
 ### 2026-09-15
-- ⭐ **Hermes Agent v0.21.3 (v2026.9.14) Release:** Critical bug fixes for remote session stability and `state.db` handle leaks improve reliability for all Hermes Agent users, especially those using cloud or remote desktop setups.
 - ⭐ **AI Agent Security Exploits and Detections:** The CrowdStrike demo and Claude cookie exploit reports highlight a rapidly evolving threat landscape for AI agents, pushing the need for advanced security measures and monitoring.
 - ⭐ **GitHub Copilot Expands Model Support with GPT-6 Astra and Gemini 3.8 Flash:** The integration of these cutting-edge models significantly enhances Copilot's capabilities, offering developers more powerful and diverse AI assistance directly within their workflow.
 
@@ -30,13 +33,8 @@ Use this page for developments that meaningfully change:
 - ⭐ **GitHub Copilot CLI: HydraFusion Live**: Introduces multi-model orchestration for advanced coding assistance, enhancing code generation. (Source: [GitHub Community Discussions](https://github.com/orgs/community/discussions/206492))
 - ⭐ **Anthropic Fable 5.1 and Mythos 5.1 Released**: Anthropic's most advanced models for coding and knowledge work, enhancing efficiency and capability. (Source: [Anthropic News](https://www.anthropic.com/))
 
-
-### 2026-09-10
-- ⭐ **Hermes Agent v0.21.1 Released (2026.09.07):** Nous Research released version `v0.21.1` of Hermes Agent. This marks a new official release, indicating ongoing development and improvements. [[Source](https://github.com/NousResearch/hermes-agent/releases)]
-
 ### 2026-09-09
 - ⭐ **Hermes Agent OAuth Live:** Nous Research launched OAuth for Hermes Agent, enabling 1-click connection to Honcho from Hermes Desktop and the CLI. This significantly streamlines user authentication and integration workflows. (Source: Facebook Group post by Nous Research)
-
 
 ### 2026-09-08
 - ⭐ **Anthropic Claude Opus 5 Released:** Major performance and cost efficiency improvements, more than doubling Opus 4.8 on Frontier-Bench v0.1. Crucial for advanced agent task execution.  
@@ -46,29 +44,25 @@ Use this page for developments that meaningfully change:
 - ⭐ **Claude & OpenAI Codex Agents on GitHub Copilot (Public Preview):** Deep integration into GitHub and VS Code for Pro+ and Enterprise users, enabling direct assignment of agent tasks to major models within development workflows.  
   Source: https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/
 
-
 ### 2026-09-03
 - ⭐ **MAI-Code-1.1-Flash rolling out in GitHub Copilot**  
   Microsoft's updated coding model with native vision support (image understanding) and improved performance rolling out across Copilot clients. Replaces MAI-Code-1-Flash on Sep 10.  
   Source: https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/
-
 - ⭐ **Claude Fable 5.1 and Mythos 5.1 launched (Sep 1, 2026)**  
   Anthropic's most advanced models for coding and knowledge work now generally available in Claude API, Claude Code, and GitHub Copilot (Fable 5.1).  
   Source: https://www.anthropic.com/claude-fable-and-mythos-5-1
-
-### 2026-08-27
-- ⭐ **Anthropic's Model Hardware Standard (MHS) Research Preview:** A significant step towards standardized, safe operation of AI agents with physical devices, broadening the scope of agentic AI.
 
 ### 2026-09-02
 - ⭐ **Copilot code review can approve pull requests — public preview (Sep 1)**  
   Copilot can now submit a counted PR approval against required-approvals rules. Off by default; configurable at enterprise / org / repo level, with per-path controls. Approval dismissed on new commits. First meaningful step toward AI-backed merge gates in GitHub-native workflows.  
   Source: https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests
 
-### 2026-09-01
-- ⭐ **Hermes Agent v0.21.0 "The Pantheon Release" (Aug 31, 2026)**  
-  The largest Hermes release since v0.20.0 (Herald). ~5,800 commits, ~2,475 merged PRs, 760+ contributors.  
-  What materially changes: **Bot Mode** (multi-agent group chats, named agents with avatars, @-mentions — built into desktop by default); **`hermes peer`** (bot-to-bot DMs across profiles/gateways, durable and inspectable); **cron memory + `continuity=true`** (scheduled jobs now carry output between runs, deduplicate against previous reports, skip LLM when nothing changed); **live subagent steering** (steer/stop `delegate_task` children mid-flight, JSON-schema output validation, 250-iteration / 10-child defaults); **MCP command center** (unified dashboard, `hermes://` deep links, health checks, fleet cost overlay); **browser agent** (Hermes drives the in-app browser — navigate, click, read); six new providers + `model_overrides`.  
-  Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31
+### 2026-08-27
+- ⭐ **Anthropic's Model Hardware Standard (MHS) Research Preview:** A significant step towards standardized, safe operation of AI agents with physical devices, broadening the scope of agentic AI.
+
+### 2026-08-24
+- ⭐ **MCP Security Alert** — CSA Research published bulletin on MCP auto-execution risks with coding assistants.
+- ⭐ **DeepSeek V4-Pro general availability** — Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available.
 
 ### 2026-08-11
 - ⭐ **Hermes Agent v0.20.0 "The Herald Release" (Aug 3, 2026)**  
@@ -79,10 +73,6 @@ Use this page for developments that meaningfully change:
 - ⭐ **Claude Code Auto Mode becomes default (Aug 14, 2026)**  
   Significant shift toward greater agent autonomy in coding workflows. Auto mode catching 89% of harmful actions vs 13.6% from human review.  
   Source: https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/
-
-### 2026-08-24
-- ⭐ **MCP Security Alert** — CSA Research published bulletin on MCP auto-execution risks with coding assistants.
-- ⭐ **DeepSeek V4-Pro general availability** — Adaptive reasoning profiles, tiered pricing, and API compatibility now widely available.
 
 ### 2026-07 (ongoing)
 - ⭐ **MCP specification 2026-07-28** — Stateless protocol (no handshake/sessions), HTTP-native, routable/cacheable/traceable. Updated TypeScript, Python, Go, C# SDKs. Now fully adopted by Cloudflare, Google, and major MCP client implementors.  

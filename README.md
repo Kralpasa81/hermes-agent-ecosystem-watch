@@ -15,7 +15,7 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot  
-- **Latest daily note**: [2026-09-29](daily/2026-09-29.md)
+Latest daily note: [2026-10-02](daily/2026-10-02.md)
 - [2026-09-09](daily/2026-09-09.md)
 - [2026-09-02](daily/2026-09-02.md)
 - [2026-09-01](daily/2026-09-01.md)
@@ -24,7 +24,7 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - [2026-08-28](daily/2026-08-28.md)
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- - **Last update: 2026-09-29** — Today's update found no new major developments in the Hermes-adjacent or broader AI agent ecosystem.
+- - **Last update: 2026-10-02** — Today's update found no new major developments in the Hermes-adjacent or broader AI agent ecosystem.
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
