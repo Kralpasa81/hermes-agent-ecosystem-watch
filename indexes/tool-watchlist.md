@@ -7,7 +7,7 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 ### Hermes Agent
 - Area: open-source agent framework
 - Why it matters: primary watch target for releases, docs, changelog-worthy fixes, gateway, tools, cron, skills, MCP, and workflow changes
-- Current watch note: **v0.21.5 (v2026.9.24)** is the latest stable release. Notable features from **v0.21.0 (v2026.08.31)** include the introduction of **Bot Mode** for multi-agent societies, **`hermes peer`** for direct bot-to-bot DMs, **Persistent Cron Jobs** that remember past interactions, **Live Subagent Orchestration** for real-time control, an **Enhanced MCP Command Center** for unified management, and **Agent-Driven Desktop Browser** capabilities. Significant updates also include a **CLI Power Wave**, an **Expanded Provider & Model Catalog**, and **Comprehensive Security Hardening**. (Source: [https://github.com/NousResearch/hermes-agent/releases](https://github.com/NousResearch/hermes-agent/releases))
+- Current watch note: **v0.22.4** (October 21, 2026) is the latest stable release. It removes unsolicited Desktop suggestion pills, skips empty plugin dependency-consent prompts, fixes WhatsApp re-pairing after logout, and adds catalog integrations including **`mcp-serve`** (Hermes as an MCP server) and **`agent-importers`** with Cursor support. These are practical reliability and interoperability changes. ([Release notes](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4))
 - Sources: https://github.com/NousResearch/hermes-agent/releases
 
 ### GitHub Copilot

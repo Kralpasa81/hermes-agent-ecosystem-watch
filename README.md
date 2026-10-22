@@ -14,17 +14,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `indexes/tool-watchlist.md` — tracked tools, programs, and platforms worth watching
 - `highlights/starred-highlights.md` — highest-signal developments only
 
-## Current snapshot  
-Latest daily note: [2026-10-02](daily/2026-10-02.md)
-- [2026-09-09](daily/2026-09-09.md)
-- [2026-09-02](daily/2026-09-02.md)
-- [2026-09-01](daily/2026-09-01.md)
-- [2026-08-31](daily/2026-08-31.md)
-- [2026-08-29](daily/2026-08-29.md)
-- [2026-08-28](daily/2026-08-28.md)
+## Current snapshot
+Latest daily note: [2026-10-22](daily/2026-10-22.md)
+
+- **Latest signal:** [Hermes Agent v0.22.4](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4) — Desktop, plugin-setup, and WhatsApp re-pairing fixes; new `mcp-serve` catalog integration.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- - **Last update: 2026-10-02** — Today's update found no new major developments in the Hermes-adjacent or broader AI agent ecosystem.
+- **Last update:** 2026-10-22
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

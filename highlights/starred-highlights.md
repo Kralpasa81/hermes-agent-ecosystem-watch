@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-22
+- ⭐ **Hermes Agent v0.22.4:** The October 21 patch improves Desktop and plugin-install reliability, fixes WhatsApp re-pairing, and adds `mcp-serve` to the catalog—a direct Hermes-as-MCP-server interoperability path. ([Source](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4))
+
 ### 2026-10-02
 - ⭐ **Hermes Agent v0.21.0 - The Pantheon Release & v0.21.5 Stable:** The "Pantheon Release" (v0.21.0, Aug 31, 2026) introduced transformative features including **Bot Mode** for multi-agent societies, **`hermes peer`** for direct bot-to-bot DMs, **Persistent Cron Jobs** with memory and `continuity=true`, **Live Subagent Orchestration** for real-time control, an **Enhanced MCP Command Center**, and **Agent-Driven Desktop Browser** capabilities. This release, followed by the latest stable v0.21.5 (Sep 24, 2026), significantly elevates Hermes's multi-agent workflow, task reliability, and ecosystem integration. ([Source](https://github.com/NousResearch/hermes-agent/releases))
 - ⭐ **Anthropic Claude Opus 4.6 - 1M Token Context, Agent Teams, Adaptive Thinking, Enhanced Coding:** (Feb 05, 2026) Marks a substantial leap in Claude's intelligence and agentic potential, offering a 1M token context window (beta), agent teams in Claude Code, adaptive thinking, and advanced coding capabilities. This expands its utility for complex, long-running agentic tasks. ([Source](https://www.anthropic.com/news/claude-opus-4-6))
