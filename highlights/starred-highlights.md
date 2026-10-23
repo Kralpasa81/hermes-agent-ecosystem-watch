@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-23
+- ⭐ **Hermes Agent v0.22.5:** The latest stable patch rolls the post-v0.22.4 work into every main distribution channel. Explicitly named improvements span pluggable delegation, agent import/migration, MCP serving, sign-in, update/gateway recovery, and experimental MCP events; full curated notes are planned for v0.23.0. ([Source](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5))
+- ⭐ **OpenAI Decisions API GA:** A dedicated GPT-6 Luna endpoint for structured probabilities, choices, and scores makes fast routing and control decisions a first-class agent building block; it also supports GPT-Live, caching, images, and JSON inputs. ([Source](https://openai.com/index/decisions-api/))
+
 ### 2026-10-22
 - ⭐ **Hermes Agent v0.22.4:** The October 21 patch improves Desktop and plugin-install reliability, fixes WhatsApp re-pairing, and adds `mcp-serve` to the catalog—a direct Hermes-as-MCP-server interoperability path. ([Source](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4))
 
