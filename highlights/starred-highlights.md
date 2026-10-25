@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-25
+- ⭐ **Hermes cron MCP allowlist safety fix:** Scheduled jobs that explicitly named one MCP server could incorrectly receive every enabled server. The fixed matching preserves the requested scope (including `no_mcp`), restoring least-privilege behavior for automation. ([Source](https://github.com/NousResearch/hermes-agent/commit/11cebb30dafd478c7f30818715ba248f24e44212))
+
 ### 2026-10-23
 - ⭐ **Hermes Agent v0.22.5:** The latest stable patch rolls the post-v0.22.4 work into every main distribution channel. Explicitly named improvements span pluggable delegation, agent import/migration, MCP serving, sign-in, update/gateway recovery, and experimental MCP events; full curated notes are planned for v0.23.0. ([Source](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5))
 - ⭐ **OpenAI Decisions API GA:** A dedicated GPT-6 Luna endpoint for structured probabilities, choices, and scores makes fast routing and control decisions a first-class agent building block; it also supports GPT-Live, caching, images, and JSON inputs. ([Source](https://openai.com/index/decisions-api/))
