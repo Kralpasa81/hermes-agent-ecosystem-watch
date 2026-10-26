@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-26
+- ⭐ **Hermes splits GitHub Copilot into a Labs provider plugin:** A merged mainline refactor removes Copilot-specific core logic in favor of generic provider-profile hooks. Existing Copilot profiles are designed to receive an automatic plugin migration, while non-Copilot profiles stop touching incidental GitHub credentials. This is an important modularity and operational-safety shift, pending its next release cut. ([Source](https://github.com/NousResearch/hermes-agent/pull/144788))
+- ⭐ **MCP reference servers v2.1.0 fixes eight vulnerabilities:** Update the filesystem and everything packages to `2.0.1`, and `mcp-server-fetch` to `2026.10.24`. The fixes matter directly to agent deployments that expose local files or web-fetch capabilities. ([Source](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0))
+
 ### 2026-10-25
 - ⭐ **Hermes cron MCP allowlist safety fix:** Scheduled jobs that explicitly named one MCP server could incorrectly receive every enabled server. The fixed matching preserves the requested scope (including `no_mcp`), restoring least-privilege behavior for automation. ([Source](https://github.com/NousResearch/hermes-agent/commit/11cebb30dafd478c7f30818715ba248f24e44212))
 

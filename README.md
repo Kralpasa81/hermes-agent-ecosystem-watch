@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-10-25](daily/2026-10-25.md)
+Latest daily note: [2026-10-26](daily/2026-10-26.md)
 
-- **Latest signal:** [Hermes cron MCP allowlist fix](https://github.com/NousResearch/hermes-agent/commit/11cebb30dafd478c7f30818715ba248f24e44212) — restores least-privilege server scoping for scheduled jobs.
-- **Latest platform signal:** [Copilot usage metrics now name custom skills, agents, and MCP servers](https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api).
+- **Latest Hermes signal:** [GitHub Copilot moves to a Hermes Labs plugin](https://github.com/NousResearch/hermes-agent/pull/144788) — a merged mainline refactor that makes provider integrations more modular and avoids touching GitHub credentials outside Copilot profiles.
+- **Latest ecosystem signal:** [MCP reference servers v2.1.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0) — security fixes for filesystem, everything, and fetch servers.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-10-25
+- **Last update:** 2026-10-26
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
