@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-10-26](daily/2026-10-26.md)
+Latest daily note: [2026-10-27](daily/2026-10-27.md)
 
 - **Latest Hermes signal:** [GitHub Copilot moves to a Hermes Labs plugin](https://github.com/NousResearch/hermes-agent/pull/144788) — a merged mainline refactor that makes provider integrations more modular and avoids touching GitHub credentials outside Copilot profiles.
-- **Latest ecosystem signal:** [MCP reference servers v2.1.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0) — security fixes for filesystem, everything, and fetch servers.
+- **Latest ecosystem signal:** [GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) — a lower-cost computer-use and visual-reasoning model now available in Codex and the API.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-10-26
+- **Last update:** 2026-10-27
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

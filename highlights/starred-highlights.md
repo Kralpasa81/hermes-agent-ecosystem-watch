@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-10-27
+- ⭐ **OpenAI releases GPT-6.1 Terra for computer-use agents:** Available in Codex, ChatGPT Work, and the API, Terra pairs visual reasoning and UI action with substantially lower standard pricing than the prior Terra generation. It is a meaningful new routing option for high-volume multimodal automation. ([Source](https://openai.com/index/introducing-gpt-6-1-terra/))
+
 ### 2026-10-26
 - ⭐ **Hermes splits GitHub Copilot into a Labs provider plugin:** A merged mainline refactor removes Copilot-specific core logic in favor of generic provider-profile hooks. Existing Copilot profiles are designed to receive an automatic plugin migration, while non-Copilot profiles stop touching incidental GitHub credentials. This is an important modularity and operational-safety shift, pending its next release cut. ([Source](https://github.com/NousResearch/hermes-agent/pull/144788))
 - ⭐ **MCP reference servers v2.1.0 fixes eight vulnerabilities:** Update the filesystem and everything packages to `2.0.1`, and `mcp-server-fetch` to `2026.10.24`. The fixes matter directly to agent deployments that expose local files or web-fetch capabilities. ([Source](https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0))
