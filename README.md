@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-10-27](daily/2026-10-27.md)
+Latest daily note: [2026-10-28](daily/2026-10-28.md)
 
-- **Latest Hermes signal:** [GitHub Copilot moves to a Hermes Labs plugin](https://github.com/NousResearch/hermes-agent/pull/144788) — a merged mainline refactor that makes provider integrations more modular and avoids touching GitHub credentials outside Copilot profiles.
+- **Latest Hermes signal:** [web-app stale-marker handling](https://github.com/NousResearch/hermes-agent/commit/07f075c291ba) — a mainline reliability fix that treats a corrupt desktop-half timestamp as stale metadata rather than an outage.
 - **Latest ecosystem signal:** [GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) — a lower-cost computer-use and visual-reasoning model now available in Codex and the API.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-10-27
+- **Last update:** 2026-10-28
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
