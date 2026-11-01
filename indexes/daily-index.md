@@ -3,6 +3,7 @@
 Chronological archive of the repository's daily watch notes.
 
 ## Entries
+- [2026-11-01](../daily/2026-11-01.md)
 - [2026-10-28](../daily/2026-10-28.md)
 - [2026-10-27](../daily/2026-10-27.md)
 - [2026-10-26](../daily/2026-10-26.md)
@@ -88,7 +89,7 @@ Chronological archive of the repository's daily watch notes.
 - [2026-06-15](../daily/2026-06-15.md)
 - [2026-06-14](../daily/2026-06-14.md)
 - [2026-06-13](../daily/2026-06-13.md)
-- [2026-06-12](../daylien/md/2026-06-12.md)
+- [2026-06-12](../daily/2026-06-12.md)
 - [2026-06-11](../daily/2026-06-11.md)
 - [2026-06-10](../daily/2026-06-10.md)
 - [2026-06-09](../daily/2026-06-09.md)

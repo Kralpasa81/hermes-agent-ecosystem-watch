@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-01
+- ⭐ **Hermes hardens approval prompts against hidden-character spoofing:** A cluster of mainline commits makes dangerous invisible content — zero-width and bidi-override characters, ANSI/OSC escapes, carriage returns, and padding — visible as explicit escapes before a human approves, and pages long approval commands so every line is reviewable. This prevents approving a command other than what actually runs. Display-only; the executed command is unchanged. ([Source](https://github.com/NousResearch/hermes-agent/commit/3f5612cde62556d0b73558230f4acb0e98279d83))
+- ⭐ **GitHub Copilot Fusion reaches GA (Universe 2026):** Copilot's multi-model routing/orchestration layer is now generally available; Fusion Max posted within two points of Claude Code + Opus 5.5 Max on the Artificial Analysis Coding Agent Index at roughly half the cost and ~40% less time per task. ([Source](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/))
+
 ### 2026-10-27
 - ⭐ **OpenAI releases GPT-6.1 Terra for computer-use agents:** Available in Codex, ChatGPT Work, and the API, Terra pairs visual reasoning and UI action with substantially lower standard pricing than the prior Terra generation. It is a meaningful new routing option for high-volume multimodal automation. ([Source](https://openai.com/index/introducing-gpt-6-1-terra/))
 
@@ -36,6 +40,7 @@ Use this page for developments that meaningfully change:
 
 ### 2026-09-29
 - ⭐ **Anthropic Claude Sonnet 5.5 Release:** (Sep 28, 2026) Anthropic announced Claude Sonnet 5.5, offering 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. This upgrade significantly enhances capabilities for AI-assisted development. [[Source](https://www.anthropic.com/news/claude-sonnet-5-5)]
+- ⭐ **OpenAI DevDay 2026 — GPT-6.1 Sol and Dots:** GPT-6.1 Sol delivers near-Astra agentic-coding, computer-use, and professional-work capability at one-fifth of Astra's price ($2/M input, $0.10/M cached, $10/M output), a major step down in the cost of capable agents. DevDay also introduced **Dots** (always-on agents inside ChatGPT) and **Agents API computer use**, extending hosted agent execution beyond chat. ([GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), [Dots](https://openai.com/index/introducing-dots/), [Recap](https://openai.com/index/devday-2026-recap/))
 
 ### 2026-09-17
 - ⭐ **OpenAI GPT-6 Astra Launch:** OpenAI's new model brings stronger biological reasoning to its API.
