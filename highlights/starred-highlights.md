@@ -42,6 +42,9 @@ Use this page for developments that meaningfully change:
 - ⭐ **Anthropic Claude Sonnet 5.5 Release:** (Sep 28, 2026) Anthropic announced Claude Sonnet 5.5, offering 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. This upgrade significantly enhances capabilities for AI-assisted development. [[Source](https://www.anthropic.com/news/claude-sonnet-5-5)]
 - ⭐ **OpenAI DevDay 2026 — GPT-6.1 Sol and Dots:** GPT-6.1 Sol delivers near-Astra agentic-coding, computer-use, and professional-work capability at one-fifth of Astra's price ($2/M input, $0.10/M cached, $10/M output), a major step down in the cost of capable agents. DevDay also introduced **Dots** (always-on agents inside ChatGPT) and **Agents API computer use**, extending hosted agent execution beyond chat. ([GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/), [Dots](https://openai.com/index/introducing-dots/), [Recap](https://openai.com/index/devday-2026-recap/))
 
+### 2026-09-22
+- ⭐ **Anthropic Claude Opus 5.5 — flagship 5.5-family model:** Leads agentic coding and knowledge work, performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5 on typical workloads. Recorded retroactively on 2026-11-02 after being missed. ([Source](https://www.anthropic.com/claude-opus-5-5))
+
 ### 2026-09-17
 - ⭐ **OpenAI GPT-6 Astra Launch:** OpenAI's new model brings stronger biological reasoning to its API.
 - ⭐ **Anthropic Claude 4 New API Capabilities & Claude Code Beta:** Introduces code execution, MCP connector, Files API, prompt caching, and IDE integrations for Claude Code.
