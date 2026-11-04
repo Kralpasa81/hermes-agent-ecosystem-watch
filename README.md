@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-02](daily/2026-11-02.md)
+Latest daily note: [2026-11-04](daily/2026-11-04.md)
 
-- **Latest Hermes signal:** [approval-prompt display hardening](https://github.com/NousResearch/hermes-agent/commit/3f5612cde62556d0b73558230f4acb0e98279d83) — mainline commits now surface hidden/zero-width, bidi-override, and ANSI-escape characters before a human approves a command, so the approved command is the one that actually runs.
-- **Latest ecosystem signal:** [GitHub Copilot Fusion GA](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/) — Copilot's multi-model orchestration layer reached general availability at Universe 2026, alongside the new Copilot app and Copilot projects.
+- **Latest Hermes signal:** [Hermes Agent v0.22.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7) (Nov 3) — latest stable patch, alongside v0.22.6 (Nov 2), rolling up ~950 PRs including a gateway-served webapp, `hermes cron cancel` + a missed-run policy, per-skill locks, a `pre_llm_call` hook, and prepared compaction. Full curated notes ship with v0.23.0.
+- **Latest ecosystem signal:** [Mistral Large 4 ("Le Chonk") open weights](https://mistral.ai/news/mistral-large-4-oss/) — a 1-trillion-parameter open model leading open-weight agentic-coding benchmarks while using ~47% fewer tokens per task.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-02
+- **Last update:** 2026-11-04
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
