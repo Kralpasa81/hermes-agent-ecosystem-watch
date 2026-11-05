@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-04](daily/2026-11-04.md)
+Latest daily note: [2026-11-05](daily/2026-11-05.md)
 
-- **Latest Hermes signal:** [Hermes Agent v0.22.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7) (Nov 3) — latest stable patch, alongside v0.22.6 (Nov 2), rolling up ~950 PRs including a gateway-served webapp, `hermes cron cancel` + a missed-run policy, per-skill locks, a `pre_llm_call` hook, and prepared compaction. Full curated notes ship with v0.23.0.
-- **Latest ecosystem signal:** [Mistral Large 4 ("Le Chonk") open weights](https://mistral.ai/news/mistral-large-4-oss/) — a 1-trillion-parameter open model leading open-weight agentic-coding benchmarks while using ~47% fewer tokens per task.
+- **Latest Hermes signal:** [Hermes Agent v0.22.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7) (Nov 3) — latest stable patch, alongside v0.22.6 (Nov 2), rolling up ~950 PRs including a gateway-served webapp, `hermes cron cancel` + a missed-run policy, per-skill locks, a `pre_llm_call` hook, and prepared compaction. Full curated notes ship with v0.23.0. Mainline on Nov 5 added MCP consent-row transparency (a scrubbed "runs/contacts" line before approval) and Desktop plugin "Update all" + Auto-update.
+- **Latest ecosystem signal:** [GitHub Copilot is now available in Xcode's coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant) (Nov 4, public preview) — Copilot lands natively in Apple's Xcode assistant (Xcode 27.3 beta), alongside a Nov 3 JetBrains Air release.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-04
+- **Last update:** 2026-11-05
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
