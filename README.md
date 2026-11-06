@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-05](daily/2026-11-05.md)
+Latest daily note: [2026-11-06](daily/2026-11-06.md)
 
-- **Latest Hermes signal:** [Hermes Agent v0.22.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7) (Nov 3) — latest stable patch, alongside v0.22.6 (Nov 2), rolling up ~950 PRs including a gateway-served webapp, `hermes cron cancel` + a missed-run policy, per-skill locks, a `pre_llm_call` hook, and prepared compaction. Full curated notes ship with v0.23.0. Mainline on Nov 5 added MCP consent-row transparency (a scrubbed "runs/contacts" line before approval) and Desktop plugin "Update all" + Auto-update.
+- **Latest Hermes signal:** [Hermes Agent v0.23.0 — The Hearth Release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0) (Nov 5) — the full-curated flagship: a browser-served Desktop workspace, a single gateway owning every conversation, `/rewind` and inline terminal images, paid-tool spend limits, self-updating plugins (catalog 600→1,050+), and major speed/memory work for long-lived gateways. Also live: the $20k Plugin Hackathon (due Nov 11) and the unified Hermes Marketplace.
 - **Latest ecosystem signal:** [GitHub Copilot is now available in Xcode's coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant) (Nov 4, public preview) — Copilot lands natively in Apple's Xcode assistant (Xcode 27.3 beta), alongside a Nov 3 JetBrains Air release.
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-05
+- **Last update:** 2026-11-06
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
