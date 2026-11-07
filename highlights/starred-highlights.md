@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-07
+- ⭐ **Arete-27B — Nous Research's value-aligned open-weight Qwen3.8-27B:** Post-trained over Alibaba's Qwen3.8-27B to reinforce Western values, cutting propaganda-framed answers from 22% to 1% and raising fact score from 2.32 to 2.98 (out of 5) on an open 803-prompt, seven-category eval (`Propaganda_Eval`), with no Hermes Bench (65.60% vs. 65.77%) or Terminal-Bench-2.1 (70% vs. 67%) regression. Weights, eval, and training data are all open. A limits/access shift for value-sensitive local/self-hosted agent workloads. ([blog](https://nousresearch.com/arete))
+
 ### 2026-11-06
 - ⭐ **Hermes Agent v0.23.0 — The Hearth Release:** The most user-visible Hermes release since v0.22.0. It serves the full Desktop workspace from your own gateway in a browser tab, moves to a single-gateway architecture where CLI/TUI/Desktop/editors/bots/cron are all clients of one conversation owner, and adds `/rewind`, inline terminal images, paid-tool price tags + spend limits (enforced even in YOLO mode), self-updating plugins (catalog 600→1,050+ with a Verified tier), a leaner 58→44 skill set with `hermes curator lock`, and major speed/memory work for long-lived gateways (~1,570 fewer tokens per one-shot cron call, millisecond `patch`/`write_file` with LSP). Directly changes capabilities, workflow speed, reliability, and access for Hermes users. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0))
 - ⭐ **Hermes Plugin Hackathon ($20k):** A 7-day Nous Research push (Nov 4–11) to grow the Hermes plugin ecosystem, with every accepted entry listed in the new unified Hermes Marketplace — a meaningful signal for the extensibility/interoperability surface of Hermes. ([announcement](https://x.com/NousResearch/status/2118094256438936062))
