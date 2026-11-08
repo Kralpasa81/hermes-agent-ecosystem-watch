@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-08
+- ⭐ **DeepSeek Super-agent (open source, MIT):** DeepSeek's Harness team open-sourced a prototype autonomous coding agent that watches developer group chats (GitHub, optional Feishu), spots and reproduces bugs without being summoned, and prepares fixes for human review — the clearest open-source counter to Claude Code / Codex and a template for "proactive" agents that need minimal human attention. A capability + openness signal for the coding-agent category. ([Bloomberg](https://bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic), [GitHub](https://github.com/deepseek-ai/dsh-superagent-prototype))
+
 ### 2026-11-07
 - ⭐ **Arete-27B — Nous Research's value-aligned open-weight Qwen3.8-27B:** Post-trained over Alibaba's Qwen3.8-27B to reinforce Western values, cutting propaganda-framed answers from 22% to 1% and raising fact score from 2.32 to 2.98 (out of 5) on an open 803-prompt, seven-category eval (`Propaganda_Eval`), with no Hermes Bench (65.60% vs. 65.77%) or Terminal-Bench-2.1 (70% vs. 67%) regression. Weights, eval, and training data are all open. A limits/access shift for value-sensitive local/self-hosted agent workloads. ([blog](https://nousresearch.com/arete))
 

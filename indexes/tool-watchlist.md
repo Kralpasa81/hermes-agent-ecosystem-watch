@@ -28,6 +28,18 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Current watch note: **Nov 2, 2026 (retroactive)** — **Claude Opus 5.5** (announced Sep 22, 2026) recorded after being missed: the first and flagship model in the Claude 5.5 family, it leads agentic coding and knowledge work, performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. ([Source](https://www.anthropic.com/claude-opus-5-5)) **Sep 29, 2026** — Anthropic introduced **Claude Sonnet 5.5** (Sep 28, 2026), a significant upgrade to Sonnet 5 with 30% faster performance and up to 30% cost reduction, now the default Sonnet model on the Anthropic API. The Bedrock default Sonnet model has also been updated to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`. Previous updates: **Sep 17, 2026** — New beta extensions for VS Code and JetBrains integrate Claude Code directly into IDEs. Claude Code on GitHub also launched in beta. Claude 4 also introduces new API capabilities: code execution tool, MCP connector, Files API, and prompt caching. **Feb 05, 2026** — **Claude Opus 4.6** introduced with significant enhancements in coding skills, agentic task capabilities, a 1M token context window (beta), and new features like agent teams in Claude Code, context compaction, adaptive thinking, and effort controls. It also includes improved Claude in Excel and a research preview for PowerPoint. (Source: [https://www.anthropic.com/news/claude-opus-4-6](https://www.anthropic.com/news/claude-opus-4-6))
 - Sources: https://www.anthropic.com/news/claude-4
 
+### DeepSeek Super-agent (DeepSeek Harness)
+- Area: open-source autonomous coding agent (research prototype)
+- Why it matters: an MIT-licensed, open-source coding agent that proactively watches developer group chats (GitHub, optional Feishu) and reproduces/fixes bugs without being summoned — the clearest open-source counter to Claude Code / Codex, and a template for "proactive" rather than prompted agents.
+- Current watch note: **Oct 31 / Nov 1, 2026** — research prototype open-sourced (`deepseek-ai/dsh-superagent-prototype`, MIT). Monitors dev chat, proposes fixes for human review, and only acts when approved or under team rules; runs on DeepSeek Harness. Framed as an architectural exploration, not an official product. ([Bloomberg](https://bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic), [TNW](https://thenextweb.com/news/deepseek-open-sources-super-agent-a-prototype-autonomous-coding-agent))
+- Sources: https://github.com/deepseek-ai/dsh-superagent-prototype
+
+### Perplexity Teammates
+- Area: always-on AI agents for ongoing work
+- Why it matters: joins OpenAI Dots, Anthropic Duet, Meta Muse, and xAI Grok Bots in the always-on-agent category; each Teammate runs on its own VM (desktop + browser) with continuity across the user's existing projects, skills, and memory.
+- Current watch note: **Nov 6, 2026** — launched; requires the $200/month Max plan; pairs with Perplexity Computer for on-device agent deployment. ([Perplexity](https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work), [The Decoder](https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/))
+- Sources: https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work
+
 ### Arete-27B
 - Area: open-weight value-aligned local model (Nous Research)
 - Why it matters: Nous post-trained Alibaba's Qwen3.8-27B to reinforce Western values while preserving capability — a directly Hermes-adjacent open-weight option for value-sensitive local/self-hosted agent workloads.
