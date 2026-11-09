@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-08](daily/2026-11-08.md)
+Latest daily note: [2026-11-09](daily/2026-11-09.md)
 
-- **Latest Hermes signal:** [Arete-27B](https://nousresearch.com/arete) (Nov 6) — Nous Research post-trained Alibaba's Qwen3.8-27B to reinforce Western values, cutting propaganda-framed answers 22% → 1% and raising the fact score 2.32 → 2.98 with no Hermes Bench or Terminal-Bench regression; weights, eval (`Propaganda_Eval`), and training data are all open. Hermes Agent v0.23.0 ("The Hearth Release", Nov 5) remains the latest stable tag.
-- **Latest ecosystem signal:** [DeepSeek open-sources "Super-agent"](https://github.com/deepseek-ai/dsh-superagent-prototype) (announced Oct 31, reported Nov 1) — an MIT-licensed prototype autonomous coding agent that watches developer group chats and fixes bugs proactively, aimed at Claude Code. Perplexity also launched always-on [Teammates](https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work) (Nov 6), and OpenAI released GPT-6 Cyber (Nov 5).
+- **Latest Hermes signal:** the official [Security plugin](https://x.com/NousResearch/status/2119501958981857543) (Nov 8) — a first-party, reachability-aware codebase security reviewer (parallel subagents, exploit tracing, optional reproduction tests, SARIF export) runnable from chat, CLI, or the Desktop Security page. The Hermes Marketplace community tier also crossed [1,000 plugins](https://hermes-agent.nousresearch.com/marketplace?kind=plugins&tier=community) (Nov 8). Hermes Agent v0.23.0 ("The Hearth Release", Nov 5) remains the latest stable tag.
+- **Latest ecosystem signal:** the broader ecosystem was quiet on Nov 9 (only a minor Meta "Spaces" addition for Muse agents). The week's still-current items are DeepSeek's open-source [Super-agent](https://github.com/deepseek-ai/dsh-superagent-prototype) (Oct 31 / Nov 1), Perplexity [Teammates](https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work) (Nov 6), and OpenAI GPT-6 Cyber (Nov 5).
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-08
+- **Last update:** 2026-11-09
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

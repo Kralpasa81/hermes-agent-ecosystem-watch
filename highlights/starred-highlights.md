@@ -12,6 +12,10 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-09
+- ⭐ **Hermes official Security plugin (`hermes-security`):** Nous shipped a first-party codebase security reviewer — it maps what an attacker can reach and which inputs the code trusts, splits the code across parallel subagents, checks every candidate finding, and traces whether an attacker can actually exploit it; with test confirmation it writes and runs a small reproduction in a temporary repo copy. Reports record evidence and ruled-out findings and export to SARIF. A meaningful new official-plugin capability (security review) for Hermes, runnable from chat, CLI, or Desktop. ([announcement](https://x.com/NousResearch/status/2119501958981857543))
+- ⭐ **Hermes Marketplace community tier passes 1,000 plugins:** about a week after the unified plugins/skills/connectors marketplace launched, the community tier crossed 1,000 entries (confirmed by Teknium, Nov 8) — a concrete extensibility/interoperability signal alongside the running $20k Plugin Hackathon. ([marketplace](https://hermes-agent.nousresearch.com/marketplace?kind=plugins&tier=community))
+
 ### 2026-11-08
 - ⭐ **DeepSeek Super-agent (open source, MIT):** DeepSeek's Harness team open-sourced a prototype autonomous coding agent that watches developer group chats (GitHub, optional Feishu), spots and reproduces bugs without being summoned, and prepares fixes for human review — the clearest open-source counter to Claude Code / Codex and a template for "proactive" agents that need minimal human attention. A capability + openness signal for the coding-agent category. ([Bloomberg](https://bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic), [GitHub](https://github.com/deepseek-ai/dsh-superagent-prototype))
 
