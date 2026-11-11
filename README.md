@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-10](daily/2026-11-10.md)
+Latest daily note: [2026-11-11](daily/2026-11-11.md)
 
-- **Latest Hermes signal:** [v0.23.1](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1) (patch, Nov 9/10) — fixes a silent plugin-install regression (the live plugin catalog exceeded the 2 MiB client cap, so installs fell back to the shipped catalog; cap raised to 16 MiB) and exposes a broader plugin API (session-scoped env, plugin JSON-RPC, `llm.oneshot`, `on_session_open`/`post_curator_run` hooks) ahead of the v0.24.0 curated notes.
-- **Latest ecosystem signal:** the broader ecosystem was quiet on Nov 10 — nothing strong from Codex, Claude Code, Copilot, or MCP. Only a minor Anthropic [usage-policy update](https://www.anthropic.com/news/2026-usage-policy-update) (effective Nov 12).
+- **Latest Hermes signal:** **Hermes Cloud** is live (announced Nov 9) — Nous now hosts Hermes Agent in its own cloud: always-on, browser-accessible, scheduled-job-capable, with Desktop attach and a Cloud agent included in Plus/Super/Ultra Portal plans. Same-day, Nous surfaced **Claude Fable 5.2 in Hermes Agent**. ([announcement](https://x.com/NousResearch/status/2119851439904510217))
+- **Latest ecosystem signal:** **Anthropic released Claude Fable 5.2 and Claude Mythos 5.2** (Nov 9) — hard-problem coding/reasoning/vision models, 20% cheaper than the 5.1 generation ($8/M input, $40/M output), ahead of Anthropic's IPO. ([Anthropic](https://anthropic.com/claude-fable-and-mythos-5-2))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-10
+- **Last update:** 2026-11-11
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
