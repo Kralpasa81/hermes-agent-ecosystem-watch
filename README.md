@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-11](daily/2026-11-11.md)
+Latest daily note: [2026-11-15](daily/2026-11-15.md)
 
-- **Latest Hermes signal:** **Hermes Cloud** is live (announced Nov 9) — Nous now hosts Hermes Agent in its own cloud: always-on, browser-accessible, scheduled-job-capable, with Desktop attach and a Cloud agent included in Plus/Super/Ultra Portal plans. Same-day, Nous surfaced **Claude Fable 5.2 in Hermes Agent**. ([announcement](https://x.com/NousResearch/status/2119851439904510217))
-- **Latest ecosystem signal:** **Anthropic released Claude Fable 5.2 and Claude Mythos 5.2** (Nov 9) — hard-problem coding/reasoning/vision models, 20% cheaper than the 5.1 generation ($8/M input, $40/M output), ahead of Anthropic's IPO. ([Anthropic](https://anthropic.com/claude-fable-and-mythos-5-2))
+- **Latest Hermes signal:** **Hermes Plugin Hackathon closed Nov 12 with nearly 1,000 entries** — judges are narrowing to a top 10, winners announced ~a week out. **v0.23.1** (Nov 10) remains the latest stable release, with canary builds rolling daily. ([post](https://x.com/NousResearch/status/2120715518243987685))
+- **Latest ecosystem signal:** **Anthropic opened self-hosted Claude Managed Agents** (private beta, Nov 12) — enterprises can now run the whole Managed Agents service (harness, sandboxes, session history) on their own infrastructure. ([docs](https://platform.claude.com/docs/en/managed-agents/self-hosted))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-11
+- **Last update:** 2026-11-15
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

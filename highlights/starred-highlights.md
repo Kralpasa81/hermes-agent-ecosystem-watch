@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-15
+- ⭐ **Anthropic opens self-hosted Claude Managed Agents (private beta, Nov 12):** Enterprises can now run the entire Managed Agents service — the agent harness, sandboxes, and session history — on their own cloud or on-premise infrastructure, not just the isolated sandbox. Same core APIs, with model choice (Anthropic or another provider), keeping agent credentials and session data inside the customer's perimeter. A limits/access + interoperability shift for enterprise agent deployment. ([docs](https://platform.claude.com/docs/en/managed-agents/self-hosted), [Help Net Security](https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/))
+
 ### 2026-11-10
 - ⭐ **Hermes Agent v0.23.1 (patch) fixes a silent plugin-install regression:** since the Nov 9 plugin-catalog deploy, the published `plugin-catalog.json` exceeded the 2 MiB client cap, so every `hermes plugins install` silently fell back to the catalog the release shipped with — new plugins couldn't be found and installs pinned to the release's own catalog. v0.23.1 raises the cap to 16 MiB, and the same window exposes a broader plugin API (session-scoped env values, plugin JSON-RPC methods/events, `llm.oneshot`, `on_session_open` and `post_curator_run` hooks, compression-stable `conversation_id`). A reliability + plugin-ecosystem-interoperability signal; full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1), [fix #151860](https://github.com/NousResearch/hermes-agent/pull/151860))
 
