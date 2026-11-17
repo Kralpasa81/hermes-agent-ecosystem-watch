@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-17
+- ⭐ **Hermes Agent v0.23.2 — durable subagents, fallback-chain checks, finer cron control:** The Nov 16 stable patch (rolling ~1,989 PRs since v0.23.1) brings three operational upgrades for self-hosted Hermes: durable subagents that survive a gateway restart or crash and continue on their own conversation; `hermes fallback check` to verify fallback-chain readiness; and per-job cron options (`wrap_response`, a fresh thread per run). It also adds a per-session prompt-cache clock, `hermes update --force`, new plugin APIs (`ctx.fork_session`, `ctx.redact_text()`, `ctx.register_idle_task`), Gemini Interactions API by default (Gemini 3+ and Gemini 4 Carbon), and fast mode for Claude Mythos 5.2. A capability + reliability + workflow signal; full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2))
+
 ### 2026-11-15
 - ⭐ **Anthropic opens self-hosted Claude Managed Agents (private beta, Nov 12):** Enterprises can now run the entire Managed Agents service — the agent harness, sandboxes, and session history — on their own cloud or on-premise infrastructure, not just the isolated sandbox. Same core APIs, with model choice (Anthropic or another provider), keeping agent credentials and session data inside the customer's perimeter. A limits/access + interoperability shift for enterprise agent deployment. ([docs](https://platform.claude.com/docs/en/managed-agents/self-hosted), [Help Net Security](https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/))
 

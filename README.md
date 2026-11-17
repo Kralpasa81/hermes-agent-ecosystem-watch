@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-16](daily/2026-11-16.md)
+Latest daily note: [2026-11-17](daily/2026-11-17.md)
 
-- **Latest Hermes signal:** No new stable release — **v0.23.1** (Nov 10) remains latest. The Nov 15 canary is dominated by plugin-catalog churn (Hackathon entries plus new provider/self-hosted plugins) with no headline core feature.
-- **Latest ecosystem signal:** Quiet — **Anthropic's self-hosted Claude Managed Agents** (Nov 12) and **GitHub Copilot's Gemini 4 Hydrogen** (Nov 13) remain the latest broader signals. ([docs](https://platform.claude.com/docs/en/managed-agents/self-hosted))
+- **Latest Hermes signal:** **v0.23.2** (Nov 16) stable patch — rolls up ~1,989 PRs since v0.23.1 and adds durable subagents (survive gateway restart/crash), `hermes fallback check`, `hermes update --force`, and per-job cron options, among other operational upgrades. Full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2))
+- **Latest ecosystem signal:** **GitHub Copilot deprecations took effect Nov 16** (Claude Opus 4.8/5, GPT-5.6 Terra). **Anthropic's self-hosted Claude Managed Agents** (Nov 12) remains the latest broader capability signal. ([docs](https://platform.claude.com/docs/en/managed-agents/self-hosted))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-16
+- **Last update:** 2026-11-17
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
