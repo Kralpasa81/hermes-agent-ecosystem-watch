@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-18](daily/2026-11-18.md)
+Latest daily note: [2026-11-19](daily/2026-11-19.md)
 
 - **Latest Hermes signal:** **v0.23.2** (Nov 16) stable patch — rolls up ~1,989 PRs since v0.23.1 and adds durable subagents (survive gateway restart/crash), `hermes fallback check`, `hermes update --force`, and per-job cron options, among other operational upgrades. Full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2))
 - **Latest ecosystem signal:** **OpenAI GPT-6.2 Astra / Sol** (Nov 17) — Astra is OpenAI's first externally released model at the High AI self-improvement threshold, with its strongest cybersecurity capability yet. Same day, **GitHub Copilot Fusion joined the public Terminal-Bench 4.1 leaderboard** (71.2%, ~88% cheaper than Fable 5.2) and Microsoft's **MAI Code 2 / Flash** models landed in Copilot. ([announcement](https://openai.com/index/introducing-gpt-6-2-astra-sol/), [Fusion](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-18
+- **Last update:** 2026-11-19
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
