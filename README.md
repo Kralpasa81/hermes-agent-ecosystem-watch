@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-20](daily/2026-11-20.md)
+Latest daily note: [2026-11-21](daily/2026-11-21.md)
 
-- **Latest Hermes signal:** **v0.23.3** (Nov 19) stable patch — rolls up ~370 PRs since v0.23.2 and adds a prompt-cache lifecycle controller (`prompt_caching.cache_ttl` defaulting to `auto`), compaction that archives dropped tool results, proactive tool-result pruning on by default, GPT-6.2 Astra/Sol (+ Pro) on OpenRouter and Nous Portal, and a one-question first-run CLI setup with the free tier included. Full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3))
+- **Latest Hermes signal:** **Hermes Enterprise** (Nov 18) — Nous Research × Microsoft partnership: Hermes Agent is now available in the Microsoft Store, Microsoft Teams, and Azure Container Apps Sandboxes, with **Collective Wisdom** skill-sharing and customer-tenant deployment; Nous reports Hermes is the #1 public open agent on OpenRouter (~2T tokens/day). ([press release](https://nousresearch.com/hermes-enterprise-in-microsoft-teams))
 - **Latest ecosystem signal:** **OpenAI GPT-6.2 Astra / Sol** (Nov 17) — Astra is OpenAI's first externally released model at the High AI self-improvement threshold, with its strongest cybersecurity capability yet. Same day, **GitHub Copilot Fusion joined the public Terminal-Bench 4.1 leaderboard** (71.2%, ~88% cheaper than Fable 5.2) and Microsoft's **MAI Code 2 / Flash** models landed in Copilot. ([announcement](https://openai.com/index/introducing-gpt-6-2-astra-sol/), [Fusion](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-20
+- **Last update:** 2026-11-21
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.

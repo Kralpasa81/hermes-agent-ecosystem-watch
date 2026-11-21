@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-21
+- ⭐ **Hermes Enterprise — Nous Research × Microsoft partnership (Nov 18):** Hermes Agent is now available in native Microsoft enterprise services: **Microsoft Store** (Hermes Desktop for Windows), **Microsoft Teams** (delegate knowledge work and review the result in-chat), and **Azure Container Apps Sandboxes** (isolated microVMs that start in <1s and release compute when idle). **Collective Wisdom** converts a successful recurring approach into a reusable skill teammates can share after review, with the shared intelligence kept as a private company asset; strict data-residency customers can run it in their own Azure tenant. Nous reports Hermes is the #1 public open agent on OpenRouter (~2T tokens/day). A capability + access + interoperability signal: Hermes gains a first-party enterprise deployment path inside the Microsoft stack. ([press release](https://nousresearch.com/hermes-enterprise-in-microsoft-teams))
+
 ### 2026-11-20
 - ⭐ **Hermes Agent v0.23.3 — prompt-cache lifecycle controller, GPT-6.2 Astra/Sol on OpenRouter + Nous Portal:** The Nov 19 stable patch (rolling ~370 PRs since v0.23.2) brings a prompt-cache lifecycle controller that warms the cache through long tool runs and compacts idle chats before the 1h cache expires (`prompt_caching.cache_ttl` now defaults to `auto`); compaction archives the tool results it drops and proactive tool-result pruning is on by default; GPT-6.2 Astra and Sol (+ Pro) are now reachable on OpenRouter and Nous Portal; and the storage layer is split behind a persistence interface with a SQLite backend. A reliability + cost + access/interoperability signal; full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3))
 

@@ -22,6 +22,12 @@ A rolling list of tools, platforms, and programs that matter for the Hermes-adja
 - Current watch note: **Nov 9, 2026** — announced; Plus, Super, and Ultra Portal plans each include one Cloud agent out of the box; Hermes Desktop can attach to a Cloud agent to continue the same chats. ([announcement](https://x.com/NousResearch/status/2119851439904510217))
 - Sources: https://portal.nousresearch.com/cloud
 
+### Hermes Enterprise (Microsoft Teams / Azure / Microsoft Store)
+- Area: enterprise deployment of Hermes Agent in Microsoft's native services
+- Why it matters: moves Hermes from self-hosted/CLI into the enterprise stack — every employee gets a managed agent in Teams, workloads run in isolated Azure Container Apps sandboxes, and "Collective Wisdom" turns proven recurring approaches into shareable skills. A first-party enterprise access/interoperability path.
+- Current watch note: **Nov 18, 2026** — announced at Microsoft Ignite (Nov 17–20). Hermes Agent (Nous Research, an M12 portfolio company) is now available in the **Microsoft Store** (Hermes Desktop for Windows), **Microsoft Teams** (assign knowledge work — financial analysis, document drafts, inbox triage — and review the result in-chat), and **Azure Container Apps Sandboxes** (isolated microVMs, <1s start, release compute when idle). **Collective Wisdom** lets employees propose/publish skills for teammates after review, keeping the shared intelligence a private company asset; strict-residency customers can run Hermes Enterprise in their own Azure tenant. Nous reports Hermes is the #1 public open agent on OpenRouter at ~2T tokens/day. ([press release](https://nousresearch.com/hermes-enterprise-in-microsoft-teams), [X](https://x.com/NousResearch/status/2123535954946257096))
+- Sources: https://nousresearch.com/hermes-enterprise-in-microsoft-teams | https://portal.nousresearch.com/business
+
 ### GitHub Copilot
 - Area: IDE assistant / GitHub-native coding workflows  
 - Why it matters: relevant for practical agent workflows, MCP, code review, memory controls, model governance, and developer automation
