@@ -12,6 +12,9 @@ Use this page for developments that meaningfully change:
 
 ## Current starred items
 
+### 2026-11-24
+- ⭐ **Hermes Agent v0.23.4 — Gemini 4 Hydrogen/Neon/Carbon + gateway migration + plugin config:** The Nov 24 stable patch (rolling ~229 PRs since v0.23.3) brings three Gemini 4 variants (**Hydrogen, Neon, Carbon**) to Nous Portal, OpenRouter, and Vertex; `hermes gateway migrate --backends` to fold an old serve/dashboard backend onto the gateway (with a System page card); and `hermes plugins config` for terminal-side plugin settings editing. It also adds Desktop approval cards for a sandbox's folder and site requests, a configurable `skills.index_desc_limit`, and managed-scope config honored by security and URL-safety reads. An access + operational signal; full curated notes ship with v0.24.0. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4))
+
 ### 2026-11-21
 - ⭐ **Hermes Enterprise — Nous Research × Microsoft partnership (Nov 18):** Hermes Agent is now available in native Microsoft enterprise services: **Microsoft Store** (Hermes Desktop for Windows), **Microsoft Teams** (delegate knowledge work and review the result in-chat), and **Azure Container Apps Sandboxes** (isolated microVMs that start in <1s and release compute when idle). **Collective Wisdom** converts a successful recurring approach into a reusable skill teammates can share after review, with the shared intelligence kept as a private company asset; strict data-residency customers can run it in their own Azure tenant. Nous reports Hermes is the #1 public open agent on OpenRouter (~2T tokens/day). A capability + access + interoperability signal: Hermes gains a first-party enterprise deployment path inside the Microsoft stack. ([press release](https://nousresearch.com/hermes-enterprise-in-microsoft-teams))
 
