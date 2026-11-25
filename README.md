@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-24](daily/2026-11-24.md)
+Latest daily note: [2026-11-25](daily/2026-11-25.md)
 
 - **Latest Hermes signal:** **Hermes Agent v0.23.4** (Nov 24) — stable patch rolling ~229 PRs since v0.23.3 into the CLI/installers, Microsoft Store, Docker, and Hermes Cloud. Headline (full notes ship with v0.24.0): **Gemini 4 Hydrogen / Neon / Carbon** now on Nous Portal, OpenRouter, and Vertex; `hermes gateway migrate --backends`; `hermes plugins config`; Desktop approval cards for sandbox folder/site requests; configurable `skills.index_desc_limit`. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4))
-- **Latest ecosystem signal:** **OpenAI GPT-6.2 Astra / Sol** (Nov 17) — Astra is OpenAI's first externally released model at the High AI self-improvement threshold, with its strongest cybersecurity capability yet. Same day, **GitHub Copilot Fusion joined the public Terminal-Bench 4.1 leaderboard** (71.2%, ~88% cheaper than Fable 5.2) and Microsoft's **MAI Code 2 / Flash** models landed in Copilot. ([announcement](https://openai.com/index/introducing-gpt-6-2-astra-sol/), [Fusion](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models))
+- **Latest ecosystem signal:** **Anthropic Claude Ship + Skills over MCP** (Nov 23–24) — Claude Ship productizes PR review/fix/approve (Code Review GA + PR Steward + Claude Approvals), and the open MCP spec gains **Skills** (servers ship skills alongside tools, public beta), **Tasks** and **Elicitation** (GA), and **File Uploads** (rolling out). ([Claude Ship](https://claude.com/resources/articles/introducing-claude-ship), [MCP skills/tasks](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-24
+- **Last update:** 2026-11-25
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
