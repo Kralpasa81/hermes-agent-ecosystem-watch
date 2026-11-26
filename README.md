@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-25](daily/2026-11-25.md)
+Latest daily note: [2026-11-26](daily/2026-11-26.md)
 
 - **Latest Hermes signal:** **Hermes Agent v0.23.4** (Nov 24) — stable patch rolling ~229 PRs since v0.23.3 into the CLI/installers, Microsoft Store, Docker, and Hermes Cloud. Headline (full notes ship with v0.24.0): **Gemini 4 Hydrogen / Neon / Carbon** now on Nous Portal, OpenRouter, and Vertex; `hermes gateway migrate --backends`; `hermes plugins config`; Desktop approval cards for sandbox folder/site requests; configurable `skills.index_desc_limit`. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4))
-- **Latest ecosystem signal:** **Anthropic Claude Ship + Skills over MCP** (Nov 23–24) — Claude Ship productizes PR review/fix/approve (Code Review GA + PR Steward + Claude Approvals), and the open MCP spec gains **Skills** (servers ship skills alongside tools, public beta), **Tasks** and **Elicitation** (GA), and **File Uploads** (rolling out). ([Claude Ship](https://claude.com/resources/articles/introducing-claude-ship), [MCP skills/tasks](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more))
+- **Latest ecosystem signal:** **OpenAI corrects Codex usage + merges ChatGPT/Codex limits** (Nov 25) — OpenAI corrected undercounted GPT-6.2 Astra/Sol allowance usage (limits now run out sooner at the same price) and will begin sharing a single usage allowance between ChatGPT and Codex for Plus/Pro/Business in December. Claude Code (Nov 25) also started surfacing **MCP-server skills** (`server:skill`) in the `/` menu. ([The Verge](https://theverge.com/ai-artificial-intelligence/1042187/openai-is-combining-chatgpt-and-codex-usage-limits), [Claude Code changelog](https://code.claude.com/docs/en/changelog))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-25
+- **Last update:** 2026-11-26
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
