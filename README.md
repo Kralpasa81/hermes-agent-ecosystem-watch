@@ -15,13 +15,13 @@ A curated GitHub watch repo for **Hermes Agent**, Hermes-adjacent tooling, and t
 - `highlights/starred-highlights.md` — highest-signal developments only
 
 ## Current snapshot
-Latest daily note: [2026-11-27](daily/2026-11-27.md)
+Latest daily note: [2026-11-28](daily/2026-11-28.md)
 
-- **Latest Hermes signal:** **Hermes Agent v0.23.4** (Nov 24) — latest stable, rolling ~229 PRs since v0.23.3 into the CLI/installers, Microsoft Store, Docker, and Hermes Cloud (headline: Gemini 4 Hydrogen / Neon / Carbon on Nous Portal, OpenRouter, and Vertex; `hermes gateway migrate --backends`; `hermes plugins config`). Today's canary (`canary.20261127T064803Z-v0.23.4`) rolls ~641 commits: mostly plugin-catalog growth, plus gateway stop/restart reliability hardening, a new `turn_origin` plugin API, Google Gemini/Solstice consolidation into a bundled `google` plugin, and macOS Desktop move-to-Applications — canary-only, not yet stable. ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4), [canary](https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261127T064803Z-v0.23.4))
-- **Latest ecosystem signal:** **Claude Code engineer Thariq Shihipar joins OpenAI** (Nov 25) — one of Anthropic's most visible Claude Code engineers (skills system, context engineering, `AskUserQuestion`, Agent SDK) announced he has joined OpenAI, following Cat Wu's earlier move to the Codex team. A talent/competitive signal, not a product change. ([ChipDispatch](https://chipdispatch.com/articles/thariq-shihipar-leaves-anthropics-claude-code-for-openai))
+- **Latest Hermes signal:** **Hermes Agent v0.23.5** (Nov 28) — latest stable, rolling ~338 PRs since v0.23.4 into the CLI/installers, Microsoft Store, Docker, and Hermes Cloud. Headline: CLI/TUI OSC 7577 program resume, idle gateway chats compacting in the background on every route, `read_file` negative-offset tails + directory listing, `search_files` "whole answer" reporting, a bounded default-plugins preflight, plugin OAuth redirect-URI pinning, Solstice on the stateless Interactions API, and new plugin API surfaces (turn origin, session-created, cron scheduling, gateway silence). ([release](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.5))
+- **Latest ecosystem signal:** **Google Workspace MCP servers + CLI GA** (Nov 24) — Google-hosted Workspace MCP servers (Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks) and the Workspace CLI (`gwscli`) are generally available, with a policy that from **Feb 1, 2027** AI agents must reach Workspace data via MCP/CLI rather than direct REST APIs. An interoperability/access push moving enterprise agent access onto MCP. ([announcement](https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html))
 - **Tool watchlist:** [indexes/tool-watchlist.md](indexes/tool-watchlist.md)
 - **Starred highlights:** [highlights/starred-highlights.md](highlights/starred-highlights.md)
-- **Last update:** 2026-11-27
+- **Last update:** 2026-11-28
 
 ## How updates are written
 1. Hermes Agent and Hermes-adjacent changes are checked first.
